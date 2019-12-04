@@ -29,9 +29,9 @@ public class MyAccount extends AbstractPage {
                 testClass.getDriver().findElement(By.xpath(NAME_XPATH)).getText());
     }
 
-    public Summerdresses clickDresses() {
+    public Dresses clickDresses() {
         dresses.click();
-        return new Summerdresses(testClass);
+        return new Dresses(testClass);
     }
 
 

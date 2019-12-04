@@ -27,8 +27,8 @@ public abstract class AbstractPage {
 
     @FindBy(xpath = "//a[@class='logout']")
     WebElement logOutButton;
-
-
+    @FindBy (xpath = "//input[contains(@style,'#434A54')]")
+    WebElement blackColor;
     /** Constructor */
     AbstractPage(BaseTest testClass) {
         this.testClass = testClass;

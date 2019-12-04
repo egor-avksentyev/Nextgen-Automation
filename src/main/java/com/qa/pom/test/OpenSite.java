@@ -1,11 +1,10 @@
 package com.qa.pom.test;
 
 import com.qa.pom.base.BaseTest;
-import com.qa.pom.pages.Home;
-import com.qa.pom.pages.Login;
-import com.qa.pom.pages.MyAccount;
-import java.io.IOException;
+import com.qa.pom.pages.*;
 import org.junit.Test;
+
+import java.io.IOException;
 
 public class OpenSite extends BaseTest {
 
@@ -23,7 +22,11 @@ public class OpenSite extends BaseTest {
         MyAccount myAccountPage = login.logIn();
 
         // Verify name
-        myAccountPage.verifyName();
+        Dresses dresses = myAccountPage.clickDresses();
+
+        Summerdresses Summerdresses = dresses.clickSummerDresses();
+
+        Summerdresses.verifyName();
 
         // Sign out
         login = myAccountPage.signOut();
