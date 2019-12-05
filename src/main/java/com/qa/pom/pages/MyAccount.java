@@ -19,9 +19,7 @@ public class MyAccount extends AbstractPage {
         testClass.waitTillElementIsVisible(pageDiv);
     }
 
-    /**
-     * Verify the name
-     */
+    /** Verify the name */
     public void verifyName() {
         Assert.assertEquals(
                 "Name is not the same",
@@ -33,6 +31,4 @@ public class MyAccount extends AbstractPage {
         dresses.click();
         return new Dresses(testClass);
     }
-
-
 }

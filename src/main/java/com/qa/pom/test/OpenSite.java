@@ -2,9 +2,8 @@ package com.qa.pom.test;
 
 import com.qa.pom.base.BaseTest;
 import com.qa.pom.pages.*;
-import org.junit.Test;
-
 import java.io.IOException;
+import org.junit.Test;
 
 public class OpenSite extends BaseTest {
 
@@ -21,18 +20,12 @@ public class OpenSite extends BaseTest {
         // Log in
         MyAccount myAccountPage = login.logIn();
 
-        // Verify name
+        // click Dresses
         Dresses dresses = myAccountPage.clickDresses();
-
+        // click SummerDresses
         Summerdresses Summerdresses = dresses.clickSummerDresses();
-
+        // verify if quantity from text and quantity from content are equals
         Summerdresses.verifyName();
-
-        // Sign out
-        login = myAccountPage.signOut();
-
-        // Verify log in page loaded again
-        login.verifyLoginPage();
 
         // CLose site
         closeSite();

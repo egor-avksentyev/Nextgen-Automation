@@ -2,7 +2,9 @@ package com.qa.pom.pages;
 
 import com.qa.pom.base.BaseTest;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 public abstract class AbstractPage {
@@ -18,17 +20,29 @@ public abstract class AbstractPage {
     @FindBy(xpath = "//div[@id='page']")
     WebElement pageDiv;
 
-    @FindBy(xpath ="//ul[contains(@class,'tree dynamized')]/li[position()=3]/a[contains(@title,'Short dress') and contains(text(),'Summer Dresses')]")
+    @FindBy(
+            xpath =
+                    "//ul[contains(@class,'tree dynamized')]/li[position()=3]/a[contains(@title,'Short dress') and contains(text(),'Summer Dresses')]")
     WebElement summerDresses;
-    @FindBy(xpath = "//ul[contains(@class,'sf-menu')]/li[position()=2]/a[contains(@title,'Dresses')]")
+
+    @FindBy(
+            xpath =
+                    "//ul[contains(@class,'sf-menu')]/li[position()=2]/a[contains(@title,'Dresses')]")
     WebElement dresses;
+
     @FindBy(xpath = "//button[@id='SubmitLogin']/span")
     WebElement submitButton;
 
     @FindBy(xpath = "//a[@class='logout']")
     WebElement logOutButton;
-    @FindBy (xpath = "//input[contains(@style,'#434A54')]")
+
+    @FindBy(xpath = "//input[contains(@style,'#434A54')]")
     WebElement blackColor;
+
+    @FindBy(xpath = "//span[contains(text(),'There are 3 products')]")
+    WebElement headCount;
+
+
     /** Constructor */
     AbstractPage(BaseTest testClass) {
         this.testClass = testClass;
