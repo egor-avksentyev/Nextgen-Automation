@@ -2,8 +2,9 @@ package com.qa.pom.test;
 
 import com.qa.pom.base.BaseTest;
 import com.qa.pom.pages.*;
-import java.io.IOException;
 import org.junit.Test;
+
+import java.io.IOException;
 
 public class OpenSite extends BaseTest {
 
@@ -13,20 +14,22 @@ public class OpenSite extends BaseTest {
 
         // Initialize HomePage
         Home home = openSite();
-
-        // Click on log in Link
+        log("Initialize HomePage");
+        // Click on login Link
         Login login = home.clickLoginLink();
-
+        log("Click on login Link");
         // Log in
         MyAccount myAccountPage = login.logIn();
-
+        log("Log in");
         // click Dresses
         Dresses dresses = myAccountPage.clickDresses();
+        log("click Dresses");
         // click SummerDresses
         Summerdresses Summerdresses = dresses.clickSummerDresses();
+        log("click SummerDresses");
         // verify if quantity from text and quantity from content are equals
         Summerdresses.verifyName();
-
+        log("verify if quantity from text and quantity from content are equals");
         // CLose site
         closeSite();
     }

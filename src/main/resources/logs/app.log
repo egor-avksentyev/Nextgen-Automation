@@ -1,0 +1,10 @@
+2019-50-07 17:50:02.555 [main] INFO   - Initialize HomePage
+2019-50-07 17:50:04.139 [main] INFO   - Click on login Link
+2019-50-07 17:50:05.762 [main] INFO   - Log in
+2019-50-07 17:50:07.737 [main] INFO   - click Dresses
+2019-50-07 17:50:09.354 [main] INFO   - click SummerDresses
+2019-50-07 17:50:09.399 [main] INFO   - verify if quantity from text and quantity from content are equals
+2019-51-07 17:51:15.639 [main] INFO   - Initialize HomePage
+2019-51-07 17:51:16.910 [main] INFO   - Click on login Link
+2019-51-07 17:51:18.403 [main] INFO   - Log in
+2019-51-07 17:51:30.847 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //ul[contains(class,'tree dynamized')]/li[position()=3]/a[contains(@title,'Short dress') and contains(text(),'Summer Dresses')]' (tried for 10 second(s) with 500 milliseconds interval)

@@ -15,16 +15,11 @@ public class Summerdresses extends AbstractPage {
 
     public void verifyName() {
 
-        int xpathCount =
-                testClass
-                        .getDriver()
-                        .findElements(By.xpath(ELEM_COUNT))
-                        .size();
+        int xpathCount = testClass.getDriver().findElements(By.xpath(ELEM_COUNT)).size();
 
         System.out.println("Number of products " + xpathCount);
 
-        int numberOfproducts =
-                Integer.parseInt ( headCount.getText().replaceAll("\\D+", ""));
+        int numberOfproducts = Integer.parseInt(headCount.getText().replaceAll("\\D+", ""));
 
         System.out.println("Number of products from header" + numberOfproducts);
 

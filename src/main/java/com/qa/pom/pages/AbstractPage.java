@@ -2,9 +2,7 @@ package com.qa.pom.pages;
 
 import com.qa.pom.base.BaseTest;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 public abstract class AbstractPage {
@@ -41,7 +39,6 @@ public abstract class AbstractPage {
 
     @FindBy(xpath = "//span[contains(text(),'There are 3 products')]")
     WebElement headCount;
-
 
     /** Constructor */
     AbstractPage(BaseTest testClass) {
