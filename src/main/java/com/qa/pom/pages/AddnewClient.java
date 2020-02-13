@@ -64,9 +64,11 @@ public class AddnewClient extends AbstractPage {
         country.sendKeys("NY");
         provinceorState.sendKeys("Test");
         postalCode.sendKeys("A0A");
-        clickSave.click();
 
+        //clickSave.click();
+        testClass.log("Go to the Pathways");
         return new Pathways(testClass);
+
     }
 
 }

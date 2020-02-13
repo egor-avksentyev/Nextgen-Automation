@@ -194,3 +194,209 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53869}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
 Session ID: fe346a095845abff57150f45f1f5d167
 *** Element info: {Using=xpath, value=//button[contains(text(),'Terminate and Log In')]}
+2020-28-13 02:28:32.389 [main] INFO   - Click Submit and login 
+2020-28-13 02:28:33.205 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Terminate and Log In')]"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54029}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 9c4495be3efdc9ffc09ccef474e400ec
+*** Element info: {Using=xpath, value=//button[contains(text(),'Terminate and Log In')]}
+2020-40-13 12:40:18.171 [main] INFO   - Click Submit and login 
+2020-40-13 12:40:18.845 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Terminate and Log In')]"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:3607}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: a2cf68a75f6c0dc441cd8f49ae8624db
+*** Element info: {Using=xpath, value=//button[contains(text(),'Terminate and Log In')]}
+2020-58-13 12:58:13.855 [main] INFO   - Click Submit and login 
+2020-58-13 12:58:24.272 [main] INFO   - Session not terminated
+2020-58-13 12:58:24.273 [main] INFO   - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Terminate and Log In')]' (tried for 10 second(s) with 500 milliseconds interval) org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Terminate and Log In')]"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4631}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 4c930baa24abbbcabce4439c1c0acb5b
+*** Element info: {Using=xpath, value=//button[contains(text(),'Terminate and Log In')]}
+2020-58-13 12:58:24.309 [main] INFO   - On Dashboard
+2020-58-13 12:58:35.153 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='loading-wrapper']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-02-13 13:02:39.692 [main] INFO   - Click Submit and login 
+2020-02-13 13:02:42.074 [main] INFO   - Session Terminated proceed further
+2020-02-13 13:02:42.183 [main] INFO   - On Dashboard
+2020-02-13 13:02:45.616 [main] INFO   - Add new client
+2020-04-13 13:04:14.236 [main] INFO   - Click Submit and login 
+2020-04-13 13:04:24.711 [main] INFO   - Session not terminated
+2020-04-13 13:04:24.712 [main] INFO   - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(@class,'btn btn-primary')]' (tried for 10 second(s) with 500 milliseconds interval) org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn btn-primary')]"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:5191}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 95ac03281bd3fe5f8a95e80a144339a0
+*** Element info: {Using=xpath, value=//button[contains(@class,'btn btn-primary')]}
+2020-04-13 13:04:24.752 [main] INFO   - On Dashboard
+2020-04-13 13:04:35.203 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='loading-wrapper']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-09-13 13:09:19.368 [main] INFO   - Click Submit and login 
+2020-09-13 13:09:30.222 [main] INFO   - Session not terminated
+2020-09-13 13:09:30.223 [main] INFO   - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(@class,'btn btn-primary')]' (tried for 10 second(s) with 500 milliseconds interval) org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn btn-primary')]"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:5658}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: ea57359b74abec9692cbf18ffbb298d0
+*** Element info: {Using=xpath, value=//button[contains(@class,'btn btn-primary')]}
+2020-09-13 13:09:40.710 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='loading-wrapper']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-21-13 13:21:30.340 [main] INFO   - Click Submit and login 
+2020-21-13 13:21:41.473 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='loading-wrapper']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-28-13 13:28:48.600 [main] INFO   - Click Submit and login 
+2020-28-13 13:28:49.494 [main] INFO   - Session Terminated proceed further
+2020-28-13 13:28:52.215 [main] INFO   - On Dashboard
+2020-28-13 13:28:52.847 [main] INFO   - Add new client
+2020-29-13 13:29:45.842 [main] INFO   - Click Submit and login 
+2020-29-13 13:29:56.484 [main] INFO   - Session not terminated
+2020-29-13 13:29:56.485 [main] INFO   - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(@class,'btn btn-primary')]' (tried for 10 second(s) with 500 milliseconds interval) org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn btn-primary')]"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:7368}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: eb1b558e6d72547d37c8e035e06490ad
+*** Element info: {Using=xpath, value=//button[contains(@class,'btn btn-primary')]}
+2020-29-13 13:29:56.507 [main] INFO   - On Dashboard
+2020-29-13 13:29:57.651 [main] INFO   - Add new client
+2020-32-13 13:32:13.498 [main] INFO   - Click Submit and login 
+2020-32-13 13:32:14.380 [main] INFO   - Session Terminated proceed further
+2020-32-13 13:32:17.243 [main] INFO   - On Dashboard
+2020-32-13 13:32:17.877 [main] INFO   - Add new client
+2020-32-13 13:32:40.543 [main] INFO   - Click Submit and login 
+2020-32-13 13:32:41.421 [main] INFO   - Session Terminated proceed further
+2020-32-13 13:32:44.237 [main] INFO   - On Dashboard
+2020-32-13 13:32:44.868 [main] INFO   - Add new client
+2020-33-13 13:33:57.347 [main] INFO   - Click Submit and login 
+2020-33-13 13:33:58.318 [main] INFO   - Session Terminated proceed further
+2020-34-13 13:34:01.199 [main] INFO   - On Dashboard
+2020-34-13 13:34:01.849 [main] INFO   - Add new client
+2020-20-13 15:20:37.030 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='password']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-22-13 15:22:11.224 [main] INFO   - Click Submit and login 
+2020-22-13 15:22:12.092 [main] INFO   - Session Terminated proceed further
+2020-22-13 15:22:16.371 [main] INFO   - On Dashboard
+2020-22-13 15:22:17.038 [main] INFO   - Add new client
+2020-23-13 15:23:06.981 [main] INFO   - Click Submit and login 
+2020-23-13 15:23:07.868 [main] INFO   - Session Terminated proceed further
+2020-23-13 15:23:10.857 [main] INFO   - On Dashboard
+2020-23-13 15:23:11.572 [main] INFO   - Add new client
+2020-24-13 15:24:14.797 [main] INFO   - Click Submit and login 
+2020-24-13 15:24:15.689 [main] INFO   - Session Terminated proceed further
+2020-24-13 15:24:18.682 [main] INFO   - On Dashboard
+2020-24-13 15:24:19.342 [main] INFO   - Add new client
+2020-25-13 15:25:12.406 [main] INFO   - Click Submit and login 
+2020-25-13 15:25:13.350 [main] INFO   - Session Terminated proceed further
+2020-25-13 15:25:16.354 [main] INFO   - On Dashboard
+2020-25-13 15:25:17.075 [main] INFO   - Add new client
+2020-59-13 15:59:49.140 [main] INFO   - Click Submit and login 
+2020-00-13 16:00:04.780 [main] INFO   - Session not terminated
+2020-00-13 16:00:04.780 [main] INFO   - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(@class,'btn btn-primary')]' (tried for 10 second(s) with 500 milliseconds interval) org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn btn-primary')]"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:16995}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 46dfa303764df2e03a01f5ea87950b71
+*** Element info: {Using=xpath, value=//button[contains(@class,'btn btn-primary')]}
+2020-00-13 16:00:04.816 [main] INFO   - On Dashboard
+2020-00-13 16:00:06.145 [main] INFO   - Add new client
+2020-01-13 16:01:43.083 [main] INFO   - Click Submit and login 
+2020-01-13 16:01:53.496 [main] INFO   - Session not terminated
+2020-01-13 16:01:53.497 [main] INFO   - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(@class,'btn btn-primary')]' (tried for 10 second(s) with 500 milliseconds interval) org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn btn-primary')]"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:17165}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 64043faebe182ea7a4f2e55c562f9c57
+*** Element info: {Using=xpath, value=//button[contains(@class,'btn btn-primary')]}
+2020-01-13 16:01:53.527 [main] INFO   - On Dashboard
+2020-01-13 16:01:54.755 [main] INFO   - Add new client
+2020-04-13 16:04:46.796 [main] INFO   - Click Submit and login 
+2020-04-13 16:04:47.741 [main] INFO   - Session Terminated proceed further
+2020-04-13 16:04:50.766 [main] INFO   - On Dashboard
+2020-04-13 16:04:51.470 [main] INFO   - Add new client
+2020-45-13 16:45:56.323 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='password']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-47-13 16:47:14.577 [main] INFO   - Click Submit and login 
+2020-47-13 16:47:18.350 [main] INFO   - On Dashboard
+2020-47-13 16:47:18.977 [main] INFO   - Add new client
+2020-48-13 16:48:17.357 [main] INFO   - Click Submit and login 
+2020-48-13 16:48:21.095 [main] INFO   - On Dashboard
+2020-48-13 16:48:21.821 [main] INFO   - Add new client
+2020-49-13 16:49:32.397 [main] INFO   - Click Submit and login 
+2020-49-13 16:49:35.510 [main] INFO   - On Dashboard
+2020-49-13 16:49:44.273 [main] INFO   - Add new client
+2020-51-13 16:51:06.735 [main] INFO   - Click Submit and login 
+2020-51-13 16:51:09.752 [main] INFO   - On Dashboard
+2020-51-13 16:51:10.456 [main] INFO   - Add new client
+2020-56-13 16:56:57.207 [main] INFO   - Click Submit and login 
+2020-57-13 16:57:03.664 [main] INFO   - On Dashboard
+2020-57-13 16:57:04.369 [main] INFO   - Add new client
+2020-57-13 16:57:32.011 [main] INFO   - Click Submit and login 
+2020-57-13 16:57:35.902 [main] INFO   - On Dashboard
+2020-57-13 16:57:36.585 [main] INFO   - Add new client
+2020-58-13 16:58:28.884 [main] INFO   - Click Submit and login 
+2020-58-13 16:58:31.963 [main] INFO   - On Dashboard
+2020-58-13 16:58:32.638 [main] INFO   - Add new client
+2020-07-13 18:07:36.456 [main] INFO   - Click Submit and login 
+2020-07-13 18:07:39.538 [main] INFO   - On Dashboard
+2020-07-13 18:07:39.881 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='hcn']//input"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:22279}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: e02976c842cf6de8bdfe29efe3a9f8e1
+*** Element info: {Using=xpath, value=//div[@id='hcn']//input}
+2020-11-13 18:11:10.826 [main] INFO   - Click Submit and login 
+2020-11-13 18:11:14.200 [main] INFO   - On Dashboard
+2020-50-13 18:50:33.264 [main] INFO   - Click Submit and login 
+2020-50-13 18:50:37.079 [main] INFO   - On Dashboard
+2020-50-13 18:50:37.771 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//tr[@class='odd cursor-pointer']"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:25770}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 0da10f2eba866c0822ded2e372dad9ad
+*** Element info: {Using=xpath, value=//tr[@class='odd cursor-pointer']}

@@ -6,6 +6,7 @@ public class YamlFile {
 
     private String url;
     private String email;
+    private String hcn;
     private String password;
     private Map<String, String> test;
     private String[] anotherTestKeys;
@@ -28,6 +29,9 @@ public class YamlFile {
         return email;
     }
 
+    public String getHcn() {
+        return hcn;
+    }
     /**
      * Get password from yaml file
      *

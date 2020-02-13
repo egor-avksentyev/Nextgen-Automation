@@ -1,12 +1,21 @@
 package com.qa.pom.pages;
 
 import com.qa.pom.base.BaseTest;
+import com.qa.pom.utils.YamlFile;
 import com.qa.pom.utils.YamlParser;
+
 import java.io.IOException;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Login extends AbstractPage {
+    private String wrapXpath = "//div[@class='loading-wrapper']";
+    private String visibleOfTerminateAndLogin = "//button[contains(@class,'btn btn-primary')]";
+
+    @FindBy(xpath = "//button[contains(@class,'btn btn-primary')] | //div[@class='loading-wrapper']")
+    private WebElement spinnerPathAndTerminateAndLogin;
 
     @FindBy(xpath = "//input[@type='text']")
     private WebElement username;
@@ -14,14 +23,15 @@ public class Login extends AbstractPage {
     @FindBy(xpath = "//input[@type='password']")
     private WebElement password;
 
-    @FindBy(xpath = "//button[contains(text(),'Terminate and Log In')]")
+    @FindBy(xpath = "//button[contains(@class,'btn btn-primary')]")
     private WebElement terminateandLogin;
+
     /**
      * Constructor
      *
      * @param testClass the instance of login page
      */
-  public  Login(BaseTest testClass) {
+    public Login(BaseTest testClass) {
         super(testClass);
         testClass.waitTillElementIsVisible(loginLoad);
     }
@@ -32,19 +42,21 @@ public class Login extends AbstractPage {
      * @return next page
      */
     public Dashboard logIn() throws IOException {
-        username.sendKeys(YamlParser.getYamlData().getEmail());
-        password.sendKeys(YamlParser.getYamlData().getPassword());
-        submitButton.click();
-       if( terminateandLogin.isDisplayed()){
-           testClass.log("Session Terminated proceed further");
-           terminateandLogin.click();
-       }
-       else{
 
-       }
+        YamlFile yamlData = YamlParser.getYamlData();
+
+        username.sendKeys(yamlData.getEmail());
+        password.sendKeys(yamlData.getPassword());
+        submitButton.click();
+        testClass.waitTillElementIsVisible(spinnerPathAndTerminateAndLogin);
+        testClass.sizeConditionCheckAndClickOnElem(visibleOfTerminateAndLogin, terminateandLogin);
+
+        testClass.waitTillElementIsVisible(loadingWrapper);
+        testClass.waitTillElementNotVisible(wrapXpath);
 
         return new Dashboard(testClass);
     }
+
 
 };
 

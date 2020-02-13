@@ -1,12 +1,27 @@
 package com.qa.pom.pages;
 
 import com.qa.pom.base.BaseTest;
+import com.qa.pom.utils.YamlFile;
+import com.qa.pom.utils.YamlParser;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import java.io.IOException;
 
 public class Dashboard extends AbstractPage {
 
-    private String wrapXpath = "//div[@class='loading-wrapper']";
+    @FindBy(xpath = "//tr[@class='odd cursor-pointer']")
+    private WebElement clickSearchResult;
+
+    @FindBy(xpath = "//div[@id='hcn']//input")
+    private WebElement inputHcn;
+
+    @FindBy(xpath = "//div[@id='searchButtons']//button[4]")
+    private WebElement clickHcn;
+
+    @FindBy(xpath = "//button[@id='patient-search-submit']")
+    private WebElement clickSearch;
+
     /**
      * Constructor
      *
@@ -18,11 +33,21 @@ public class Dashboard extends AbstractPage {
 
     }
 
-
     public AddnewClient addnewClientclick() throws IOException {
-        testClass.waitTillElementIsVisible(loadingWrapper);
-        testClass.waitTillElementNotVisible(wrapXpath);
         addClient.click();
         return new AddnewClient(testClass);
     }
+
+public Pathways existedPatient()  throws IOException {
+
+    YamlFile yamlData = YamlParser.getYamlData();
+        clickHcn.click();
+        inputHcn.sendKeys(yamlData.getHcn());
+        clickSearch.click();
+        testClass.waitTillElementIsVisible(clickSearchResult);
+        clickSearchResult.click();
+        return new Pathways(testClass);
+    };
+
+
 }

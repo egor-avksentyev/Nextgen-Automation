@@ -11,6 +11,21 @@ public class Pathways extends AbstractPage {
     public Pathways(BaseTest testClass) {
         super(testClass);
     }
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 

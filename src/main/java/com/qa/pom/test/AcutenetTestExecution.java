@@ -9,7 +9,7 @@ import java.io.IOException;
 public class AcutenetTestExecution extends BaseTest {
 
     /** Open site and log in. Verify name. Log put and check the log in page. */
-    @Test
+   /* @Test
     public void testOpenSiteAndClickPythonLinkTest() throws IOException, InterruptedException {
 
         // Initialize HomePage
@@ -24,5 +24,24 @@ public class AcutenetTestExecution extends BaseTest {
         Thread.sleep(6000);
         closeSite();
 
-    }
+    }*/
+
+    @Test
+public void testOpenSiteAndClickPythonLinkTest2() throws IOException, InterruptedException {
+
+        Login login = openSite();
+        log("Click Submit and login ");
+        Dashboard dash = login.logIn();
+        log("On Dashboard");
+        Pathways path = dash.existedPatient();
+        log("On Pathways");
+        Thread.sleep(6000);
+        closeSite();
+
+}
+
+
+
+
+
 }

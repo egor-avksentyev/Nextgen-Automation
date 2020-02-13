@@ -28,9 +28,12 @@ public class BaseTest {
 
     private Logger logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
     // Rule
-    @Rule public RunTestRules runTestRules = new RunTestRules(this);
+    @Rule
+    public RunTestRules runTestRules = new RunTestRules(this);
 
-    /** Constructor */
+    /**
+     * Constructor
+     */
     public BaseTest() {
         // If you want to disable infobars please use this code
         ChromeOptions options = new ChromeOptions();
@@ -46,7 +49,7 @@ public class BaseTest {
 
         driver.manage().window().maximize();
 
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 20);
     }
 
     /**
@@ -63,7 +66,9 @@ public class BaseTest {
         return new Login(this);
     }
 
-    /** Close site and make driver quit */
+    /**
+     * Close site and make driver quit
+     */
     protected void closeSite() {
         driver.quit();
     }
@@ -86,11 +91,15 @@ public class BaseTest {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    public void waitTillElementNotVisible (String xpath ) { wait.until(ExpectedConditions.not(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(xpath))));}
+    public void waitTillElementNotVisible(String xpath) {
+        wait.until(ExpectedConditions.not(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(xpath))));
+    }
 
-   // public void click (String element){driver.findElements(By.xpath(element)).size() > 0 ;}
-
-    boolean items = driver.findElements(By.xpath("//div[@id='errormsg']//span[text()='Terminate and login']")).size() > 0 ;
+    public void sizeConditionCheckAndClickOnElem(String xpath, WebElement element) {
+        if (driver.findElements(By.xpath(xpath)).size() > 0) {
+            element.click();
+        }
+    }
 
 
     /**
@@ -102,6 +111,7 @@ public class BaseTest {
 
         logger.info(message);
     }
+
     /**
      * Write down error message
      *
@@ -111,6 +121,7 @@ public class BaseTest {
 
         logger.error(error);
     }
+
     /**
      * Get date and time
      *
