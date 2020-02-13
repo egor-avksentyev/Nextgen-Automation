@@ -8,20 +8,22 @@ import org.openqa.selenium.support.FindBy;
 
 public class Login extends AbstractPage {
 
-    @FindBy(xpath = "//input[contains(@id,'email')and @name='email']")
-    private WebElement email;
+    @FindBy(xpath = "//input[@type='text']")
+    private WebElement username;
 
-    @FindBy(xpath = "//input[contains(@id,'passwd')]")
+    @FindBy(xpath = "//input[@type='password']")
     private WebElement password;
 
+    @FindBy(xpath = "//button[contains(text(),'Terminate and Log In')]")
+    private WebElement terminateandLogin;
     /**
      * Constructor
      *
      * @param testClass the instance of login page
      */
-    Login(BaseTest testClass) {
+  public  Login(BaseTest testClass) {
         super(testClass);
-        testClass.waitTillElementIsVisible(pageDiv);
+        testClass.waitTillElementIsVisible(loginLoad);
     }
 
     /**
@@ -29,15 +31,20 @@ public class Login extends AbstractPage {
      *
      * @return next page
      */
-    public MyAccount logIn() throws IOException {
-        email.sendKeys(YamlParser.getYamlData().getEmail());
+    public Dashboard logIn() throws IOException {
+        username.sendKeys(YamlParser.getYamlData().getEmail());
         password.sendKeys(YamlParser.getYamlData().getPassword());
         submitButton.click();
-        return new MyAccount(testClass);
+       if( terminateandLogin.isDisplayed()){
+           testClass.log("Session Terminated proceed further");
+           terminateandLogin.click();
+       }
+       else{
+
+       }
+
+        return new Dashboard(testClass);
     }
 
-    /** Wait till Submit button become visible */
-    public void verifyLoginPage() {
-        testClass.waitTillElementIsVisible(submitButton);
-    }
-}
+};
+

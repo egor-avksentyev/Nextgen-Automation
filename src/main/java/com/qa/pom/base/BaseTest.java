@@ -1,10 +1,11 @@
 package com.qa.pom.base;
 
-import com.qa.pom.pages.Home;
+import com.qa.pom.pages.Login;
 import com.qa.pom.utils.YamlParser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Rule;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,6 +17,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Collections;
+import java.util.List;
 
 public class BaseTest {
 
@@ -52,13 +54,13 @@ public class BaseTest {
      *
      * @return the instance of HomePage
      */
-    protected Home openSite() {
+    protected Login openSite() {
         try {
             driver.get(YamlParser.getYamlData().getUrl());
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return new Home(this);
+        return new Login(this);
     }
 
     /** Close site and make driver quit */
@@ -83,6 +85,14 @@ public class BaseTest {
     public void waitTillElementIsVisible(WebElement element) {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
+
+    public void waitTillElementNotVisible (String xpath ) { wait.until(ExpectedConditions.not(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(xpath))));}
+
+   // public void click (String element){driver.findElements(By.xpath(element)).size() > 0 ;}
+
+    boolean items = driver.findElements(By.xpath("//div[@id='errormsg']//span[text()='Terminate and login']")).size() > 0 ;
+
+
     /**
      * Write down info message
      *

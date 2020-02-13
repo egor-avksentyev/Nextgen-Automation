@@ -1,0 +1,196 @@
+2019-50-07 17:50:02.555 [main] INFO   - Initialize HomePage
+2019-50-07 17:50:04.139 [main] INFO   - Click on login Link
+2019-50-07 17:50:05.762 [main] INFO   - Log in
+2019-50-07 17:50:07.737 [main] INFO   - click Dresses
+2019-50-07 17:50:09.354 [main] INFO   - click SummerDresses
+2019-50-07 17:50:09.399 [main] INFO   - verify if quantity from text and quantity from content are equals
+2019-51-07 17:51:15.639 [main] INFO   - Initialize HomePage
+2019-51-07 17:51:16.910 [main] INFO   - Click on login Link
+2019-51-07 17:51:18.403 [main] INFO   - Log in
+2019-51-07 17:51:30.847 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //ul[contains(class,'tree dynamized')]/li[position()=3]/a[contains(@title,'Short dress') and contains(text(),'Summer Dresses')]' (tried for 10 second(s) with 500 milliseconds interval)
+2020-59-11 21:59:04.197 [main] INFO   - Initialize HomePage
+2020-59-11 21:59:06.212 [main] INFO   - Click on login Link
+2020-59-11 21:59:07.897 [main] INFO   - Log in
+2020-59-11 21:59:13.695 [main] INFO   - click Dresses
+2020-59-11 21:59:15.751 [main] INFO   - click SummerDresses
+2020-59-11 21:59:15.795 [main] INFO   - verify if quantity from text and quantity from content are equals
+2020-00-11 22:00:00.777 [main] INFO   - Initialize HomePage
+2020-00-11 22:00:03.344 [main] INFO   - Click on login Link
+2020-00-11 22:00:05.356 [main] INFO   - Log in
+2020-00-11 22:00:09.095 [main] INFO   - click Dresses
+2020-00-11 22:00:12.930 [main] INFO   - click SummerDresses
+2020-00-11 22:00:12.976 [main] INFO   - verify if quantity from text and quantity from content are equals
+2020-17-11 22:17:58.819 [main] INFO   - Initialize HomePage
+2020-18-11 22:18:01.058 [main] INFO   - Click on login Link
+2020-18-11 22:18:02.579 [main] INFO   - Log in
+2020-18-11 22:18:04.987 [main] INFO   - click Dresses
+2020-18-11 22:18:06.923 [main] INFO   - click SummerDresses
+2020-18-11 22:18:06.968 [main] INFO   - verify if quantity from text and quantity from content are equals
+2020-29-11 22:29:37.990 [main] INFO   - Initialize HomePage
+2020-29-11 22:29:39.799 [main] INFO   - Click on login Link
+2020-29-11 22:29:41.432 [main] INFO   - Log in
+2020-29-11 22:29:44.119 [main] INFO   - click Dresses
+2020-29-11 22:29:46.866 [main] INFO   - click SummerDresses
+2020-29-11 22:29:46.915 [main] INFO   - verify if quantity from text and quantity from content are equals
+2020-43-11 23:43:01.148 [main] INFO   - Click Submit and login 
+2020-43-11 23:43:01.577 [main] INFO   - On Dashboard
+2020-05-12 01:05:06.505 [main] INFO   - Click Submit and login 
+2020-05-12 01:05:06.865 [main] INFO   - On Dashboard
+2020-05-12 01:05:07.297 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Add Client')]"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51158}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 54e43bb3b09e39de3824a465b0cf4437
+*** Element info: {Using=xpath, value=//a[contains(text(),'Add Client')]}
+2020-08-12 01:08:19.205 [main] INFO   - Click Submit and login 
+2020-10-12 01:10:33.594 [main] INFO   - Click Submit and login 
+2020-10-12 01:10:44.829 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Add Client')]' (tried for 10 second(s) with 500 milliseconds interval)
+2020-15-12 01:15:46.422 [main] INFO   - Click Submit and login 
+2020-15-12 01:15:48.405 [main] INFO   - On Dashboard
+2020-15-12 01:15:48.886 [main] ERROR  - unknown error: Element <a href="/app/new-client" id="ember1212" class="glf-double-navbar-item ember-view">...</a> is not clickable at point (229, 25). Other element would receive the click: <div class="loading-wrapper">...</div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51925}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 6b3b2401995eadc8804b97288ef0ee08
+2020-21-12 01:21:05.882 [main] INFO   - Click Submit and login 
+2020-21-12 01:21:06.302 [main] INFO   - On Dashboard
+2020-21-12 01:21:07.923 [main] INFO   - Add new client
+2020-29-12 01:29:59.833 [main] INFO   - Click Submit and login 
+2020-30-12 01:30:00.238 [main] INFO   - On Dashboard
+2020-30-12 01:30:55.786 [main] INFO   - Click Submit and login 
+2020-30-12 01:30:56.187 [main] INFO   - On Dashboard
+2020-30-12 01:30:57.827 [main] INFO   - Add new client
+2020-38-12 01:38:38.094 [main] INFO   - Click Submit and login 
+2020-38-12 01:38:38.487 [main] INFO   - On Dashboard
+2020-38-12 01:38:40.111 [main] INFO   - Add new client
+2020-43-12 01:43:06.336 [main] INFO   - Click Submit and login 
+2020-43-12 01:43:06.785 [main] INFO   - On Dashboard
+2020-43-12 01:43:08.876 [main] ERROR  - unknown error: Element <button type="submit" id="patient-search-submit" class="btn d-position-relative btn-success without-focus ember-view">...</button> is not clickable at point (927, 332). Other element would receive the click: <div class="loading-wrapper">...</div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51900}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 7548837577ca4dc434411bccd3404975
+2020-46-12 01:46:10.421 [main] INFO   - Click Submit and login 
+2020-46-12 01:46:10.820 [main] INFO   - On Dashboard
+2020-46-12 01:46:12.438 [main] INFO   - Add new client
+2020-48-12 01:48:45.352 [main] INFO   - Click Submit and login 
+2020-48-12 01:48:45.763 [main] INFO   - On Dashboard
+2020-48-12 01:48:46.244 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/app/new-client']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52337}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 26b698290ca8cfcdfc3fdba3af1b9f28
+*** Element info: {Using=xpath, value=//a[@href='/app/new-client']}
+2020-52-12 01:52:24.846 [main] INFO   - Click Submit and login 
+2020-52-12 01:52:25.202 [main] INFO   - On Dashboard
+2020-52-12 01:52:27.336 [main] ERROR  - unknown error: Element <a href="/app/new-client" id="ember1212" class="glf-double-navbar-item ember-view">...</a> is not clickable at point (229, 25). Other element would receive the click: <div class="loading-wrapper">...</div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52581}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 4b8759cbcc4e6c60aa6896c2d21ed1c5
+2020-14-12 02:14:17.812 [main] INFO   - Click Submit and login 
+2020-14-12 02:14:18.649 [main] ERROR  - class com.sun.proxy.$Proxy24 cannot be cast to class org.openqa.selenium.By (com.sun.proxy.$Proxy24 and org.openqa.selenium.By are in unnamed module of loader 'app')
+2020-24-12 02:24:22.004 [main] INFO   - Click Submit and login 
+2020-24-12 02:24:22.418 [main] INFO   - On Dashboard
+2020-24-12 02:24:24.589 [main] ERROR  - unknown error: Element <a href="/app/new-client" id="ember1212" class="glf-double-navbar-item ember-view">...</a> is not clickable at point (229, 25). Other element would receive the click: <div class="loading-wrapper">...</div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58791}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 189407ea478ae59f90a7d8d6ff6e7ace
+2020-31-12 02:31:06.665 [main] INFO   - Click Submit and login 
+2020-31-12 02:31:07.083 [main] INFO   - On Dashboard
+2020-31-12 02:31:08.691 [main] ERROR  - null
+2020-46-12 02:46:14.906 [main] INFO   - Click Submit and login 
+2020-46-12 02:46:15.306 [main] INFO   - On Dashboard
+2020-46-12 02:46:29.424 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='password']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-53-12 02:53:28.068 [main] INFO   - Click Submit and login 
+2020-53-12 02:53:28.458 [main] INFO   - On Dashboard
+2020-53-12 02:53:31.810 [main] INFO   - Add new client
+2020-00-13 01:00:45.592 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='password']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-11-13 01:11:01.804 [main] INFO   - Click Submit and login 
+2020-11-13 01:11:02.163 [main] INFO   - On Dashboard
+2020-11-13 01:11:14.053 [main] ERROR  - Expected condition failed: waiting for condition to not be valid: presence of any elements located by By.xpath: //div[@class='loading-wrapper (tried for 10 second(s) with 500 milliseconds interval)
+2020-12-13 01:12:17.599 [main] INFO   - Click Submit and login 
+2020-12-13 01:12:17.982 [main] INFO   - On Dashboard
+2020-12-13 01:12:29.356 [main] ERROR  - Expected condition failed: waiting for condition to not be valid: presence of any elements located by By.xpath: //div[@class='loading-wrapper (tried for 10 second(s) with 500 milliseconds interval)
+2020-14-13 01:14:13.168 [main] INFO   - Click Submit and login 
+2020-14-13 01:14:13.548 [main] INFO   - On Dashboard
+2020-14-13 01:14:16.925 [main] INFO   - Add new client
+2020-14-13 01:14:17.353 [main] ERROR  - Keys to send should be a not null CharSequence
+2020-15-13 01:15:19.954 [main] INFO   - Click Submit and login 
+2020-15-13 01:15:20.335 [main] INFO   - On Dashboard
+2020-15-13 01:15:51.920 [main] INFO   - Click Submit and login 
+2020-15-13 01:15:52.308 [main] INFO   - On Dashboard
+2020-15-13 01:15:55.632 [main] INFO   - Add new client
+2020-15-13 01:15:56.097 [main] ERROR  - Keys to send should be a not null CharSequence
+2020-21-13 01:21:56.975 [main] INFO   - Click Submit and login 
+2020-21-13 01:21:57.361 [main] INFO   - On Dashboard
+2020-22-13 01:22:02.367 [main] INFO   - Add new client
+2020-22-13 01:22:02.954 [main] ERROR  - Keys to send should be a not null CharSequence
+2020-36-13 01:36:52.372 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='password']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-50-13 01:50:54.082 [main] INFO   - Click Submit and login 
+2020-50-13 01:50:54.551 [main] INFO   - On Dashboard
+2020-50-13 01:50:57.997 [main] INFO   - Add new client
+2020-50-13 01:50:58.841 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='middleName']//input"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52511}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: cbb715b35a69461f74b6b68fe998eb93
+*** Element info: {Using=xpath, value=//div[@id='middleName']//input}
+2020-54-13 01:54:35.726 [main] INFO   - Click Submit and login 
+2020-54-13 01:54:36.102 [main] INFO   - On Dashboard
+2020-54-13 01:54:38.935 [main] INFO   - Add new client
+2020-56-13 01:56:09.767 [main] INFO   - Click Submit and login 
+2020-56-13 01:56:10.130 [main] INFO   - On Dashboard
+2020-56-13 01:56:13.486 [main] INFO   - Add new client
+2020-01-13 02:01:23.048 [main] INFO   - Click Submit and login 
+2020-01-13 02:01:23.459 [main] INFO   - On Dashboard
+2020-03-13 02:03:02.582 [main] INFO   - Click Submit and login 
+2020-03-13 02:03:02.975 [main] INFO   - On Dashboard
+2020-03-13 02:03:17.083 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[contains(text(),'Upload Photo')]' (tried for 10 second(s) with 500 milliseconds interval)
+2020-08-13 02:08:48.507 [main] INFO   - Click Submit and login 
+2020-08-13 02:08:48.904 [main] INFO   - On Dashboard
+2020-08-13 02:08:52.792 [main] INFO   - Add new client
+2020-25-13 02:25:36.293 [main] INFO   - Click Submit and login 
+2020-25-13 02:25:37.104 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Terminate and Log In')]"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53869}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: fe346a095845abff57150f45f1f5d167
+*** Element info: {Using=xpath, value=//button[contains(text(),'Terminate and Log In')]}
