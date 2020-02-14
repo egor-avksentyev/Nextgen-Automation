@@ -11,6 +11,9 @@ public class YamlFile {
     private Map<String, String> test;
     private String[] anotherTestKeys;
 
+    public YamlFile() {
+    }
+
     /**
      * Get URL from yaml file
      *
@@ -32,6 +35,7 @@ public class YamlFile {
     public String getHcn() {
         return hcn;
     }
+
     /**
      * Get password from yaml file
      *

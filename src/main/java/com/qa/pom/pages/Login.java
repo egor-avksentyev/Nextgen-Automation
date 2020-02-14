@@ -11,8 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Login extends AbstractPage {
-    private String wrapXpath = "//div[@class='loading-wrapper']";
-    private String visibleOfTerminateAndLogin = "//button[contains(@class,'btn btn-primary')]";
+
 
     @FindBy(xpath = "//button[contains(@class,'btn btn-primary')] | //div[@class='loading-wrapper']")
     private WebElement spinnerPathAndTerminateAndLogin;
@@ -31,7 +30,7 @@ public class Login extends AbstractPage {
      *
      * @param testClass the instance of login page
      */
-    public Login(BaseTest testClass) {
+    public Login(BaseTest testClass)  {
         super(testClass);
         testClass.waitTillElementIsVisible(loginLoad);
     }

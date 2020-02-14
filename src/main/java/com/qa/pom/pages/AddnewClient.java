@@ -10,39 +10,39 @@ import java.util.Random;
 public class AddnewClient extends AbstractPage {
 
     @FindBy(xpath = "//div[@id='firstName']//input")
-    WebElement firstName;
+    private WebElement firstName;
     @FindBy(xpath = "//div[@id='middleName']//input")
-    WebElement middleName;
+    private WebElement middleName;
     @FindBy(xpath = "//div[@id='lastName']//input")
-    WebElement lastName;
+    private WebElement lastName;
     @FindBy(xpath = "//div[@id='salutation']//input")
-    WebElement suffix;
+    private WebElement suffix;
     @FindBy(xpath = "//div[@id='sex']//button")
-    WebElement genderDropdown;
+    private WebElement genderDropdown;
     @FindBy(xpath = "//div[@id='dateOfBirth']//input")
-    WebElement dateOfBirth;
+    private WebElement dateOfBirth;
     @FindBy(xpath = "//div[@id='hcn']//input")
-    WebElement hCN;
+    private WebElement hCN;
     @FindBy(xpath = "//div[@id='department']//button")
-    WebElement departmentDropdown;
+    private WebElement departmentDropdown;
     @FindBy(xpath = "//div[@id='country']//input")
-    WebElement country;
+    private WebElement country;
     @FindBy(xpath = "//div[@id='state']//input")
-    WebElement provinceorState;
+    private WebElement provinceorState;
     @FindBy(xpath = "//div[@id='zipcode']//input")
-    WebElement postalCode;
+    private WebElement postalCode;
     @FindBy(xpath = "//div[@id='sex']//ul[@aria-expanded='true']")
-    WebElement dropdownGenderopenMarker;
+    private WebElement dropdownGenderopenMarker;
     @FindBy(xpath = "//li[@data-original-index='0']//span[contains(text(),'Male')]")
-    WebElement clickMale;
+    private WebElement clickMale;
     @FindBy(xpath = "//div[@id='department']//ul[@aria-expanded='true']")
-    WebElement dropdownDepartmentopenMarker;
+    private WebElement dropdownDepartmentopenMarker;
     @FindBy(xpath = "//button[contains(text(),'Select All')]")
-    WebElement clickSelectall;
+    private WebElement clickSelectall;
     @FindBy(xpath = "//button[contains(@class,'btn-success')]")
-    WebElement clickSave;
+    private WebElement clickSave;
 
-    public AddnewClient(BaseTest testClass) throws IOException {
+    public AddnewClient(BaseTest testClass)  {
         super(testClass);
         testClass.waitTillElementIsVisible(genderDropdown);
     }
@@ -64,8 +64,7 @@ public class AddnewClient extends AbstractPage {
         country.sendKeys("NY");
         provinceorState.sendKeys("Test");
         postalCode.sendKeys("A0A");
-
-        //clickSave.click();
+        clickSave.click();
         testClass.log("Go to the Pathways");
         return new Pathways(testClass);
 

@@ -400,3 +400,93 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:25770}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
 Session ID: 0da10f2eba866c0822ded2e372dad9ad
 *** Element info: {Using=xpath, value=//tr[@class='odd cursor-pointer']}
+2020-52-13 18:52:13.281 [main] INFO   - Click Submit and login 
+2020-52-13 18:52:17.061 [main] INFO   - On Dashboard
+2020-04-14 16:04:49.002 [main] ERROR  - Unrecognized field "assessmenttype" (class com.qa.pom.utils.YamlFile), not marked as ignorable (6 known properties: "test", "hcn", "anotherTestKeys", "password", "email", "url"])
+ at [Source: (File); line: 6, column: 35] (through reference chain: com.qa.pom.utils.YamlFile["assessmenttype"])
+2020-10-14 16:10:37.039 [main] ERROR  - Unrecognized field "assessment" (class com.qa.pom.utils.YamlFile), not marked as ignorable (6 known properties: "test", "hcn", "anotherTestKeys", "password", "email", "url"])
+ at [Source: (File); line: 6, column: 31] (through reference chain: com.qa.pom.utils.YamlFile["assessment"])
+2020-14-14 16:14:26.036 [main] INFO   - Click Submit and login 
+2020-14-14 16:14:29.747 [main] INFO   - On Dashboard
+2020-14-14 16:14:32.253 [main] INFO   - On Pathways
+2020-14-14 16:14:32.708 [main] ERROR  - element not interactable
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:39755}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 259292a8e176c9cab07b419c7da5d984
+2020-17-14 16:17:39.964 [main] INFO   - Click Submit and login 
+2020-17-14 16:17:43.631 [main] INFO   - On Dashboard
+2020-17-14 16:17:46.214 [main] INFO   - On Pathways
+2020-17-14 16:17:54.808 [main] ERROR  - element not interactable
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:40069}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 37432bddf55b533756655fd21805ae0f
+2020-23-14 16:23:11.812 [main] INFO   - Click Submit and login 
+2020-23-14 16:23:15.543 [main] INFO   - On Dashboard
+2020-23-14 16:23:23.157 [main] INFO   - On Pathways
+2020-23-14 16:23:26.265 [main] ERROR  - element not interactable
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:40548}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: ddd2c59ea95511caeb8b20a82615f15d
+2020-25-14 16:25:28.269 [main] INFO   - Click Submit and login 
+2020-25-14 16:25:31.896 [main] INFO   - On Dashboard
+2020-25-14 16:25:33.972 [main] INFO   - On Pathways
+2020-25-14 16:25:34.501 [main] ERROR  - element not interactable
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:40746}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: afde651cb3fabd0fe009cb88a77bccaf
+2020-41-14 16:41:02.420 [main] INFO   - Click Submit and login 
+2020-41-14 16:41:08.286 [main] INFO   - On Dashboard
+2020-41-14 16:41:10.415 [main] INFO   - On Pathways
+2020-41-14 16:41:31.028 [main] ERROR  - Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7d59d3a5daa5fb7f91a3680a04744965)] -> xpath: //input[contains(@value,'INTERRAI_CHA_FS_MH')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:41761}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 7d59d3a5daa5fb7f91a3680a04744965
+2020-51-14 16:51:48.370 [main] INFO   - Click Submit and login 
+2020-52-14 16:52:01.342 [main] INFO   - On Dashboard
+2020-52-14 16:52:06.632 [main] INFO   - On Pathways
+2020-52-14 16:52:27.254 [main] ERROR  - Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (13cf7d7a679466a1590d0b6c4f35d01a)] -> xpath: //input[contains(@value,'INTERRAI_CHA_FS_MH')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1768}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 13cf7d7a679466a1590d0b6c4f35d01a
+2020-06-14 17:06:01.909 [main] INFO   - Click Submit and login 
+2020-06-14 17:06:08.263 [main] INFO   - On Dashboard
+2020-06-14 17:06:10.400 [main] INFO   - On Pathways
+2020-06-14 17:06:31.130 [main] ERROR  - Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7a089f5093a5b6773fc4dd9aa6a392ce)] -> xpath: //input[contains(@value,'INTERRAI_CHA_FS_MH')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:3019}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 7a089f5093a5b6773fc4dd9aa6a392ce
+2020-11-14 17:11:41.694 [main] INFO   - Click Submit and login 
+2020-11-14 17:11:45.455 [main] INFO   - On Dashboard
+2020-11-14 17:11:47.522 [main] INFO   - On Pathways
+2020-12-14 18:12:51.332 [main] INFO   - Click Submit and login 
+2020-12-14 18:12:55.061 [main] INFO   - On Dashboard
+2020-12-14 18:12:57.223 [main] INFO   - On Pathways
+2020-13-14 18:13:32.290 [main] INFO   - Click Submit and login 
+2020-13-14 18:13:35.949 [main] INFO   - On Dashboard
+2020-13-14 18:13:38.065 [main] INFO   - On Pathways

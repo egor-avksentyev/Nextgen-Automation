@@ -21,12 +21,14 @@ import java.util.List;
 
 public class BaseTest {
 
+
     private WebDriver driver;
     private WebDriverWait wait;
 
     // Logger
 
     private Logger logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
+
     // Rule
     @Rule
     public RunTestRules runTestRules = new RunTestRules(this);
@@ -50,6 +52,8 @@ public class BaseTest {
         driver.manage().window().maximize();
 
         wait = new WebDriverWait(driver, 20);
+
+
     }
 
     /**
@@ -94,11 +98,12 @@ public class BaseTest {
     public void waitTillElementNotVisible(String xpath) {
         wait.until(ExpectedConditions.not(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(xpath))));
     }
-
     public void sizeConditionCheckAndClickOnElem(String xpath, WebElement element) {
         if (driver.findElements(By.xpath(xpath)).size() > 0) {
             element.click();
         }
+
+
     }
 
 

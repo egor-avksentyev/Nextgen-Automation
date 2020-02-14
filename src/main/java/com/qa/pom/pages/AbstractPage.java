@@ -9,9 +9,9 @@ public abstract class AbstractPage {
 
     BaseTest testClass;
 
-    //
+    String wrapXpath = "//div[@class='loading-wrapper']";
+    String visibleOfTerminateAndLogin = "//button[contains(@class,'btn btn-primary')]";
     /** Web elements with @FindBy annotation*/
-    //
 
     @FindBy(xpath = "//div[@class='loading-wrapper']")
     WebElement loadingWrapper;
@@ -19,18 +19,11 @@ public abstract class AbstractPage {
     @FindBy(xpath = "//input[@type='password']")
     WebElement loginLoad;
 
-
-    @FindBy(
-            xpath =
-                    "//a[@href='/app/new-client']")
+    @FindBy(xpath = "//a[@href='/app/new-client']")
     WebElement addClient;
 
     @FindBy(xpath = "//button[@type='submit']")
     WebElement submitButton;
-
-    @FindBy(xpath = "//a[@class='logout']")
-    WebElement logOutButton;
-
 
     /** Constructor */
     AbstractPage(BaseTest testClass) {
@@ -40,9 +33,5 @@ public abstract class AbstractPage {
     }
 
 
-    /** Check log in page after log out */
-    public Login signOut() {
-        logOutButton.click();
-        return new Login(testClass);
-    }
+
 }
