@@ -16,7 +16,13 @@ public abstract class AbstractAssessmentPage extends  AbstractPage {
 
     }
 
+public void goToNewSection (String nameOfSection) {
 
+    testClass.findElementAndClick("//div[@id='assessment-tab']//div[@type='button' and text()='"+ nameOfSection +"']");
+    testClass.waitTillElementIsVisible(loadingWrapper);
+    testClass.waitTillElementNotVisible(wrapXpath);
+
+}
 
 
 

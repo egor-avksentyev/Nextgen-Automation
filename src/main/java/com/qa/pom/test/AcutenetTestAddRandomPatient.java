@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 
-public class AcutenetTestAddRundomPatient extends BaseTest {
+public class AcutenetTestAddRandomPatient extends BaseTest {
 
         /**
          * Open site and log in. Verify name. Log put and check the log in page.

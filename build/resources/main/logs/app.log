@@ -490,3 +490,102 @@ Session ID: 7a089f5093a5b6773fc4dd9aa6a392ce
 2020-13-14 18:13:32.290 [main] INFO   - Click Submit and login 
 2020-13-14 18:13:35.949 [main] INFO   - On Dashboard
 2020-13-14 18:13:38.065 [main] INFO   - On Pathways
+2020-59-14 18:59:09.034 [main] INFO   - Click Submit and login 
+2020-59-14 18:59:12.180 [main] INFO   - On Dashboard
+2020-59-14 18:59:14.374 [main] INFO   - On Pathways
+2020-59-14 18:59:35.248 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='loading-wrapper']' (tried for 20 second(s) with 500 milliseconds interval)
+2020-11-14 21:11:13.104 [main] INFO   - Click Submit and login 
+2020-11-14 21:11:20.050 [main] INFO   - On Dashboard
+2020-11-14 21:11:24.161 [main] INFO   - On Pathways
+2020-11-14 21:11:32.656 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//ul[contains(@data-assessment-type,'interRAI CHA (CHA-FS, CHA-MH)')]//div[contains(@class,'in_progress')]"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51580}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 7924207502caa3de448068338642a39b
+*** Element info: {Using=xpath, value=//ul[contains(@data-assessment-type,'interRAI CHA (CHA-FS, CHA-MH)')]//div[contains(@class,'in_progress')]}
+2020-12-14 21:12:00.670 [main] INFO   - Click Submit and login 
+2020-12-14 21:12:05.915 [main] INFO   - On Dashboard
+2020-12-14 21:12:08.060 [main] INFO   - On Pathways
+2020-15-14 21:15:55.819 [main] INFO   - Click Submit and login 
+2020-15-14 21:15:59.538 [main] INFO   - On Dashboard
+2020-16-14 21:16:04.704 [main] INFO   - On Pathways
+2020-18-15 01:18:53.131 [main] INFO   - Click Submit and login 
+2020-18-15 01:18:58.001 [main] INFO   - On Dashboard
+2020-19-15 01:19:02.319 [main] INFO   - On Pathways
+2020-19-15 01:19:03.104 [main] ERROR  - unknown error: Element <a class="glf-double-navbar-item nav-item-new-assessment" data-ember-action="" data-ember-action-1900="1900">...</a> is not clickable at point (235, 25). Other element would receive the click: <div class="loading-wrapper">...</div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60034}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: bcb369defd9fb48c3bfee37a1aca281a
+2020-24-15 01:24:52.373 [main] INFO   - Click Submit and login 
+2020-24-15 01:24:57.132 [main] INFO   - On Dashboard
+2020-24-15 01:24:59.496 [main] INFO   - On Pathways
+2020-27-15 01:27:30.766 [main] INFO   - Click Submit and login 
+2020-27-15 01:27:34.514 [main] INFO   - On Dashboard
+2020-27-15 01:27:36.705 [main] INFO   - On Pathways
+2020-27-15 01:27:37.420 [main] ERROR  - unknown error: Element <a class="glf-double-navbar-item nav-item-new-assessment" data-ember-action="" data-ember-action-1923="1923">...</a> is not clickable at point (235, 25). Other element would receive the click: <div class="loading-wrapper">...</div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60598}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: a97c46f8cbfa760690c48806bfefe3fe
+2020-29-15 01:29:07.904 [main] INFO   - Click Submit and login 
+2020-29-15 01:29:11.612 [main] INFO   - On Dashboard
+2020-29-15 01:29:13.824 [main] INFO   - On Pathways
+2020-29-15 01:29:34.308 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='loading-wrapper']' (tried for 20 second(s) with 500 milliseconds interval)
+2020-33-15 01:33:32.869 [main] INFO   - Click Submit and login 
+2020-33-15 01:33:36.537 [main] INFO   - On Dashboard
+2020-33-15 01:33:38.772 [main] INFO   - On Pathways
+2020-33-15 01:33:39.560 [main] ERROR  - unknown error: Element <a class="glf-double-navbar-item nav-item-new-assessment" data-ember-action="" data-ember-action-1923="1923">...</a> is not clickable at point (235, 25). Other element would receive the click: <div class="loading-wrapper">...</div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61028}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 02485231c6de63aadedf5e7032023a7c
+2020-41-15 01:41:39.734 [main] INFO   - Click Submit and login 
+2020-41-15 01:41:43.473 [main] INFO   - On Dashboard
+2020-41-15 01:41:45.724 [main] INFO   - On Pathways
+2020-43-15 01:43:28.748 [main] INFO   - Click Submit and login 
+2020-43-15 01:43:32.930 [main] INFO   - On Dashboard
+2020-43-15 01:43:35.141 [main] INFO   - On Pathways
+2020-44-15 01:44:16.149 [main] INFO   - Click Submit and login 
+2020-44-15 01:44:19.795 [main] INFO   - On Dashboard
+2020-44-15 01:44:21.998 [main] INFO   - On Pathways
+2020-45-15 01:45:28.919 [main] INFO   - Click Submit and login 
+2020-45-15 01:45:33.134 [main] INFO   - On Dashboard
+2020-45-15 01:45:34.100 [main] INFO   - On Pathways
+2020-45-15 01:45:34.524 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'new-assessment')]"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BK3TIH', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\A946~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61851}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 952cd1fe4e155540d749ce4b1123980c
+*** Element info: {Using=xpath, value=//a[contains(@class,'new-assessment')]}
+2020-47-15 01:47:26.853 [main] INFO   - Click Submit and login 
+2020-47-15 01:47:30.568 [main] INFO   - On Dashboard
+2020-47-15 01:47:32.806 [main] INFO   - On Pathways
+2020-48-15 01:48:08.941 [main] INFO   - Click Submit and login 
+2020-48-15 01:48:12.627 [main] INFO   - On Dashboard
+2020-48-15 01:48:14.899 [main] INFO   - On Pathways
+2020-09-16 22:09:05.910 [main] INFO   - Click Submit and login 
+2020-09-16 22:09:10.522 [main] INFO   - On Dashboard
+2020-09-16 22:09:13.291 [main] INFO   - On Pathways

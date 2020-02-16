@@ -5,7 +5,7 @@ import java.util.Map;
 public class YamlFile {
 
     private String url;
-    private String email;
+    private String login;
     private String hcn;
     private String password;
     private Map<String, String> test;
@@ -28,8 +28,8 @@ public class YamlFile {
      *
      * @return String represents email
      */
-    public String getEmail() {
-        return email;
+    public String getLogin() {
+        return login;
     }
 
     public String getHcn() {

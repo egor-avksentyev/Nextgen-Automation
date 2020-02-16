@@ -94,19 +94,47 @@ public class BaseTest {
     public void waitTillElementIsVisible(WebElement element) {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
-
+    /**
+     * Wait till element is not visible
+     *
+     * @param xpath waiting for the element not visible
+     */
     public void waitTillElementNotVisible(String xpath) {
         wait.until(ExpectedConditions.not(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(xpath))));
     }
-    public void sizeConditionCheckAndClickOnElem(String xpath, WebElement element) {
+    /**
+     * Condition Terminate and login Check
+     *
+     * @param xpath of element returns the number of web elements
+     * @param element which test is going to click
+     */
+    public void sizeConditionLoginCheckAndClickOnElem(String xpath, WebElement element) {
         if (driver.findElements(By.xpath(xpath)).size() > 0) {
             element.click();
         }
-
-
     }
 
+    public void findElementAndClick (String xpath) {
+        driver.findElement(By.xpath(xpath)).click();
+    }
 
+    /**
+     * Condition presence of inprogress assessment on pathway
+     *
+     * @param xpath of element returns the number of web elements
+     * @param clickGear click on gear button
+     * @param wait wait for pop-up menu
+     * @param clickCancel click cancel button
+     */
+    public void sizeConditionInprogressElementPresent(String xpath, WebElement clickGear, WebElement wait, WebElement clickCancel,WebElement visible, String notvisible ) {
+        if (driver.findElements(By.xpath(xpath)).size() > 0) {
+            clickGear.click();
+            waitTillElementIsVisible (wait);
+            clickCancel.click();
+            waitTillElementIsVisible(visible);
+            waitTillElementNotVisible(notvisible);
+        }
+    }
     /**
      * Write down info message
      *

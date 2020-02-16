@@ -1,11 +1,17 @@
 package com.qa.pom.pages;
 import com.qa.pom.base.BaseTest;
-import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import java.io.IOException;
+
 public class Pathways extends AbstractPage {
+
+    private String  detectInprogress = "//ul[contains(@data-assessment-type,'interRAI CHA (CHA-FS, CHA-MH)')]//div[contains(@class,'in_progress')]";
+
+    @FindBy(xpath = "//tr//td[text()='Cancel']")
+    private WebElement cancelButton;
+
+    @FindBy(xpath = "//ul[contains(@data-assessment-type,'interRAI CHA (CHA-FS, CHA-MH)')]//div[contains(@class,'in_progress')]/parent::li//i[contains(@class,'gear')]")
+    private WebElement clickGearOfInprogress;
 
     @FindBy(xpath = "//a[contains(@class,'new-assessment')]")
     private WebElement startNewAssessment;
@@ -25,11 +31,14 @@ public class Pathways extends AbstractPage {
 
     public Pathways(BaseTest testClass) {
         super(testClass);
+
         testClass.waitTillElementIsVisible(startNewAssessment);
 
     }
 
-    public ChaChaFs chooseInterRaiChaChafsChamh()  {
+    public ChaChaFsFormulas chooseInterRaiChaChafsChamh()  {
+
+        testClass.sizeConditionInprogressElementPresent(detectInprogress ,clickGearOfInprogress,cancelButton,cancelButton,loadingWrapper,wrapXpath);
 
         startNewAssessment.click();
         testClass.waitTillElementIsVisible(waitChooseAssessmentTypeWindow);
@@ -39,7 +48,7 @@ public class Pathways extends AbstractPage {
         testClass.waitTillElementIsVisible(loadingWrapper);
         testClass.waitTillElementNotVisible(wrapXpath);
         goToTheCHAAsessmentType.click();
-        return new ChaChaFs(testClass);
+        return new ChaChaFsFormulas(testClass);
     }
 
 

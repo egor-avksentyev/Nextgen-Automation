@@ -44,11 +44,11 @@ public class Login extends AbstractPage {
 
         YamlFile yamlData = YamlParser.getYamlData();
 
-        username.sendKeys(yamlData.getEmail());
+        username.sendKeys(yamlData.getLogin());
         password.sendKeys(yamlData.getPassword());
         submitButton.click();
         testClass.waitTillElementIsVisible(spinnerPathAndTerminateAndLogin);
-        testClass.sizeConditionCheckAndClickOnElem(visibleOfTerminateAndLogin, terminateandLogin);
+        testClass.sizeConditionLoginCheckAndClickOnElem(visibleOfTerminateAndLogin, terminateandLogin);
 
         testClass.waitTillElementIsVisible(loadingWrapper);
         testClass.waitTillElementNotVisible(wrapXpath);
