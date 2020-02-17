@@ -21,8 +21,9 @@ public class AcutenetTestChaChaFSFormulas extends BaseTest {
         Pathways path = dash.existedPatient();
         log("On Pathways");
         ChaChaFsFormulas cha = path.chooseInterRaiChaChafsChamh();
+        cha.TestFillIn();
 
-        Thread.sleep(6000);
+        Thread.sleep(20000);
         closeSite();
 
     }

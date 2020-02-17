@@ -118,6 +118,17 @@ public class BaseTest {
         driver.findElement(By.xpath(xpath)).click();
     }
 
+    public String  findElementAndGetText (String xpath) {
+        return driver.findElement(By.xpath(xpath)).getText();
+
+    }
+
+    public void findElementAndSendKeys (String xpath, String text) {
+        driver.findElement(By.xpath(xpath)).sendKeys(text);
+    }
+    public void waitTillXpathElementIsVisible(String xpathVisible) {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathVisible)));
+    }
     /**
      * Condition presence of inprogress assessment on pathway
      *
@@ -135,6 +146,8 @@ public class BaseTest {
             waitTillElementNotVisible(notvisible);
         }
     }
+
+
     /**
      * Write down info message
      *

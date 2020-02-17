@@ -589,3 +589,21 @@ Session ID: 952cd1fe4e155540d749ce4b1123980c
 2020-09-16 22:09:05.910 [main] INFO   - Click Submit and login 
 2020-09-16 22:09:10.522 [main] INFO   - On Dashboard
 2020-09-16 22:09:13.291 [main] INFO   - On Pathways
+2020-14-16 22:14:45.119 [main] INFO   - Click Submit and login 
+2020-14-16 22:14:49.142 [main] INFO   - On Dashboard
+2020-14-16 22:14:51.325 [main] INFO   - On Pathways
+2020-09-17 12:09:51.497 [main] INFO   - Click Submit and login 
+2020-09-17 12:09:55.113 [main] INFO   - On Dashboard
+2020-09-17 12:09:58.069 [main] INFO   - On Pathways
+2020-29-17 15:29:34.911 [main] INFO   - Click Submit and login 
+2020-29-17 15:29:38.518 [main] INFO   - On Dashboard
+2020-29-17 15:29:40.697 [main] INFO   - On Pathways
+2020-29-17 15:29:47.858 [main] INFO   - Radiobutton FS filled
+2020-29-17 15:29:48.244 [main] INFO   - fillInTextField iA18b filled
+2020-29-17 15:29:48.818 [main] INFO   - fillInDropdown iA18a filled
+2020-09-17 18:09:12.906 [main] INFO   - Click Submit and login 
+2020-09-17 18:09:16.724 [main] INFO   - On Dashboard
+2020-09-17 18:09:18.872 [main] INFO   - On Pathways
+2020-09-17 18:09:25.956 [main] INFO   - Radiobutton: FSValue: 0 filled
+2020-09-17 18:09:26.295 [main] INFO   - TextField: iA18bText: test filled
+2020-09-17 18:09:26.846 [main] INFO   - Dropdown: iA18aValue: 0 filled
