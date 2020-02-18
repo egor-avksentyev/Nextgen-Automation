@@ -18,4 +18,5 @@
             <appender-ref level="error" ref="Console" />
         </root>
     </loggers>
+
 </configuration>

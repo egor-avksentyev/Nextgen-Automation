@@ -1,7 +1,7 @@
 package com.qa.pom.test;
 
 import com.qa.pom.base.BaseTest;
-import com.qa.pom.pages.ChaChaFsFormulas;
+import com.qa.pom.pages.ChaChaFsChamhFormulas;
 import com.qa.pom.pages.Dashboard;
 import com.qa.pom.pages.Login;
 import com.qa.pom.pages.Pathways;
@@ -20,8 +20,8 @@ public class AcutenetTestChaChaFSFormulas extends BaseTest {
         log("On Dashboard");
         Pathways path = dash.existedPatient();
         log("On Pathways");
-        ChaChaFsFormulas cha = path.chooseInterRaiChaChafsChamh();
-        cha.TestFillIn();
+        ChaChaFsChamhFormulas cha = path.chooseInterRaiChaChafsChamh();
+        cha.formulasTest();
 
         Thread.sleep(20000);
         closeSite();

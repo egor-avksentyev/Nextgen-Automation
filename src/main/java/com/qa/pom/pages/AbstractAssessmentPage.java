@@ -1,6 +1,7 @@
 package com.qa.pom.pages;
 
 import com.qa.pom.base.BaseTest;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -11,8 +12,14 @@ public abstract class AbstractAssessmentPage extends  AbstractPage {
 
     @FindBy(xpath = "//div[@title='CAPs']")
      WebElement ClickCaps;
-
-
+    @FindBy(xpath = "//div[@title='Scales']")
+    WebElement ClickScales;
+    @FindBy(xpath = "//div[@class='modal-content']//h4[text()='CAPs']")
+    WebElement capsOpened;
+    @FindBy(xpath = "//div[@class='modal-content']//h4[text()='Scales']")
+    WebElement scalesOpened;
+    @FindBy(xpath = "//button[@class='modal-close']")
+    WebElement closeFormulasPage;
 
     /** Constructor */
     AbstractAssessmentPage(BaseTest testClass)  {
@@ -48,20 +55,54 @@ public void fillInDropdown (String varName, String numberOfElement ) {
 
 }
 
-public void CheckCap () {
+public void checkCapTrigger (String nameOfFormula, String expectedFormulaValue, String expectedFormulaDescription) {
 
     ClickCaps.click();
+    testClass.waitTillElementIsVisible(capsOpened);
 
-    String trigger = testClass.findElementAndGetText("//div[@class='formulas__header' and text()='Falls CAP']//following-sibling::div//span[@class='badge']");
-    String value   = testClass.findElementAndGetText();
+    String formulaValue = testClass.findElementAndGetText("//div[@class='formulas__header' and text()='"+nameOfFormula+"']//following-sibling::div//span[@class='badge']");
+    String formulaDescription   = testClass.findElementAndGetText("//div[@class='formulas__header' and text()='"+nameOfFormula+"']//following-sibling::div//span[contains(@class,'label label')]");
 
+    try {
+    Assert.assertEquals("Value of: "+nameOfFormula+" is not as expected",expectedFormulaValue,formulaValue);
+        testClass.log("Formula Value Correct");
+    } catch (AssertionError e) {
+        testClass.logwarn("Please check value of triggered formula");
+        testClass.logerror(e.getMessage() + " " + e.getCause());}
+    try {
+    Assert.assertEquals("Description of: "+nameOfFormula+" is not as expected",expectedFormulaDescription,formulaDescription);
+        testClass.log("Formula Description Correct");
+    } catch (AssertionError e) {
+        testClass.logwarn("Please check Description of triggered formula");
+        testClass.logerror(e.getMessage() + " " + e.getCause());}
+
+    closeFormulasPage.click();
 
     }
 
 
+public void checkScaleTrigger (String nameOfFormula, String expectedFormulaValue, String expectedFormulaDescription) {
 
-public void CheckOutcome () {
+    ClickScales.click();
+    testClass.waitTillElementIsVisible(scalesOpened);
 
+    String formulaValue = testClass.findElementAndGetText("//div[@class='formulas__header' and text()='"+nameOfFormula+"']//following-sibling::div//span[@class='badge']");
+    String formulaDescription = testClass.findElementAndGetText("//div[@class='formulas__header' and text()='"+nameOfFormula+"']//following-sibling::div//span[contains(@class,'label')]");
+
+    try {
+        Assert.assertEquals("Value of: "+nameOfFormula+" is not as expected",expectedFormulaValue,formulaValue);
+        testClass.log("Formula Value Correct");
+    } catch (AssertionError e) {
+        testClass.logwarn("Please check value of triggered formula");
+        testClass.logerror(e.getMessage() + " " + e.getCause());}
+    try {
+        Assert.assertEquals("Description of: "+nameOfFormula+" is not as expected",expectedFormulaDescription,formulaDescription);
+        testClass.log("Formula Description Correct");
+    } catch (AssertionError e) {
+        testClass.logwarn("Please check Description of triggered formula");
+        testClass.logerror(e.getMessage() + " " + e.getCause());}
+
+    closeFormulasPage.click();
 
     }
 

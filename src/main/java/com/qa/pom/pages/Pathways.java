@@ -36,7 +36,7 @@ public class Pathways extends AbstractPage {
 
     }
 
-    public ChaChaFsFormulas chooseInterRaiChaChafsChamh()  {
+    public ChaChaFsChamhFormulas chooseInterRaiChaChafsChamh()  {
 
         testClass.sizeConditionInprogressElementPresent(detectInprogress ,clickGearOfInprogress,cancelButton,cancelButton,loadingWrapper,wrapXpath);
 
@@ -48,7 +48,7 @@ public class Pathways extends AbstractPage {
         testClass.waitTillElementIsVisible(loadingWrapper);
         testClass.waitTillElementNotVisible(wrapXpath);
         goToTheCHAAsessmentType.click();
-        return new ChaChaFsFormulas(testClass);
+        return new ChaChaFsChamhFormulas(testClass);
     }
 
 

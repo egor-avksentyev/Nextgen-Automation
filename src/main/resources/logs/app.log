@@ -613,3 +613,316 @@ Session ID: 952cd1fe4e155540d749ce4b1123980c
 2020-10-17 18:10:22.696 [main] INFO   - Radiobutton: FS Value: 0 filled
 2020-10-17 18:10:22.873 [main] INFO   - TextField: iA18b Text: test filled
 2020-10-17 18:10:23.443 [main] INFO   - Dropdown: iA18a Value: 0 filled
+2020-24-18 12:24:08.960 [main] INFO   - Click Submit and login 
+2020-24-18 12:24:12.768 [main] INFO   - On Dashboard
+2020-24-18 12:24:15.086 [main] INFO   - On Pathways
+2020-24-18 12:24:24.434 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@varname='iA18a']//button[@type='button']"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4948}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: ed9dcdd17a58078ca58dc0f343667cbb
+*** Element info: {Using=xpath, value=//div[@varname='iA18a']//button[@type='button']}
+2020-27-18 12:27:33.446 [main] INFO   - Click Submit and login 
+2020-27-18 12:27:36.499 [main] INFO   - On Dashboard
+2020-27-18 12:27:38.620 [main] INFO   - On Pathways
+2020-27-18 12:27:48.036 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-27-18 12:27:48.389 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-27-18 12:27:48.924 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='formulas__header' and text()='Falls CAP']//following-sibling::div//span[@class='label label-success']"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:5277}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: baad93ca5fe72f938e85d92f89bf4602
+*** Element info: {Using=xpath, value=//div[@class='formulas__header' and text()='Falls CAP']//following-sibling::div//span[@class='label label-success']}
+2020-35-18 12:35:32.184 [main] INFO   - Click Submit and login 
+2020-35-18 12:35:36.056 [main] INFO   - On Dashboard
+2020-35-18 12:35:38.248 [main] INFO   - On Pathways
+2020-35-18 12:35:48.654 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-35-18 12:35:49.024 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-36-18 12:36:53.426 [main] INFO   - Click Submit and login 
+2020-37-18 12:37:07.626 [main] INFO   - On Dashboard
+2020-37-18 12:37:09.877 [main] INFO   - On Pathways
+2020-37-18 12:37:19.171 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-37-18 12:37:19.522 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-37-18 12:37:20.066 [main] ERROR  - Value of: Falls CAP is not as expected expected:<[3]> but was:<[0]>
+2020-47-18 12:47:18.094 [main] INFO   - Click Submit and login 
+2020-47-18 12:47:21.448 [main] INFO   - On Dashboard
+2020-47-18 12:47:23.676 [main] INFO   - On Pathways
+2020-47-18 12:47:45.715 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-47-18 12:47:46.060 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-47-18 12:47:46.670 [main] ERROR  - unknown error: Element <div type="button" class="btn section btn-danger" data-ember-action="" data-ember-action-4573="4573">...</div> is not clickable at point (162, 103). Other element would receive the click: <div class="modal in" style="display: block; padding-right: 17px; z-index: 1050;">...</div>
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6929}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 5f55abe5a1904c63692852febef6ea21
+2020-52-18 12:52:46.028 [main] INFO   - Click Submit and login 
+2020-52-18 12:52:55.395 [main] INFO   - On Dashboard
+2020-52-18 12:52:59.522 [main] INFO   - On Pathways
+2020-53-18 12:53:13.184 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-53-18 12:53:13.560 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-55-18 12:55:58.338 [main] INFO   - Click Submit and login 
+2020-56-18 12:56:02.119 [main] INFO   - On Dashboard
+2020-56-18 12:56:07.239 [main] INFO   - On Pathways
+2020-56-18 12:56:17.761 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-56-18 12:56:18.140 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-56-18 12:56:18.683 [main] ERROR  - Value of: Falls CAP is not as expected expected:<[1]> but was:<[0]>
+2020-58-18 12:58:52.118 [main] INFO   - Click Submit and login 
+2020-58-18 12:58:55.932 [main] INFO   - On Dashboard
+2020-58-18 12:58:59.673 [main] INFO   - On Pathways
+2020-59-18 12:59:15.235 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-59-18 12:59:15.613 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-59-18 12:59:16.133 [main] ERROR  - Value of: Falls CAP is not as expected expected:<[1]> but was:<[0]>
+2020-05-18 13:05:13.643 [main] INFO   - Click Submit and login 
+2020-05-18 13:05:26.875 [main] INFO   - On Dashboard
+2020-05-18 13:05:29.268 [main] INFO   - On Pathways
+2020-05-18 13:05:38.789 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-05-18 13:05:39.141 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-05-18 13:05:39.683 [main] ERROR  - Value of: Falls CAP is not as expected expected:<[2]> but was:<[0]>
+2020-42-18 13:42:52.874 [main] INFO   - Click Submit and login 
+2020-42-18 13:42:56.731 [main] INFO   - On Dashboard
+2020-42-18 13:42:59.306 [main] INFO   - On Pathways
+2020-43-18 13:43:12.959 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-43-18 13:43:13.335 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-43-18 13:43:13.529 [main] INFO   - Please check value of triggered formula
+2020-43-18 13:43:13.530 [main] INFO   - Value of: Falls CAP is not as expected expected:<[2]> but was:<[0]> null
+2020-43-18 13:43:13.531 [main] INFO   - Please check trigger of triggered formula
+2020-43-18 13:43:13.531 [main] INFO   - Trigger of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-51-18 13:51:32.852 [main] INFO   - Click Submit and login 
+2020-51-18 13:51:36.672 [main] INFO   - On Dashboard
+2020-51-18 13:51:38.982 [main] INFO   - On Pathways
+2020-51-18 13:51:48.366 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-51-18 13:51:48.719 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-51-18 13:51:48.909 [main] INFO   - 0
+2020-51-18 13:51:48.910 [main] INFO   - Not triggered
+2020-51-18 13:51:48.910 [main] INFO   - Please check value of triggered formula
+2020-51-18 13:51:48.911 [main] INFO   - Value of: Falls CAP is not as expected expected:<[2]> but was:<[0]> null
+2020-51-18 13:51:48.912 [main] INFO   - Please check trigger of triggered formula
+2020-51-18 13:51:48.912 [main] INFO   - Trigger of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-54-18 13:54:37.933 [main] INFO   - Click Submit and login 
+2020-54-18 13:54:42.237 [main] INFO   - On Dashboard
+2020-54-18 13:54:44.511 [main] INFO   - On Pathways
+2020-54-18 13:54:53.495 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-54-18 13:54:53.866 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-54-18 13:54:54.066 [main] INFO   - 0
+2020-54-18 13:54:54.066 [main] INFO   - Not triggered
+2020-54-18 13:54:54.067 [main] INFO   - Please check value of triggered formula
+2020-54-18 13:54:54.068 [main] INFO   - Value of: Falls CAP is not as expected expected:<[2]> but was:<[0]> null
+2020-54-18 13:54:54.068 [main] INFO   - Please check trigger of triggered formula
+2020-54-18 13:54:54.068 [main] INFO   - Trigger of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-03-18 14:03:04.027 [main] INFO   - Click Submit and login 
+2020-03-18 14:03:08.375 [main] INFO   - On Dashboard
+2020-03-18 14:03:10.696 [main] INFO   - On Pathways
+2020-03-18 14:03:19.097 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-03-18 14:03:19.426 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-03-18 14:03:19.634 [main] INFO   - Please check value of triggered formula
+2020-03-18 14:03:19.636 [main] INFO   - Value of: Falls CAP is not as expected expected:<[2]> but was:<[0]> null
+2020-03-18 14:03:19.636 [main] INFO   - Please check Description of triggered formula
+2020-03-18 14:03:19.636 [main] INFO   - Description of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-09-18 14:09:50.400 [main] INFO   - Click Submit and login 
+2020-09-18 14:09:55.212 [main] INFO   - On Dashboard
+2020-09-18 14:09:58.130 [main] INFO   - On Pathways
+2020-10-18 14:10:09.865 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-10-18 14:10:10.278 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-10-18 14:10:10.480 [main] WARN   - Please check value of triggered formula
+2020-10-18 14:10:10.481 [main] ERROR  - Value of: Falls CAP is not as expected expected:<[2]> but was:<[0]> null
+2020-10-18 14:10:10.481 [main] WARN   - Please check Description of triggered formula
+2020-10-18 14:10:10.481 [main] ERROR  - Description of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-24-18 14:24:07.839 [main] INFO   - Click Submit and login 
+2020-24-18 14:24:11.744 [main] INFO   - On Dashboard
+2020-24-18 14:24:14.129 [main] INFO   - On Pathways
+2020-24-18 14:24:22.658 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-24-18 14:24:23.016 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-24-18 14:24:23.221 [main] WARN   - Please check value of triggered formula
+2020-24-18 14:24:23.222 [main] ERROR  - 31;Value of: Falls CAP is not as expected expected:<[2]> but was:<[0]> null
+2020-24-18 14:24:23.223 [main] WARN   - Please check Description of triggered formula
+2020-24-18 14:24:23.223 [main] ERROR  - 31;Description of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-26-18 14:26:14.332 [main] INFO   - Click Submit and login 
+2020-26-18 14:26:18.298 [main] INFO   - On Dashboard
+2020-26-18 14:26:20.646 [main] INFO   - On Pathways
+2020-26-18 14:26:28.780 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-26-18 14:26:29.154 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-26-18 14:26:29.349 [main] WARN   - Please check value of triggered formula
+2020-26-18 14:26:29.350 [main] ERROR  - 31;1mValue of: Falls CAP is not as expected expected:<[2]> but was:<[0]> null
+2020-26-18 14:26:29.350 [main] WARN   - Please check Description of triggered formula
+2020-26-18 14:26:29.350 [main] ERROR  - 31;1mDescription of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-43-18 14:43:52.531 [main] INFO   - Click Submit and login 
+2020-43-18 14:43:56.354 [main] INFO   - On Dashboard
+2020-43-18 14:43:58.747 [main] INFO   - On Pathways
+2020-44-18 14:44:08.396 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-44-18 14:44:08.755 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-44-18 14:44:08.959 [main] WARN   - Please check value of triggered formula
+2020-44-18 14:44:08.960 [main] ERROR  - 31;1mValue of: Falls CAP is not as expected expected:<[2]> but was:<[0]> null
+2020-44-18 14:44:08.961 [main] WARN   - Please check Description of triggered formula
+2020-44-18 14:44:08.961 [main] ERROR  - 31;1mDescription of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-08-18 15:08:41.569 [main] INFO   - Click Submit and login 
+2020-08-18 15:08:47.216 [main] INFO   - On Dashboard
+2020-08-18 15:08:49.758 [main] INFO   - On Pathways
+2020-08-18 15:08:59.451 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-08-18 15:08:59.809 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-10-18 15:10:37.664 [main] INFO   - Click Submit and login 
+2020-10-18 15:10:41.420 [main] INFO   - On Dashboard
+2020-10-18 15:10:43.863 [main] INFO   - On Pathways
+2020-10-18 15:10:52.046 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-10-18 15:10:52.406 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-10-18 15:10:52.610 [main] WARN   - Please check value of triggered formula
+2020-10-18 15:10:52.611 [main] ERROR  - 31;1mValue of: Falls CAP is not as expected expected:<[3]> but was:<[0]> null
+2020-10-18 15:10:52.612 [main] WARN   - Please check Description of triggered formula
+2020-10-18 15:10:52.612 [main] ERROR  - 31;1mDescription of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-30-18 15:30:27.503 [main] INFO   - Click Submit and login 
+2020-30-18 15:30:31.413 [main] INFO   - On Dashboard
+2020-30-18 15:30:33.763 [main] INFO   - On Pathways
+2020-30-18 15:30:41.798 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-30-18 15:30:42.179 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-30-18 15:30:42.374 [main] WARN   - Please check value of triggered formula
+2020-30-18 15:30:42.375 [main] ERROR  - 31;1mValue of: Falls CAP is not as expected expected:<[3]> but was:<[0]> null
+2020-30-18 15:30:42.375 [main] WARN   - Please check Description of triggered formula
+2020-30-18 15:30:42.375 [main] ERROR  - 31;1mDescription of: Falls CAP is not as expected expected:<Not triggered[33]> but was:<Not triggered[]> null
+2020-12-18 16:12:22.859 [main] INFO   - Click Submit and login 
+2020-12-18 16:12:27.482 [main] INFO   - On Dashboard
+2020-12-18 16:12:32.724 [main] INFO   - On Pathways
+2020-12-18 16:12:47.193 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-12-18 16:12:47.565 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-13-18 16:13:08.140 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='modal-content']//h4[text()='Scales']' (tried for 20 second(s) with 500 milliseconds interval)
+2020-15-18 16:15:01.362 [main] INFO   - Click Submit and login 
+2020-15-18 16:15:07.290 [main] INFO   - On Dashboard
+2020-15-18 16:15:09.862 [main] INFO   - On Pathways
+2020-15-18 16:15:19.438 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-15-18 16:15:19.808 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-15-18 16:15:21.642 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-15-18 16:15:21.980 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-15-18 16:15:22.460 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='formulas__header' and text()='Communication Scale (CS))']//following-sibling::div//span[@class='badge']"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:5225}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 708fcbbf104a188d2bc4a4f49b376d40
+*** Element info: {Using=xpath, value=//div[@class='formulas__header' and text()='Communication Scale (CS))']//following-sibling::div//span[@class='badge']}
+2020-19-18 16:19:22.422 [main] INFO   - Click Submit and login 
+2020-19-18 16:19:30.981 [main] INFO   - On Dashboard
+2020-19-18 16:19:33.400 [main] INFO   - On Pathways
+2020-19-18 16:19:41.865 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-19-18 16:19:42.222 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-19-18 16:19:44.066 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-19-18 16:19:44.397 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-19-18 16:19:44.882 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='formulas__header' and text()='Communication Scale (CS)']//following-sibling::div//span[contains(@class,'label label')]"}
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GFL-2018', ip: '10.58.58.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\EAVKSE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:5613}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: df026cfbcc4609ff61bdd9372d6f3134
+*** Element info: {Using=xpath, value=//div[@class='formulas__header' and text()='Communication Scale (CS)']//following-sibling::div//span[contains(@class,'label label')]}
+2020-29-18 16:29:50.832 [main] INFO   - Click Submit and login 
+2020-29-18 16:29:53.908 [main] INFO   - On Dashboard
+2020-29-18 16:29:56.431 [main] INFO   - On Pathways
+2020-30-18 16:30:08.050 [main] INFO   - Dropdown: iJ1g Value: 0 filled
+2020-30-18 16:30:08.443 [main] INFO   - Dropdown: iJ1h Value: 0 filled
+2020-30-18 16:30:10.252 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-30-18 16:30:10.598 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-30-18 16:30:10.778 [main] INFO   - 0 out of 8
+2020-44-18 18:44:00.907 [main] INFO   - Click Submit and login 
+2020-44-18 18:44:10.213 [main] INFO   - On Dashboard
+2020-44-18 18:44:14.330 [main] INFO   - On Pathways
+2020-44-18 18:44:22.805 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-44-18 18:44:23.145 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-44-18 18:44:23.337 [main] INFO   - Formula Value Correct
+2020-44-18 18:44:23.337 [main] INFO   - Formula Description Correct
+2020-44-18 18:44:23.694 [main] INFO   - Dropdown: iD1 Value: 1 filled
+2020-44-18 18:44:23.830 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-44-18 18:44:23.987 [main] INFO   - Formula Value Correct
+2020-44-18 18:44:23.987 [main] WARN   - Please check Description of triggered formula
+2020-44-18 18:44:23.988 [main] ERROR  - 31;1mDescription of: Communication Scale (CS) is not as expected expected:<[I]ntact> but was:<[Borderline i]ntact> null
+2020-44-18 18:44:24.340 [main] INFO   - Dropdown: iD1 Value: 2 filled
+2020-44-18 18:44:24.474 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-44-18 18:44:24.609 [main] INFO   - Formula Value Correct
+2020-44-18 18:44:24.609 [main] WARN   - Please check Description of triggered formula
+2020-44-18 18:44:24.610 [main] ERROR  - 31;1mDescription of: Communication Scale (CS) is not as expected expected:<[Intac]t> but was:<[Mild impairmen]t> null
+2020-44-18 18:44:24.956 [main] INFO   - Dropdown: iD1 Value: 3 filled
+2020-44-18 18:44:25.090 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-44-18 18:44:25.248 [main] INFO   - Formula Value Correct
+2020-44-18 18:44:25.249 [main] WARN   - Please check Description of triggered formula
+2020-44-18 18:44:25.249 [main] ERROR  - 31;1mDescription of: Communication Scale (CS) is not as expected expected:<[Intac]t> but was:<[Mild/moderate impairmen]t> null
+2020-44-18 18:44:25.601 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-44-18 18:44:25.724 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-44-18 18:44:25.857 [main] INFO   - Formula Value Correct
+2020-44-18 18:44:25.857 [main] WARN   - Please check Description of triggered formula
+2020-44-18 18:44:25.857 [main] ERROR  - 31;1mDescription of: Communication Scale (CS) is not as expected expected:<[Intac]t> but was:<[Moderate impairmen]t> null
+2020-44-18 18:44:26.040 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-44-18 18:44:26.310 [main] INFO   - Dropdown: iD2 Value: 1 filled
+2020-44-18 18:44:26.466 [main] INFO   - Formula Value Correct
+2020-44-18 18:44:26.466 [main] WARN   - Please check Description of triggered formula
+2020-44-18 18:44:26.467 [main] ERROR  - 31;1mDescription of: Communication Scale (CS) is not as expected expected:<[Intac]t> but was:<[Moderate/severe impairmen]t> null
+2020-44-18 18:44:26.655 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-44-18 18:44:26.942 [main] INFO   - Dropdown: iD2 Value: 2 filled
+2020-44-18 18:44:27.086 [main] INFO   - Formula Value Correct
+2020-44-18 18:44:27.086 [main] WARN   - Please check Description of triggered formula
+2020-44-18 18:44:27.087 [main] ERROR  - 31;1mDescription of: Communication Scale (CS) is not as expected expected:<[Intac]t> but was:<[Severe impairmen]t> null
+2020-44-18 18:44:27.272 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-44-18 18:44:27.550 [main] INFO   - Dropdown: iD2 Value: 3 filled
+2020-44-18 18:44:27.701 [main] INFO   - Formula Value Correct
+2020-44-18 18:44:27.701 [main] WARN   - Please check Description of triggered formula
+2020-44-18 18:44:27.701 [main] ERROR  - 31;1mDescription of: Communication Scale (CS) is not as expected expected:<[Intac]t> but was:<[Severe/very severe impairmen]t> null
+2020-44-18 18:44:27.906 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-44-18 18:44:28.184 [main] INFO   - Dropdown: iD2 Value: 4 filled
+2020-44-18 18:44:28.322 [main] INFO   - Formula Value Correct
+2020-44-18 18:44:28.323 [main] WARN   - Please check Description of triggered formula
+2020-44-18 18:44:28.323 [main] ERROR  - 31;1mDescription of: Communication Scale (CS) is not as expected expected:<[Intac]t> but was:<[Very severe impairmen]t> null
+2020-49-18 18:49:01.290 [main] INFO   - Click Submit and login 
+2020-49-18 18:49:06.025 [main] INFO   - On Dashboard
+2020-49-18 18:49:08.563 [main] INFO   - On Pathways
+2020-49-18 18:49:16.786 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-49-18 18:49:17.123 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-49-18 18:49:17.312 [main] INFO   - Formula Value Correct
+2020-49-18 18:49:17.312 [main] INFO   - Formula Description Correct
+2020-49-18 18:49:17.680 [main] INFO   - Dropdown: iD1 Value: 1 filled
+2020-49-18 18:49:17.798 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-49-18 18:49:17.950 [main] INFO   - Formula Value Correct
+2020-49-18 18:49:17.950 [main] INFO   - Formula Description Correct
+2020-49-18 18:49:18.306 [main] INFO   - Dropdown: iD1 Value: 2 filled
+2020-49-18 18:49:18.447 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-49-18 18:49:18.598 [main] INFO   - Formula Value Correct
+2020-49-18 18:49:18.598 [main] INFO   - Formula Description Correct
+2020-49-18 18:49:18.958 [main] INFO   - Dropdown: iD1 Value: 3 filled
+2020-49-18 18:49:19.094 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-49-18 18:49:19.233 [main] INFO   - Formula Value Correct
+2020-49-18 18:49:19.233 [main] INFO   - Formula Description Correct
+2020-49-18 18:49:19.574 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-49-18 18:49:19.694 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-49-18 18:49:19.838 [main] INFO   - Formula Value Correct
+2020-49-18 18:49:19.839 [main] INFO   - Formula Description Correct
+2020-49-18 18:49:20.027 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-49-18 18:49:20.303 [main] INFO   - Dropdown: iD2 Value: 1 filled
+2020-49-18 18:49:20.446 [main] INFO   - Formula Value Correct
+2020-49-18 18:49:20.447 [main] INFO   - Formula Description Correct
+2020-49-18 18:49:20.626 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-49-18 18:49:20.905 [main] INFO   - Dropdown: iD2 Value: 2 filled
+2020-49-18 18:49:21.057 [main] INFO   - Formula Value Correct
+2020-49-18 18:49:21.057 [main] INFO   - Formula Description Correct
+2020-49-18 18:49:21.243 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-49-18 18:49:21.521 [main] INFO   - Dropdown: iD2 Value: 3 filled
+2020-49-18 18:49:21.676 [main] INFO   - Formula Value Correct
+2020-49-18 18:49:21.677 [main] INFO   - Formula Description Correct
+2020-49-18 18:49:21.862 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-49-18 18:49:22.155 [main] INFO   - Dropdown: iD2 Value: 4 filled
+2020-49-18 18:49:22.288 [main] INFO   - Formula Value Correct
+2020-49-18 18:49:22.288 [main] INFO   - Formula Description Correct
