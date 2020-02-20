@@ -5,9 +5,8 @@ import com.qa.pom.pages.ChaChaFsChamhFormulas;
 import com.qa.pom.pages.Dashboard;
 import com.qa.pom.pages.Login;
 import com.qa.pom.pages.Pathways;
-import org.junit.Test;
-
 import java.io.IOException;
+import org.junit.Test;
 
 public class AcutenetTestChaChaFSFormulasCAPs extends BaseTest {
 
@@ -23,12 +22,7 @@ public class AcutenetTestChaChaFSFormulasCAPs extends BaseTest {
         ChaChaFsChamhFormulas chaChaFsChamhFormulas = pathways.chooseInterRaiChaChafsChamh();
         chaChaFsChamhFormulas.formulasTestCaps();
 
-        Thread.sleep(20000);
+        Thread.sleep(10000);
         closeSite();
-
     }
-
-
-
-
 }

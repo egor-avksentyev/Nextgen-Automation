@@ -2,6 +2,10 @@ package com.qa.pom.base;
 
 import com.qa.pom.pages.Login;
 import com.qa.pom.utils.YamlParser;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Collections;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Rule;
@@ -13,15 +17,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Collections;
-import java.util.List;
-
 public class BaseTest {
-
 
     private WebDriver driver;
     private WebDriverWait wait;
@@ -31,12 +27,9 @@ public class BaseTest {
     private Logger logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
 
     // Rule
-    @Rule
-    public RunTestRules runTestRules = new RunTestRules(this);
+    @Rule public RunTestRules runTestRules = new RunTestRules(this);
 
-    /**
-     * Constructor
-     */
+    /** Constructor */
     public BaseTest() {
         // If you want to disable infobars please use this code
         ChromeOptions options = new ChromeOptions();
@@ -53,8 +46,6 @@ public class BaseTest {
         driver.manage().window().maximize();
 
         wait = new WebDriverWait(driver, 20);
-
-
     }
 
     /**
@@ -71,9 +62,7 @@ public class BaseTest {
         return new Login(this);
     }
 
-    /**
-     * Close site and make driver quit
-     */
+    /** Close site and make driver quit */
     protected void closeSite() {
         driver.quit();
     }
@@ -101,7 +90,9 @@ public class BaseTest {
      * @param xpath waiting for the element not visible
      */
     public void waitTillElementNotVisible(String xpath) {
-        wait.until(ExpectedConditions.not(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(xpath))));
+        wait.until(
+                ExpectedConditions.not(
+                        ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(xpath))));
     }
     /**
      * Condition Terminate and login Check
@@ -115,18 +106,18 @@ public class BaseTest {
         }
     }
 
-    public void findElementAndClick (String xpath) {
+    public void findElementAndClick(String xpath) {
         driver.findElement(By.xpath(xpath)).click();
     }
 
-    public String  findElementAndGetText (String xpath) {
+    public String findElementAndGetText(String xpath) {
         return driver.findElement(By.xpath(xpath)).getText();
-
     }
 
-    public void findElementAndSendKeys (String xpath, String text) {
+    public void findElementAndSendKeys(String xpath, String text) {
         driver.findElement(By.xpath(xpath)).sendKeys(text);
     }
+
     public void waitTillXpathElementIsVisible(String xpathVisible) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathVisible)));
     }
@@ -138,16 +129,21 @@ public class BaseTest {
      * @param wait wait for pop-up menu
      * @param clickCancel click cancel button
      */
-    public void sizeConditionInprogressElementPresent(String xpath, WebElement clickGear, WebElement wait, WebElement clickCancel,WebElement visible, String notvisible ) {
+    public void sizeConditionInprogressElementPresent(
+            String xpath,
+            WebElement clickGear,
+            WebElement wait,
+            WebElement clickCancel,
+            WebElement visible,
+            String notvisible) {
         if (driver.findElements(By.xpath(xpath)).size() > 0) {
             clickGear.click();
-            waitTillElementIsVisible (wait);
+            waitTillElementIsVisible(wait);
             clickCancel.click();
             waitTillElementIsVisible(visible);
             waitTillElementNotVisible(notvisible);
         }
     }
-
 
     /**
      * Write down info message
@@ -163,7 +159,6 @@ public class BaseTest {
 
         logger.warn(message);
     }
-
 
     public void logError(String message) {
 

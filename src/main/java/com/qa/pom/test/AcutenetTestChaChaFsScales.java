@@ -5,9 +5,8 @@ import com.qa.pom.pages.ChaChaFsChamhFormulas;
 import com.qa.pom.pages.Dashboard;
 import com.qa.pom.pages.Login;
 import com.qa.pom.pages.Pathways;
-import org.junit.Test;
-
 import java.io.IOException;
+import org.junit.Test;
 
 public class AcutenetTestChaChaFsScales extends BaseTest {
 
@@ -25,10 +24,5 @@ public class AcutenetTestChaChaFsScales extends BaseTest {
 
         Thread.sleep(20000);
         closeSite();
-
     }
-
-
-
-
 }

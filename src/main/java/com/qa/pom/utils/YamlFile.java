@@ -11,8 +11,7 @@ public class YamlFile {
     private Map<String, String> test;
     private String[] anotherTestKeys;
 
-    public YamlFile() {
-    }
+    public YamlFile() {}
 
     /**
      * Get URL from yaml file

@@ -11,8 +11,7 @@ public abstract class AbstractPage {
 
     String wrapXpath = "//div[@class='loading-wrapper']";
     String visibleOfTerminateAndLogin = "//button[contains(@class,'btn btn-primary')]";
-    /** Web elements with @FindBy annotation*/
-
+    /** Web elements with @FindBy annotation */
     @FindBy(xpath = "//div[@class='loading-wrapper']")
     WebElement loadingWrapper;
 
@@ -29,9 +28,5 @@ public abstract class AbstractPage {
     AbstractPage(BaseTest testClass) {
         this.testClass = testClass;
         PageFactory.initElements(testClass.getDriver(), this); // Initialize WebElements
-
     }
-
-
-
 }

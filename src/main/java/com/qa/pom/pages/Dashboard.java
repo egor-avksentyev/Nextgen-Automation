@@ -3,10 +3,9 @@ package com.qa.pom.pages;
 import com.qa.pom.base.BaseTest;
 import com.qa.pom.utils.YamlFile;
 import com.qa.pom.utils.YamlParser;
+import java.io.IOException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import java.io.IOException;
 
 public class Dashboard extends AbstractPage {
 
@@ -30,7 +29,6 @@ public class Dashboard extends AbstractPage {
     public Dashboard(BaseTest testClass) {
         super(testClass);
         testClass.waitTillElementIsVisible(submitButton);
-
     }
 
     public AddnewClient addnewClientclick() throws IOException {
@@ -38,9 +36,9 @@ public class Dashboard extends AbstractPage {
         return new AddnewClient(testClass);
     }
 
-public Pathways existedPatient()  throws IOException {
+    public Pathways existedPatient() throws IOException {
 
-    YamlFile yamlData = YamlParser.getYamlData();
+        YamlFile yamlData = YamlParser.getYamlData();
         clickHcn.click();
         inputHcn.sendKeys(yamlData.getHcn());
         clickSearch.click();
@@ -48,6 +46,4 @@ public Pathways existedPatient()  throws IOException {
         clickSearchResult.click();
         return new Pathways(testClass);
     };
-
-
 }

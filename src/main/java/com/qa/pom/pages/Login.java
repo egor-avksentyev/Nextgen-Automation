@@ -3,17 +3,15 @@ package com.qa.pom.pages;
 import com.qa.pom.base.BaseTest;
 import com.qa.pom.utils.YamlFile;
 import com.qa.pom.utils.YamlParser;
-
 import java.io.IOException;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Login extends AbstractPage {
 
-
-    @FindBy(xpath = "//button[contains(@class,'btn btn-primary')] | //div[@class='loading-wrapper']")
+    @FindBy(
+            xpath =
+                    "//button[contains(@class,'btn btn-primary')] | //div[@class='loading-wrapper']")
     private WebElement spinnerPathAndTerminateAndLogin;
 
     @FindBy(xpath = "//input[@type='text']")
@@ -30,7 +28,7 @@ public class Login extends AbstractPage {
      *
      * @param testClass the instance of login page
      */
-    public Login(BaseTest testClass)  {
+    public Login(BaseTest testClass) {
         super(testClass);
         testClass.waitTillElementIsVisible(loginLoad);
     }
@@ -48,14 +46,12 @@ public class Login extends AbstractPage {
         password.sendKeys(yamlData.getPassword());
         submitButton.click();
         testClass.waitTillElementIsVisible(spinnerPathAndTerminateAndLogin);
-        testClass.sizeConditionLoginCheckAndClickOnElem(visibleOfTerminateAndLogin, terminateandLogin);
+        testClass.sizeConditionLoginCheckAndClickOnElem(
+                visibleOfTerminateAndLogin, terminateandLogin);
 
         testClass.waitTillElementIsVisible(loadingWrapper);
         testClass.waitTillElementNotVisible(wrapXpath);
 
         return new Dashboard(testClass);
     }
-
-
 };
-
