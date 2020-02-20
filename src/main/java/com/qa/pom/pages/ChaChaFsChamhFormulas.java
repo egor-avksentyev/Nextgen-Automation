@@ -100,10 +100,27 @@ public void communicationScale_0_Intact () {
 
 
     public void formulasTestCaps () {
-
-
+        behaviorCapTest ();
     }
 
+    public void behaviorCapTest () {
+        behaviorCap_0 ();
+        //behaviorCap_1 ();
+       // behaviorCap_2 ();
+    }
+
+    public void behaviorCap_0 () {
+        clickOnRadioButton("FS","1");
+        goToSupplement("CHA-FS");
+        goToNewSection("C. MOOD");
+        fillInDropdown("iE3a","0");
+        fillInDropdown("iE3b","0");
+        fillInDropdown("iE3c","0");
+        fillInDropdown("iE3d","0");
+        fillInDropdown("iE3e","0");
+        fillInDropdown("iE3f","0");
+        checkCapTrigger("Behavior CAP","0","Not triggered");
+    }
 
 
 }

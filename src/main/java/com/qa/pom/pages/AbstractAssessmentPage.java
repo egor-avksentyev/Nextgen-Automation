@@ -34,7 +34,13 @@ public void goToNewSection (String nameOfSection) {
     testClass.waitTillElementNotVisible(wrapXpath);
     }
 
-public void clickOnRadioButton (String varName , String value) {
+    public void goToSupplement (String nameOfSupp) {
+    testClass.findElementAndClick("//div[@class='assessment-supplement-box']//a[@class=' assessment-supplement'and text()='"+ nameOfSupp +"']");
+    testClass.waitTillElementIsVisible(loadingWrapper);
+    testClass.waitTillElementNotVisible(wrapXpath);
+}
+
+    public void clickOnRadioButton (String varName , String value) {
         testClass.findElementAndClick("//div[@varname='"+varName+"']//label[@value='" + value + "']");
         testClass.log("Radiobutton: "+ varName +" Value: "+value+" filled");
     }
