@@ -88,7 +88,53 @@ public void communicationScale_0_Intact () {
         checkScaleTrigger("Communication Scale (CS)","8 out of 8","Very severe impairment");
     }
 
+public void ADLScale_ShortFormTest(){
 
+
+
+}
+
+public void ADLScale_ShortForm_0_Out_Of_16 (){
+
+    goToNewSection("G. FUNCTIONAL");
+    fillInDropdown("iG2b","0");
+    fillInDropdown("iG2f","0");
+    checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","0 out of 16","No ADL Impairment");
+}
+    public void ADLScale_ShortForm_1_Out_Of_16 (){
+
+        fillInDropdown("iG2b","2");
+        fillInDropdown("iG2f","0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","1 out of 16","Higher values indicate greater difficulty in performing activities");
+    }
+
+    public void ADLScale_ShortForm_2_Out_Of_16 (){
+
+        fillInDropdown("iG2b","2");
+        fillInDropdown("iG2f","2");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","2 out of 16","Higher values indicate greater difficulty in performing activities");
+    }
+
+    public void ADLScale_ShortForm_3_Out_Of_16 () {
+
+        fillInDropdown("iG2b","3");
+        fillInDropdown("iG2f","2");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","3 out of 16","Higher values indicate greater difficulty in performing activities");
+    }
+
+    public void ADLScale_ShortForm_4_Out_Of_16 () {
+
+        fillInDropdown("iG2b","4");
+        fillInDropdown("iG2f","2");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","4 out of 16","Higher values indicate greater difficulty in performing activities");
+    }
+
+    public void ADLScale_ShortForm_5_Out_Of_16 () {
+
+        fillInDropdown("iG2b","4");
+        fillInDropdown("iG2f","2");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","4 out of 16","Higher values indicate greater difficulty in performing activities");
+    }
 
     public void formulasTestScales () {
 
