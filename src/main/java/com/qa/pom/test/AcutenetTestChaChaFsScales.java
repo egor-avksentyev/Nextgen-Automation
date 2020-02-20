@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 
-public class AcutenetTestChaChaFSFormulas extends BaseTest {
+public class AcutenetTestChaChaFsScales extends BaseTest {
 
     @Test
     public void testOpenSiteAndTestScales() throws IOException, InterruptedException {
