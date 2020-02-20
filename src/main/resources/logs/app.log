@@ -926,3 +926,122 @@ Session ID: df026cfbcc4609ff61bdd9372d6f3134
 2020-49-18 18:49:22.155 [main] INFO   - Dropdown: iD2 Value: 4 filled
 2020-49-18 18:49:22.288 [main] INFO   - Formula Value Correct
 2020-49-18 18:49:22.288 [main] INFO   - Formula Description Correct
+2020-07-20 13:07:19.011 [main] INFO   - Click Submit and login 
+2020-07-20 13:07:44.960 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(@class,'btn btn-primary')] | //div[@class='loading-wrapper']' (tried for 20 second(s) with 500 milliseconds interval)
+2020-08-20 13:08:25.640 [main] INFO   - Click Submit and login 
+2020-08-20 13:08:29.517 [main] INFO   - On Dashboard
+2020-08-20 13:08:35.325 [main] INFO   - On Pathways
+2020-08-20 13:08:48.833 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-08-20 13:08:49.156 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-08-20 13:08:49.345 [main] INFO   - Formula Value Correct
+2020-08-20 13:08:49.345 [main] INFO   - Formula Description Correct
+2020-08-20 13:08:49.697 [main] INFO   - Dropdown: iD1 Value: 1 filled
+2020-08-20 13:08:49.817 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-08-20 13:08:49.971 [main] INFO   - Formula Value Correct
+2020-08-20 13:08:49.971 [main] INFO   - Formula Description Correct
+2020-08-20 13:08:50.318 [main] INFO   - Dropdown: iD1 Value: 2 filled
+2020-08-20 13:08:50.451 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-08-20 13:08:50.585 [main] INFO   - Formula Value Correct
+2020-08-20 13:08:50.585 [main] INFO   - Formula Description Correct
+2020-08-20 13:08:50.924 [main] INFO   - Dropdown: iD1 Value: 3 filled
+2020-08-20 13:08:51.069 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-08-20 13:08:51.200 [main] INFO   - Formula Value Correct
+2020-08-20 13:08:51.200 [main] INFO   - Formula Description Correct
+2020-08-20 13:08:51.541 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-08-20 13:08:51.666 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-08-20 13:08:51.813 [main] INFO   - Formula Value Correct
+2020-08-20 13:08:51.814 [main] INFO   - Formula Description Correct
+2020-08-20 13:08:52.000 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-08-20 13:08:52.270 [main] INFO   - Dropdown: iD2 Value: 1 filled
+2020-08-20 13:08:52.395 [main] INFO   - Formula Value Correct
+2020-08-20 13:08:52.395 [main] INFO   - Formula Description Correct
+2020-08-20 13:08:52.583 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-08-20 13:08:52.860 [main] INFO   - Dropdown: iD2 Value: 2 filled
+2020-08-20 13:08:53.010 [main] INFO   - Formula Value Correct
+2020-08-20 13:08:53.010 [main] INFO   - Formula Description Correct
+2020-08-20 13:08:53.198 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-08-20 13:08:53.470 [main] INFO   - Dropdown: iD2 Value: 3 filled
+2020-08-20 13:08:53.611 [main] INFO   - Formula Value Correct
+2020-08-20 13:08:53.611 [main] INFO   - Formula Description Correct
+2020-08-20 13:08:53.798 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-08-20 13:08:54.085 [main] INFO   - Dropdown: iD2 Value: 4 filled
+2020-08-20 13:08:54.211 [main] INFO   - Formula Value Correct
+2020-08-20 13:08:54.211 [main] INFO   - Formula Description Correct
+2020-10-20 13:10:08.023 [main] INFO   - Click Submit and login 
+2020-10-20 13:10:21.181 [main] INFO   - On Dashboard
+2020-10-20 13:10:23.759 [main] INFO   - On Pathways
+2020-10-20 13:10:32.152 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-10-20 13:10:32.488 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-10-20 13:10:32.682 [main] INFO   - Formula Value Correct
+2020-10-20 13:10:32.683 [main] INFO   - Formula Description Correct
+2020-10-20 13:10:33.032 [main] INFO   - Dropdown: iD1 Value: 1 filled
+2020-10-20 13:10:33.150 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-10-20 13:10:33.287 [main] INFO   - Formula Value Correct
+2020-10-20 13:10:33.288 [main] INFO   - Formula Description Correct
+2020-10-20 13:10:33.628 [main] INFO   - Dropdown: iD1 Value: 2 filled
+2020-10-20 13:10:33.749 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-10-20 13:10:33.882 [main] INFO   - Formula Value Correct
+2020-10-20 13:10:33.882 [main] INFO   - Formula Description Correct
+2020-10-20 13:10:34.230 [main] INFO   - Dropdown: iD1 Value: 3 filled
+2020-10-20 13:10:34.349 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-10-20 13:10:34.486 [main] INFO   - Formula Value Correct
+2020-10-20 13:10:34.486 [main] INFO   - Formula Description Correct
+2020-10-20 13:10:34.824 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-10-20 13:10:34.952 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-10-20 13:10:35.095 [main] INFO   - Formula Value Correct
+2020-10-20 13:10:35.095 [main] INFO   - Formula Description Correct
+2020-10-20 13:10:35.282 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-10-20 13:10:35.554 [main] INFO   - Dropdown: iD2 Value: 1 filled
+2020-10-20 13:10:35.698 [main] INFO   - Formula Value Correct
+2020-10-20 13:10:35.699 [main] INFO   - Formula Description Correct
+2020-10-20 13:10:35.901 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-10-20 13:10:36.193 [main] INFO   - Dropdown: iD2 Value: 2 filled
+2020-10-20 13:10:36.326 [main] INFO   - Formula Value Correct
+2020-10-20 13:10:36.326 [main] INFO   - Formula Description Correct
+2020-10-20 13:10:36.515 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-10-20 13:10:36.785 [main] INFO   - Dropdown: iD2 Value: 3 filled
+2020-10-20 13:10:36.911 [main] INFO   - Formula Value Correct
+2020-10-20 13:10:36.911 [main] INFO   - Formula Description Correct
+2020-10-20 13:10:37.097 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-10-20 13:10:37.373 [main] INFO   - Dropdown: iD2 Value: 4 filled
+2020-10-20 13:10:37.516 [main] INFO   - Formula Value Correct
+2020-10-20 13:10:37.517 [main] INFO   - Formula Description Correct
+2020-20-20 15:20:01.895 [main] INFO   - Click Submit and login 
+2020-20-20 15:20:07.903 [main] INFO   - On Dashboard
+2020-20-20 15:20:10.462 [main] INFO   - On Pathways
+2020-20-20 15:20:18.665 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-20-20 15:20:18.991 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-20-20 15:20:19.178 [main] INFO   - Formula Value Correct
+2020-20-20 15:20:19.178 [main] INFO   - Formula Description Correct
+2020-20-20 15:20:19.529 [main] INFO   - Dropdown: iD1 Value: 1 filled
+2020-20-20 15:20:19.651 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-20-20 15:20:19.818 [main] INFO   - Formula Value Correct
+2020-20-20 15:20:19.818 [main] INFO   - Formula Description Correct
+2020-20-20 15:20:20.180 [main] INFO   - Dropdown: iD1 Value: 2 filled
+2020-20-20 15:20:20.315 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-20-20 15:20:20.448 [main] INFO   - Formula Value Correct
+2020-20-20 15:20:20.448 [main] INFO   - Formula Description Correct
+2020-20-20 15:20:20.800 [main] INFO   - Dropdown: iD1 Value: 3 filled
+2020-20-20 15:20:20.930 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-20-20 15:20:21.060 [main] INFO   - Formula Value Correct
+2020-20-20 15:20:21.060 [main] INFO   - Formula Description Correct
+2020-20-20 15:20:21.402 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-20-20 15:20:21.530 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-20-20 15:20:21.663 [main] INFO   - Formula Value Correct
+2020-20-20 15:20:21.664 [main] INFO   - Formula Description Correct
+2020-20-20 15:20:21.850 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-20-20 15:20:22.142 [main] INFO   - Dropdown: iD2 Value: 1 filled
+2020-20-20 15:20:22.275 [main] INFO   - Formula Value Correct
+2020-20-20 15:20:22.275 [main] INFO   - Formula Description Correct
+2020-20-20 15:20:22.463 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-20-20 15:20:22.743 [main] INFO   - Dropdown: iD2 Value: 2 filled
+2020-20-20 15:20:22.890 [main] INFO   - Formula Value Correct
+2020-20-20 15:20:22.890 [main] INFO   - Formula Description Correct
+2020-20-20 15:20:23.080 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-20-20 15:20:23.365 [main] INFO   - Dropdown: iD2 Value: 3 filled
+2020-20-20 15:20:23.509 [main] INFO   - Formula Value Correct
+2020-20-20 15:20:23.509 [main] INFO   - Formula Description Correct
+2020-20-20 15:20:23.698 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-20-20 15:20:23.987 [main] INFO   - Dropdown: iD2 Value: 4 filled
+2020-20-20 15:20:24.124 [main] INFO   - Formula Value Correct
+2020-20-20 15:20:24.124 [main] INFO   - Formula Description Correct

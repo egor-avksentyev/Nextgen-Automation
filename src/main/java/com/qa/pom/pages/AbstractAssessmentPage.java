@@ -67,14 +67,14 @@ public void checkCapTrigger (String nameOfFormula, String expectedFormulaValue, 
     Assert.assertEquals("Value of: "+nameOfFormula+" is not as expected",expectedFormulaValue,formulaValue);
         testClass.log("Formula Value Correct");
     } catch (AssertionError e) {
-        testClass.logwarn("Please check value of triggered formula");
-        testClass.logerror(e.getMessage() + " " + e.getCause());}
+        testClass.logWarn("Please check value of triggered formula");
+        testClass.logError(e.getMessage() + " " + e.getCause());}
     try {
     Assert.assertEquals("Description of: "+nameOfFormula+" is not as expected",expectedFormulaDescription,formulaDescription);
         testClass.log("Formula Description Correct");
     } catch (AssertionError e) {
-        testClass.logwarn("Please check Description of triggered formula");
-        testClass.logerror(e.getMessage() + " " + e.getCause());}
+        testClass.logWarn("Please check Description of triggered formula");
+        testClass.logError(e.getMessage() + " " + e.getCause());}
 
     closeFormulasPage.click();
 
@@ -93,14 +93,14 @@ public void checkScaleTrigger (String nameOfFormula, String expectedFormulaValue
         Assert.assertEquals("Value of: "+nameOfFormula+" is not as expected",expectedFormulaValue,formulaValue);
         testClass.log("Formula Value Correct");
     } catch (AssertionError e) {
-        testClass.logwarn("Please check value of triggered formula");
-        testClass.logerror(e.getMessage() + " " + e.getCause());}
+        testClass.logWarn("Please check value of triggered formula");
+        testClass.logError(e.getMessage() + " " + e.getCause());}
     try {
         Assert.assertEquals("Description of: "+nameOfFormula+" is not as expected",expectedFormulaDescription,formulaDescription);
         testClass.log("Formula Description Correct");
     } catch (AssertionError e) {
-        testClass.logwarn("Please check Description of triggered formula");
-        testClass.logerror(e.getMessage() + " " + e.getCause());}
+        testClass.logWarn("Please check Description of triggered formula");
+        testClass.logError(e.getMessage() + " " + e.getCause());}
 
     closeFormulasPage.click();
 

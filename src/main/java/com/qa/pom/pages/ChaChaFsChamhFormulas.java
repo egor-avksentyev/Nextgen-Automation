@@ -19,6 +19,12 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         testClass.waitTillElementIsVisible(waitForElemUpload);
     }
 
+    //-----------------------------------Scales---------------------------------------------------
+
+    /**
+    Method which includes all levels test of Communication Scale
+
+     */
 public void communicationScaleTest () {
     communicationScale_0_Intact ();
     communicationScale_1_BORDERLINE_INTACT ();
@@ -83,31 +89,20 @@ public void communicationScale_0_Intact () {
     }
 
 
-    public void formulasTest () {
+
+    public void formulasTestScales () {
 
         communicationScaleTest ();
 
+}
+
+//-----------------------------------Caps---------------------------------------------------
 
 
-
-
-
-
-
-
-        /*goToNewSection("J. HEALTH");
-    fillInDropdown("iJ1g","0");
-    fillInDropdown("iJ1h","0");
-    checkCapTrigger("Falls CAP", "0","Not triggered");
-    goToNewSection("D. COMMUNICATION");
-    fillInDropdown("iD1","0");
-    fillInDropdown("iD2","0");
-    checkScaleTrigger("Communication Scale (CS)","0 out of 8","Intact");*/
+    public void formulasTestCaps () {
 
 
     }
-
-
 
 
 

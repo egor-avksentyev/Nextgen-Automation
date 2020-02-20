@@ -159,13 +159,13 @@ public class BaseTest {
         logger.info(message);
     }
 
-    public void logwarn(String message) {
+    public void logWarn(String message) {
 
         logger.warn(message);
     }
 
 
-    public void logerror(String message) {
+    public void logError(String message) {
 
         logger.error(message);
     }

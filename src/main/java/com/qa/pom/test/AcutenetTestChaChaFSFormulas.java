@@ -12,7 +12,7 @@ import java.io.IOException;
 public class AcutenetTestChaChaFSFormulas extends BaseTest {
 
     @Test
-    public void testOpenSiteAndClickPythonLinkTest2() throws IOException, InterruptedException {
+    public void testOpenSiteAndTestScales() throws IOException, InterruptedException {
 
         Login login = openSite();
         log("Click Submit and login ");
@@ -21,7 +21,7 @@ public class AcutenetTestChaChaFSFormulas extends BaseTest {
         Pathways path = dash.existedPatient();
         log("On Pathways");
         ChaChaFsChamhFormulas cha = path.chooseInterRaiChaChafsChamh();
-        cha.formulasTest();
+        cha.formulasTestScales();
 
         Thread.sleep(20000);
         closeSite();
