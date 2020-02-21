@@ -46,6 +46,14 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         testClass.waitTillElementNotVisible(wrapXpath);
     }
 
+   public void elementClear (String varName){
+       testClass.waitTillXpathElementIsVisible("//div[@varname='"+varName+"']//div[@class='element-options']");
+       testClass.findElementAndClick("//div[@varname='"+varName+"']//div[@class='element-options']");
+       testClass.waitTillXpathElementIsVisible("//div[@varname='"+varName+"']//a[@element-action='clear']");
+       testClass.findElementAndClick("//div[@varname='"+varName+"']//a[@element-action='clear']");
+    };
+
+
     public void clickOnRadioButton(String varName, String value) {
         testClass.findElementAndClick(
                 "//div[@varname='" + varName + "']//label[@value='" + value + "']");

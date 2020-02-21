@@ -10,10 +10,12 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Rule;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -21,7 +23,7 @@ public class BaseTest {
 
     private WebDriver driver;
     private WebDriverWait wait;
-
+    
     // Logger
 
     private Logger logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
@@ -46,6 +48,7 @@ public class BaseTest {
         driver.manage().window().maximize();
 
         wait = new WebDriverWait(driver, 20);
+
     }
 
     /**
@@ -107,7 +110,8 @@ public class BaseTest {
     }
 
     public void findElementAndClick(String xpath) {
-        driver.findElement(By.xpath(xpath)).click();
+        WebElement element = driver.findElement(By.xpath(xpath));
+
     }
 
     public String findElementAndGetText(String xpath) {

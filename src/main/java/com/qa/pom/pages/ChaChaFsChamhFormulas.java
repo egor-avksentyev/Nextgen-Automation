@@ -89,9 +89,21 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         checkScaleTrigger("Communication Scale (CS)", "8 out of 8", "Very severe impairment");
     }
 
-    public void ADLScale_ShortFormTest() {}
+    public void aDLScale_ShortFormTest_SmallSet() {
+        testClass.log("Start test of aDLScale_ShortForm");
+        testClass.log("Small Set");
+        aDLScale_ShortForm_0_Out_Of_16();
+        aDLScale_ShortForm_1_Out_Of_16();
+        aDLScale_ShortForm_2_Out_Of_16();
+        aDLScale_ShortForm_3_Out_Of_16();
+        aDLScale_ShortForm_4_Out_Of_16();
+        aDLScale_ShortForm_5_Out_Of_16();
+        aDLScale_ShortForm_6_Out_Of_16();
+        aDLScale_ShortForm_7_Out_Of_16();
+        aDLScale_ShortForm_8_Out_Of_16();
+    }
 
-    public void ADLScale_ShortForm_0_Out_Of_16() {
+    public void aDLScale_ShortForm_0_Out_Of_16() {
 
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "0");
@@ -102,7 +114,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "No ADL Impairment");
     }
 
-    public void ADLScale_ShortForm_1_Out_Of_16() {
+    public void aDLScale_ShortForm_1_Out_Of_16() {
 
         fillInDropdown("iG2b", "2");
         fillInDropdown("iG2f", "0");
@@ -112,7 +124,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void ADLScale_ShortForm_2_Out_Of_16() {
+    public void aDLScale_ShortForm_2_Out_Of_16() {
 
         fillInDropdown("iG2b", "2");
         fillInDropdown("iG2f", "2");
@@ -122,7 +134,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void ADLScale_ShortForm_3_Out_Of_16() {
+    public void aDLScale_ShortForm_3_Out_Of_16() {
 
         fillInDropdown("iG2b", "3");
         fillInDropdown("iG2f", "2");
@@ -132,7 +144,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void ADLScale_ShortForm_4_Out_Of_16() {
+    public void aDLScale_ShortForm_4_Out_Of_16() {
 
         fillInDropdown("iG2b", "4");
         fillInDropdown("iG2f", "2");
@@ -142,19 +154,55 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void ADLScale_ShortForm_5_Out_Of_16() {
+    public void aDLScale_ShortForm_5_Out_Of_16() {
 
-        fillInDropdown("iG2b", "4");
+        fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "2");
         checkScaleTrigger(
                 "Activities of Daily Living (ADL) Scale - Short Form",
-                "4 out of 16",
+                "5 out of 16",
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void formulasTestScales() {
+    public void aDLScale_ShortForm_6_Out_Of_16() {
+
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "3");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "6 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
+    }
+
+    public void aDLScale_ShortForm_7_Out_Of_16() {
+
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "4");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "7 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
+    }
+
+    public void aDLScale_ShortForm_8_Out_Of_16() {
+
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "8 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
+
+    }
+
+
+
+
+    public void formulasTestScales () {
 
         communicationScaleTest();
+        aDLScale_ShortFormTest_SmallSet();
+
     }
 
     // -----------------------------------Caps---------------------------------------------------
