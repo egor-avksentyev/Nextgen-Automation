@@ -4,6 +4,8 @@ import com.qa.pom.base.BaseTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.io.IOException;
+
 public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     @FindBy(xpath = "//div[@varname='FS']")
@@ -157,14 +159,19 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     // -----------------------------------Caps---------------------------------------------------
 
-    public void formulasTestCaps() {
+    public void formulasTestCaps() throws InterruptedException {
         behaviorCapTest();
+        deliriumCapTest();
+        cardioRespiratoryCapTest();
     }
 
     public void behaviorCapTest() {
+        testClass.log("Start test of Behavior Cap");
+        testClass.log("Small Set");
         behaviorCap_0();
         behaviorCap_1();
         behaviorCap_2();
+
     }
 
     public void behaviorCap_0() {
@@ -197,6 +204,61 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE3d", "1");
         fillInDropdown("iE3e", "0");
         fillInDropdown("iE3f", "1");
-        checkCapTrigger("Behavior CAP", "1", "Triggered - reduce daily behavior");
+        checkCapTrigger("Behavior CAP", "2", "Triggered - reduce daily behavior");
+    }
+
+    public void deliriumCapTest() {
+        testClass.log("Start test of Delirium Cap");
+        testClass.log("Small Set");
+        deliriumCap_0();
+        deliriumCap_1();
+    }
+
+    public void deliriumCap_0() {
+        goToNewSection("B. COGNITION");
+        fillInDropdown("iC3a", "0");
+        fillInDropdown("iC3b", "0");
+        fillInDropdown("iC3c", "0");
+        clickOnRadioButton("iC4", "0");
+        checkCapTrigger("DELIRIUM CAP", "0", "Not triggered");
+    }
+
+    public void deliriumCap_1() {
+        fillInDropdown("iC3a", "0");
+        fillInDropdown("iC3b", "2");
+        fillInDropdown("iC3c", "0");
+        clickOnRadioButton("iC4", "0");
+        checkCapTrigger("DELIRIUM CAP", "1", "Triggered");
+    }
+
+    public void cardioRespiratoryCapTest() throws InterruptedException {
+        testClass.log("Start test of Cardio Respiratory Cap");
+        testClass.log("Small Set");
+        cardioRespiratoryCap_0();
+        cardioRespiratoryCap_1();
+    }
+
+    public void cardioRespiratoryCap_0() throws InterruptedException {
+        goToSupplement("CHA");
+        goToNewSection("J. HEALTH");
+        fillInDropdown("iJ2c", "0");
+        Thread.sleep(1000);
+        fillInDropdown("iJ2e", "0");
+        Thread.sleep(1000);
+        fillInDropdown("iJ3", "0");
+        Thread.sleep(1000);
+        checkCapTrigger("Cardiorespiratory Conditions CAP", "0", "Not triggered");
+        Thread.sleep(1000);
+    }
+
+    public void cardioRespiratoryCap_1() throws InterruptedException {
+        Thread.sleep(1000);
+        fillInDropdown("iJ2c", "0");
+        Thread.sleep(1000);
+        fillInDropdown("iJ2e", "2");
+        Thread.sleep(1000);
+        fillInDropdown("iJ3", "0");
+        Thread.sleep(1000);
+        checkCapTrigger("Cardiorespiratory Conditions CAP", "1", "Triggered");
     }
 }

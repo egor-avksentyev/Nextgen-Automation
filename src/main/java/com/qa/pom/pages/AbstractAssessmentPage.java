@@ -58,7 +58,6 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
     }
 
     public void fillInDropdown(String varName, String numberOfElement) {
-
         testClass.findElementAndClick("//div[@varname='" + varName + "']//button[@type='button']");
         testClass.waitTillXpathElementIsVisible(
                 "//div[@varname='" + varName + "']//button[@aria-expanded='true']");
@@ -113,6 +112,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         }
 
         closeFormulasPage.click();
+
     }
 
     public void checkScaleTrigger(
