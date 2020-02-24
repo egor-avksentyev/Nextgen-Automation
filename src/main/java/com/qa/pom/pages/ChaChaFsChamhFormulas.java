@@ -489,6 +489,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         behaviorCapTest();
         deliriumCapTest();
         cardioRespiratoryCapTest();
+        pressureUlcerCapTest();
     }
 
     public void behaviorCapTest() {
@@ -578,5 +579,90 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iJ2e", "2");
         fillInDropdown("iJ3", "0");
         checkCapTrigger("Cardiorespiratory Conditions CAP", "1", "Triggered");
+    }
+
+    public void pressureUlcerCapTest() {
+        testClass.log("Start test of Pressure Ulcer Cap");
+        testClass.log("Full Set");
+        pressureUlcerCap_0();
+        pressureUlcerCap_1();
+        pressureUlcerCap_2();
+        pressureUlcerCap_3();
+    }
+
+    public void pressureUlcerCap_0() {
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2g", "0");
+        fillInDropdown("iG2i", "0");
+        goToNewSection("E. CONTINENCE");
+        fillInDropdown("iH2", "0");
+        goToNewSection("I. SKIN");
+        fillInDropdown("iL1", "0");
+        clickOnRadioButton("iL2", "0");
+        clickOnRadioButton("iL3", "0");
+        goToNewSection("K. TREATMENTS");
+        fillInDropdown("iN2k", "0");
+        goToSupplement("CHA");
+        goToNewSection("H. CONTINENCE");
+        fillInDropdown("iH1", "0");
+        checkCapTrigger("Pressure Ulcer CAP", "0", "Not Triggered");
+    }
+
+    public void pressureUlcerCap_1() {
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2g", "0");
+        fillInDropdown("iG2i", "0");
+        goToNewSection("E. CONTINENCE");
+        fillInDropdown("iH2", "0");
+        goToNewSection("I. SKIN");
+        fillInDropdown("iL1", "2");
+        clickOnRadioButton("iL2", "0");
+        clickOnRadioButton("iL3", "0");
+        goToNewSection("K. TREATMENTS");
+        fillInDropdown("iN2k", "0");
+        goToSupplement("CHA");
+        goToNewSection("H. CONTINENCE");
+        fillInDropdown("iH1", "0");
+        checkCapTrigger("Pressure Ulcer CAP", "1", "Triggered - Has Stage 2 Ulcer");
+    }
+
+    public void pressureUlcerCap_2() {
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2g", "0");
+        fillInDropdown("iG2i", "0");
+        goToNewSection("E. CONTINENCE");
+        fillInDropdown("iH2", "0");
+        goToNewSection("I. SKIN");
+        fillInDropdown("iL1", "1");
+        clickOnRadioButton("iL2", "0");
+        clickOnRadioButton("iL3", "0");
+        goToNewSection("K. TREATMENTS");
+        fillInDropdown("iN2k", "0");
+        goToSupplement("CHA");
+        goToNewSection("H. CONTINENCE");
+        fillInDropdown("iH1", "0");
+        checkCapTrigger("Pressure Ulcer CAP", "2", "Triggered - At Risk, has Stage 1 Ulcer");
+    }
+
+    public void pressureUlcerCap_3() {
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2g", "6");
+        fillInDropdown("iG2i", "0");
+        goToNewSection("E. CONTINENCE");
+        fillInDropdown("iH2", "2");
+        goToNewSection("I. SKIN");
+        fillInDropdown("iL1", "0");
+        clickOnRadioButton("iL2", "0");
+        clickOnRadioButton("iL3", "0");
+        goToNewSection("K. TREATMENTS");
+        fillInDropdown("iN2k", "0");
+        goToSupplement("CHA");
+        goToNewSection("H. CONTINENCE");
+        fillInDropdown("iH1", "0");
+        checkCapTrigger("Pressure Ulcer CAP", "3", "Triggered - At Risk, No Ulcer Now");
     }
 }

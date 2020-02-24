@@ -48,7 +48,6 @@ public class Login extends AbstractPage {
         testClass.waitTillElementIsVisible(spinnerPathAndTerminateAndLogin);
         testClass.sizeConditionLoginCheckAndClickOnElem(
                 visibleOfTerminateAndLogin, terminateandLogin);
-
         testClass.waitTillElementIsVisible(loadingWrapper);
         testClass.waitTillElementNotVisible(wrapXpath);
 
