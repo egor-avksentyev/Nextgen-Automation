@@ -208,8 +208,8 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
     // -----------------------------------Caps---------------------------------------------------
 
     public void formulasTestCaps() throws InterruptedException {
-        behaviorCapTest();
-        deliriumCapTest();
+        //behaviorCapTest();
+        //deliriumCapTest();
         cardioRespiratoryCapTest();
     }
 
@@ -287,26 +287,18 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
     }
 
     public void cardioRespiratoryCap_0() throws InterruptedException {
-        goToSupplement("CHA");
+        //goToSupplement("CHA");
         goToNewSection("J. HEALTH");
         fillInDropdown("iJ2c", "0");
-        Thread.sleep(1000);
         fillInDropdown("iJ2e", "0");
-        Thread.sleep(1000);
         fillInDropdown("iJ3", "0");
-        Thread.sleep(1000);
         checkCapTrigger("Cardiorespiratory Conditions CAP", "0", "Not triggered");
-        Thread.sleep(1000);
     }
 
     public void cardioRespiratoryCap_1() throws InterruptedException {
-        Thread.sleep(1000);
         fillInDropdown("iJ2c", "0");
-        Thread.sleep(1000);
         fillInDropdown("iJ2e", "2");
-        Thread.sleep(1000);
         fillInDropdown("iJ3", "0");
-        Thread.sleep(1000);
         checkCapTrigger("Cardiorespiratory Conditions CAP", "1", "Triggered");
     }
 }

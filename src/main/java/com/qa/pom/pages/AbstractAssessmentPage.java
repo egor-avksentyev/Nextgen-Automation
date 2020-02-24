@@ -2,10 +2,15 @@ package com.qa.pom.pages;
 
 import com.qa.pom.base.BaseTest;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public abstract class AbstractAssessmentPage extends AbstractPage {
+
+    @FindBy(xpath = "//div[@class='assessment-supplement-box']//..")
+    WebElement zIndex;
 
     @FindBy(xpath = "//div[@title='CAPs']")
     WebElement ClickCaps;
@@ -25,6 +30,13 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
     /** Constructor */
     AbstractAssessmentPage(BaseTest testClass) {
         super(testClass);
+    }
+
+    public void scrollToTop() {
+        while (zIndex.getCssValue("z-index").equals("200")) {
+            testClass.actions.sendKeys(Keys.PAGE_UP).perform();
+            testClass.log("Scroll to top");
+        }
     }
 
     public void goToNewSection(String nameOfSection) {
@@ -55,17 +67,20 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
 
 
     public void clickOnRadioButton(String varName, String value) {
+        scrollToTop();
         testClass.findElementAndClick(
                 "//div[@varname='" + varName + "']//label[@value='" + value + "']");
         testClass.log("Radiobutton: " + varName + " Value: " + value + " filled");
     }
 
     public void fillInTextField(String varName, String text) {
+        scrollToTop();
         testClass.findElementAndSendKeys("//div[@varname='" + varName + "']//input", text);
         testClass.log("TextField: " + varName + " Text: " + text + " filled");
     }
 
     public void fillInDropdown(String varName, String numberOfElement) {
+        scrollToTop();
         testClass.findElementAndClick("//div[@varname='" + varName + "']//button[@type='button']");
         testClass.waitTillXpathElementIsVisible(
                 "//div[@varname='" + varName + "']//button[@aria-expanded='true']");
