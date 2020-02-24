@@ -279,14 +279,14 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         checkCapTrigger("DELIRIUM CAP", "1", "Triggered");
     }
 
-    public void cardioRespiratoryCapTest() throws InterruptedException {
+    public void cardioRespiratoryCapTest() {
         testClass.log("Start test of Cardio Respiratory Cap");
         testClass.log("Small Set");
         cardioRespiratoryCap_0();
         cardioRespiratoryCap_1();
     }
 
-    public void cardioRespiratoryCap_0() throws InterruptedException {
+    public void cardioRespiratoryCap_0() {
         goToSupplement("CHA");
         goToNewSection("J. HEALTH");
         fillInDropdown("iJ2c", "0");
@@ -295,7 +295,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         checkCapTrigger("Cardiorespiratory Conditions CAP", "0", "Not triggered");
     }
 
-    public void cardioRespiratoryCap_1() throws InterruptedException {
+    public void cardioRespiratoryCap_1() {
         fillInDropdown("iJ2c", "0");
         fillInDropdown("iJ2e", "2");
         fillInDropdown("iJ3", "0");
