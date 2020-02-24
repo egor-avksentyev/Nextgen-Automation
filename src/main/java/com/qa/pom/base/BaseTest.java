@@ -111,7 +111,7 @@ public class BaseTest {
     }
 
     public void findElementAndClick(String xpath) {
-        WebElement element = driver.findElement(By.xpath(xpath));
+        driver.findElement(By.xpath(xpath)).click();
 
     }
 
