@@ -72,9 +72,9 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                     "//div[@varname='" + varName + "']//label[@value='" + value + "']");
         } catch (Exception e) {
             scrollToTop();
+            testClass.findElementAndClick(
+                    "//div[@varname='" + varName + "']//label[@value='" + value + "']");
         }
-        testClass.findElementAndClick(
-                "//div[@varname='" + varName + "']//label[@value='" + value + "']");
         testClass.log("Radiobutton: " + varName + " Value: " + value + " filled");
     }
 
@@ -83,8 +83,8 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
             testClass.findElementAndSendKeys("//div[@varname='" + varName + "']//input", text);
         } catch (Exception e) {
             scrollToTop();
+            testClass.findElementAndSendKeys("//div[@varname='" + varName + "']//input", text);
         }
-        testClass.findElementAndSendKeys("//div[@varname='" + varName + "']//input", text);
         testClass.log("TextField: " + varName + " Text: " + text + " filled");
     }
 
@@ -93,8 +93,9 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
             testClass.findElementAndClick("//div[@varname='" + varName + "']//button[@type='button']");
         } catch (Exception e) {
             scrollToTop();
+            testClass.findElementAndClick("//div[@varname='" + varName + "']//button[@type='button']");
         }
-        testClass.findElementAndClick("//div[@varname='" + varName + "']//button[@type='button']");
+
         testClass.waitTillXpathElementIsVisible(
                 "//div[@varname='" + varName + "']//button[@aria-expanded='true']");
         testClass.findElementAndClick(
