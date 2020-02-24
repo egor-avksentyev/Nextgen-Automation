@@ -33,7 +33,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
     }
 
     public void scrollToTop() {
-        while (zIndex.getCssValue("z-index").equals("200")) {
+        while (zIndex.getCssValue("position").equals("fixed")) {
             testClass.actions.sendKeys(Keys.PAGE_UP).perform();
             testClass.log("Scroll to top");
         }
@@ -67,20 +67,33 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
 
 
     public void clickOnRadioButton(String varName, String value) {
-        scrollToTop();
+        try {
+            testClass.findElementAndClick(
+                    "//div[@varname='" + varName + "']//label[@value='" + value + "']");
+        } catch (Exception e) {
+            scrollToTop();
+        }
         testClass.findElementAndClick(
                 "//div[@varname='" + varName + "']//label[@value='" + value + "']");
         testClass.log("Radiobutton: " + varName + " Value: " + value + " filled");
     }
 
     public void fillInTextField(String varName, String text) {
-        scrollToTop();
+        try {
+            testClass.findElementAndSendKeys("//div[@varname='" + varName + "']//input", text);
+        } catch (Exception e) {
+            scrollToTop();
+        }
         testClass.findElementAndSendKeys("//div[@varname='" + varName + "']//input", text);
         testClass.log("TextField: " + varName + " Text: " + text + " filled");
     }
 
     public void fillInDropdown(String varName, String numberOfElement) {
-        scrollToTop();
+        try {
+            testClass.findElementAndClick("//div[@varname='" + varName + "']//button[@type='button']");
+        } catch (Exception e) {
+            scrollToTop();
+        }
         testClass.findElementAndClick("//div[@varname='" + varName + "']//button[@type='button']");
         testClass.waitTillXpathElementIsVisible(
                 "//div[@varname='" + varName + "']//button[@aria-expanded='true']");
