@@ -92,18 +92,18 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
     public void aDLScale_ShortFormTest_SmallSet() {
         testClass.log("Start test of aDLScale_ShortForm");
         testClass.log("Small Set");
-        aDLScale_ShortForm_0_Out_Of_16();
-        aDLScale_ShortForm_1_Out_Of_16();
-        aDLScale_ShortForm_2_Out_Of_16();
-        aDLScale_ShortForm_3_Out_Of_16();
-        aDLScale_ShortForm_4_Out_Of_16();
-        aDLScale_ShortForm_5_Out_Of_16();
-        aDLScale_ShortForm_6_Out_Of_16();
-        aDLScale_ShortForm_7_Out_Of_16();
-        aDLScale_ShortForm_8_Out_Of_16();
+        aDLScale_ShortForm_0_Out_Of_8();
+        aDLScale_ShortForm_1_Out_Of_8();
+        aDLScale_ShortForm_2_Out_Of_8();
+        aDLScale_ShortForm_3_Out_Of_8();
+        aDLScale_ShortForm_4_Out_Of_8();
+        aDLScale_ShortForm_5_Out_Of_8();
+        aDLScale_ShortForm_6_Out_Of_8();
+        aDLScale_ShortForm_7_Out_Of_8();
+        aDLScale_ShortForm_8_Out_Of_8();
     }
 
-    public void aDLScale_ShortForm_0_Out_Of_16() {
+    public void aDLScale_ShortForm_0_Out_Of_8() {
 
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "0");
@@ -114,7 +114,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "No ADL Impairment");
     }
 
-    public void aDLScale_ShortForm_1_Out_Of_16() {
+    public void aDLScale_ShortForm_1_Out_Of_8() {
 
         fillInDropdown("iG2b", "2");
         fillInDropdown("iG2f", "0");
@@ -124,7 +124,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void aDLScale_ShortForm_2_Out_Of_16() {
+    public void aDLScale_ShortForm_2_Out_Of_8() {
 
         fillInDropdown("iG2b", "2");
         fillInDropdown("iG2f", "2");
@@ -134,7 +134,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void aDLScale_ShortForm_3_Out_Of_16() {
+    public void aDLScale_ShortForm_3_Out_Of_8() {
 
         fillInDropdown("iG2b", "3");
         fillInDropdown("iG2f", "2");
@@ -144,7 +144,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void aDLScale_ShortForm_4_Out_Of_16() {
+    public void aDLScale_ShortForm_4_Out_Of_8() {
 
         fillInDropdown("iG2b", "4");
         fillInDropdown("iG2f", "2");
@@ -154,7 +154,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void aDLScale_ShortForm_5_Out_Of_16() {
+    public void aDLScale_ShortForm_5_Out_Of_8() {
 
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "2");
@@ -164,7 +164,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void aDLScale_ShortForm_6_Out_Of_16() {
+    public void aDLScale_ShortForm_6_Out_Of_8() {
 
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "3");
@@ -174,7 +174,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void aDLScale_ShortForm_7_Out_Of_16() {
+    public void aDLScale_ShortForm_7_Out_Of_8() {
 
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "4");
@@ -184,7 +184,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Higher values indicate greater difficulty in performing activities");
     }
 
-    public void aDLScale_ShortForm_8_Out_Of_16() {
+    public void aDLScale_ShortForm_8_Out_Of_8() {
 
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -196,16 +196,294 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
     }
 
 
+    public void aDLScale_ShortFormTest_Long(){
+        aDLScale_ShortForm_0_Out_Of_16();
+        aDLScale_ShortForm_1_Out_Of_16();
+        aDLScale_ShortForm_2_Out_Of_16();
+        aDLScale_ShortForm_3_Out_Of_16();
+        aDLScale_ShortForm_4_Out_Of_16();
+        aDLScale_ShortForm_5_Out_Of_16();
+        aDLScale_ShortForm_6_Out_Of_16();
+        aDLScale_ShortForm_7_Out_Of_16();
+        aDLScale_ShortForm_8_Out_Of_16();
+        aDLScale_ShortForm_9_Out_Of_16();
+        aDLScale_ShortForm_10_Out_Of_16();
+        aDLScale_ShortForm_11_Out_Of_16();
+        aDLScale_ShortForm_12_Out_Of_16();
+        aDLScale_ShortForm_13_Out_Of_16();
+        aDLScale_ShortForm_14_Out_Of_16();
+        aDLScale_ShortForm_15_Out_Of_16();
+        aDLScale_ShortForm_16_Out_Of_16();
+    }
+
+    public void aDLScale_ShortForm_0_Out_Of_16() {
+
+    goToNewSection("A. IDENTIFICATION");
+    clickOnRadioButton("FS","1");
+    goToNewSection("G. FUNCTIONAL");
+    fillInDropdown("iG2b", "0");
+    fillInDropdown("iG2f", "0");
+    goToSupplement("CHA-FS");
+    goToNewSection("D. FUNCTIONAL");
+    fillInDropdown("iG2h", "0");
+    fillInDropdown("iG2j", "0");
+    checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","0 out of 16","No ADL Impairment");
+    goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_1_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "2");
+        fillInDropdown("iG2f", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","1 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_2_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "3");
+        fillInDropdown("iG2f", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","2 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_3_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "4");
+        fillInDropdown("iG2f", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","3 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_4_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","4 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+    public void aDLScale_ShortForm_5_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "2");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","5 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_6_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "3");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","6 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_7_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "4");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","7 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_8_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","8 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_9_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "2");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","9 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
 
 
+
+    public void aDLScale_ShortForm_10_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "3");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","10 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+
+    public void aDLScale_ShortForm_11_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "4");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","11 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+
+    public void aDLScale_ShortForm_12_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "6");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","12 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_13_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "6");
+        fillInDropdown("iG2j", "2");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","13 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+    public void aDLScale_ShortForm_14_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "6");
+        fillInDropdown("iG2j", "3");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","14 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+
+    public void aDLScale_ShortForm_15_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "6");
+        fillInDropdown("iG2j", "4");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","15 out of 16","Higher values indicate greater difficulty in performing activities");
+        goToSupplement("CHA");
+
+    }
+
+
+    public void aDLScale_ShortForm_16_Out_Of_16() {
+
+        clickOnRadioButton("FS","1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "6");
+        fillInDropdown("iG2f", "6");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "6");
+        fillInDropdown("iG2j", "6");
+        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","16 out of 16","High ADL Impairment");
+        goToSupplement("CHA");
+
+    }
     public void formulasTestScales () {
 
         communicationScaleTest();
         aDLScale_ShortFormTest_SmallSet();
-
+        aDLScale_ShortFormTest_Long();
     }
 
-    // -----------------------------------Caps---------------------------------------------------
+    // -----------------------------------Caps------------------------------------------------------
 
     public void formulasTestCaps() throws InterruptedException {
         behaviorCapTest();
