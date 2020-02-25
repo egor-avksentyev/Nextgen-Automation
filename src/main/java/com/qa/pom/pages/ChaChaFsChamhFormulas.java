@@ -784,6 +784,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         cardioRespiratoryCapTest();
         pressureUlcerCapTest();
         bowelConditionsCapTest();
+        cognitiveLossCapTest();
     }
 
     public void behaviorCapTest() {
@@ -961,11 +962,11 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
     }
 
     public void bowelConditionsCapTest() {
-        testClass.log("Start test of Pressure Ulcer Cap");
+        testClass.log("Start test of Bowel Conditions Cap");
         testClass.log("Full Set");
         bowelConditionsCap_0();
-        //bowelConditionsCap_1();
-        //bowelConditionsCap_2();
+        bowelConditionsCap_1();
+        bowelConditionsCap_2();
     }
 
     public void bowelConditionsCap_0() {
@@ -985,6 +986,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2i", "0");
         fillInDropdown("iG2j", "0");
+        fillInRadioButton("iG7b", "0");
         goToNewSection("E. CONTINENCE");
         fillInDropdown("iH3", "0");
         goToNewSection("F. DIAGNOSES");
@@ -992,6 +994,137 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("O. DISCHARGE");
         fillInRadioButton("iR2", "0");
         goToSupplement("CHA");
-        checkCapTrigger("Bowel Conditions CAP", "0", "Not Triggered");
+        checkCapTrigger("Bowel Conditions CAP", "0", "Not triggered");
+    }
+
+    public void bowelConditionsCap_1() {
+        goToNewSection("C. COGNITION");
+        fillInDropdown("iC1", "0");
+        goToNewSection("H. CONTINENCE");
+        fillInDropdown("iH1", "0");
+        goToNewSection("I. DIAGNOSES");
+        fillInDropdown("iI1a", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("B. COGNITION");
+        fillInDropdown("iC3a", "2");
+        fillInDropdown("iC3b", "2");
+        fillInDropdown("iC3c", "0");
+        fillInRadioButton("iC4", "0");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2i", "0");
+        fillInDropdown("iG2j", "0");
+        fillInRadioButton("iG7b", "0");
+        goToNewSection("E. CONTINENCE");
+        fillInDropdown("iH3", "1");
+        goToNewSection("F. DIAGNOSES");
+        fillInDropdown("iI1q", "0");
+        goToNewSection("O. DISCHARGE");
+        fillInRadioButton("iR2", "0");
+        goToSupplement("CHA");
+        checkCapTrigger("Bowel Conditions CAP", "1", "Triggered - risk of decline");
+    }
+
+    public void bowelConditionsCap_2() {
+        goToNewSection("C. COGNITION");
+        fillInDropdown("iC1", "0");
+        goToNewSection("H. CONTINENCE");
+        fillInDropdown("iH1", "0");
+        goToNewSection("I. DIAGNOSES");
+        fillInDropdown("iI1a", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("B. COGNITION");
+        fillInDropdown("iC3a", "2");
+        fillInDropdown("iC3b", "0");
+        fillInDropdown("iC3c", "0");
+        fillInRadioButton("iC4", "0");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2i", "0");
+        fillInDropdown("iG2j", "0");
+        fillInRadioButton("iG7b", "0");
+        goToNewSection("E. CONTINENCE");
+        fillInDropdown("iH3", "2");
+        goToNewSection("F. DIAGNOSES");
+        fillInDropdown("iI1q", "0");
+        goToNewSection("O. DISCHARGE");
+        fillInRadioButton("iR2", "0");
+        goToSupplement("CHA");
+        checkCapTrigger("Bowel Conditions CAP", "2", "Triggered - facilitate improvement");
+    }
+
+    public void cognitiveLossCapTest() {
+        testClass.log("Start test of Cognitive Loss Cap");
+        testClass.log("Full Set");
+        cognitiveLossCap_0();
+        cognitiveLossCap_2();
+    }
+
+    public void cognitiveLossCap_0() {
+        goToNewSection("C. COGNITION");
+        fillInDropdown("iC1", "0");
+        fillInDropdown("iC5", "0");
+        fillInRadioButton("iC2a", "0");
+        goToNewSection("D. COMMUNICATION");
+        fillInDropdown("iD1", "0");
+        fillInDropdown("iD2", "0");
+        goToNewSection("E. MOOD");
+        fillInDropdown("iE1e", "0");
+        goToNewSection("I. DIAGNOSES");
+        fillInDropdown("iI1c ", "0");
+        fillInDropdown("iI1d ", "0");
+        goToNewSection("J. HEALTH");
+        fillInRadioButton("iJ6c", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("B. COGNITION");
+        fillInDropdown("iC3a", "0");
+        fillInDropdown("iC3b", "0");
+        fillInDropdown("iC3c", "0");
+        fillInRadioButton("iC4", "0");
+        goToNewSection("C. MOOD");
+        fillInDropdown("iE1h", "0");
+        fillInDropdown("iE3a", "0");
+        fillInDropdown("iE3c", "0");
+        fillInRadioButton("iG7b", "0");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2j", "0");
+        goToNewSection("O. DISCHARGE");
+        fillInRadioButton("iR2", "0");
+        goToSupplement("CHA");
+        checkCapTrigger("Cognitive Loss CAP", "0", "Not triggered");
+    }
+
+    public void cognitiveLossCap_2() {
+        goToNewSection("C. COGNITION");
+        fillInDropdown("iC1", "0");
+        fillInDropdown("iC5", "0");
+        fillInRadioButton("iC2a", "0");
+        goToNewSection("D. COMMUNICATION");
+        fillInDropdown("iD1", "0");
+        fillInDropdown("iD2", "0");
+        goToNewSection("E. MOOD");
+        fillInDropdown("iE1e", "0");
+        goToNewSection("I. DIAGNOSES");
+        fillInDropdown("iI1c", "0");
+        fillInDropdown("iI1d", "0");
+        goToNewSection("J. HEALTH");
+        fillInRadioButton("iJ6c", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("B. COGNITION");
+        fillInDropdown("iC3a", "2");
+        fillInDropdown("iC3b", "2");
+        fillInDropdown("iC3c", "2");
+        fillInRadioButton("iC4", "0");
+        goToNewSection("C. MOOD");
+        fillInDropdown("iE1h", "0");
+        fillInDropdown("iE3a", "0");
+        fillInDropdown("iE3c", "0");
+        fillInRadioButton("iG7b", "0");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2j", "0");
+        goToNewSection("O. DISCHARGE");
+        fillInRadioButton("iR2", "0");
+        goToSupplement("CHA");
+        checkCapTrigger("Cognitive Loss CAP", "2", "Triggered - prevent decline");
     }
 }
