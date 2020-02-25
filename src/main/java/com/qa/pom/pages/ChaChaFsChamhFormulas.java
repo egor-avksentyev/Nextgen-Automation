@@ -565,6 +565,206 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     }
 
+    public void dRsScaleTest(){
+        dRsScaleTest0_Out_Of_14();
+        dRsScaleTest1_Out_Of_14();
+        dRsScaleTest2_Out_Of_14();
+        dRsScaleTest3_Out_Of_14();
+        dRsScaleTest4_Out_Of_14();
+        dRsScaleTest5_Out_Of_14();
+        dRsScaleTest6_Out_Of_14();
+        dRsScaleTest7_Out_Of_14();
+        dRsScaleTest8_Out_Of_14();
+        dRsScaleTest9_Out_Of_14();
+        dRsScaleTest10_Out_Of_14();
+        dRsScaleTest11_Out_Of_14();
+        dRsScaleTest12_Out_Of_14();
+        dRsScaleTest13_Out_Of_14();
+        dRsScaleTest14_Out_Of_14();
+    }
+
+
+    public void dRsScaleTest0_Out_Of_14(){
+        goToNewSection("E. MOOD");
+        fillInDropdown("iE1a", "0");
+        fillInDropdown("iE1b", "0");
+        fillInDropdown("iE1c", "0");
+        fillInDropdown("iE1d", "0");
+        fillInDropdown("iE1e", "0");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","0 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+    public void dRsScaleTest1_Out_Of_14(){
+
+        fillInDropdown("iE1a", "1");
+        fillInDropdown("iE1b", "0");
+        fillInDropdown("iE1c", "0");
+        fillInDropdown("iE1d", "0");
+        fillInDropdown("iE1e", "0");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","1 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+    public void dRsScaleTest2_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "0");
+        fillInDropdown("iE1c", "0");
+        fillInDropdown("iE1d", "0");
+        fillInDropdown("iE1e", "0");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","2 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+    public void dRsScaleTest3_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "1");
+        fillInDropdown("iE1c", "0");
+        fillInDropdown("iE1d", "0");
+        fillInDropdown("iE1e", "0");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","3 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+    public void dRsScaleTest4_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "0");
+        fillInDropdown("iE1d", "0");
+        fillInDropdown("iE1e", "0");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","4 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+
+
+    public void dRsScaleTest5_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "1");
+        fillInDropdown("iE1d", "0");
+        fillInDropdown("iE1e", "0");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","5 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+
+    public void dRsScaleTest6_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "3");
+        fillInDropdown("iE1d", "0");
+        fillInDropdown("iE1e", "0");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","6 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+
+    public void dRsScaleTest7_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "3");
+        fillInDropdown("iE1d", "1");
+        fillInDropdown("iE1e", "0");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","7 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+    public void dRsScaleTest8_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "3");
+        fillInDropdown("iE1d", "3");
+        fillInDropdown("iE1e", "0");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","8 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+    public void dRsScaleTest9_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "3");
+        fillInDropdown("iE1d", "3");
+        fillInDropdown("iE1e", "1");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","9 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+    public void dRsScaleTest10_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "3");
+        fillInDropdown("iE1d", "3");
+        fillInDropdown("iE1e", "3");
+        fillInDropdown("iE1f", "0");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","10 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+    public void dRsScaleTest11_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "3");
+        fillInDropdown("iE1d", "3");
+        fillInDropdown("iE1e", "3");
+        fillInDropdown("iE1f", "1");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","11 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+    public void dRsScaleTest12_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "3");
+        fillInDropdown("iE1d", "3");
+        fillInDropdown("iE1e", "3");
+        fillInDropdown("iE1f", "3");
+        fillInDropdown("iE1g", "0");
+        checkScaleTrigger("Depression Rating Scale (DRS)","12 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+    public void dRsScaleTest13_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "3");
+        fillInDropdown("iE1d", "3");
+        fillInDropdown("iE1e", "3");
+        fillInDropdown("iE1f", "3");
+        fillInDropdown("iE1g", "1");
+        checkScaleTrigger("Depression Rating Scale (DRS)","13 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
+
+    public void dRsScaleTest14_Out_Of_14(){
+
+        fillInDropdown("iE1a", "3");
+        fillInDropdown("iE1b", "3");
+        fillInDropdown("iE1c", "3");
+        fillInDropdown("iE1d", "3");
+        fillInDropdown("iE1e", "3");
+        fillInDropdown("iE1f", "3");
+        fillInDropdown("iE1g", "3");
+        checkScaleTrigger("Depression Rating Scale (DRS)","14 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+    }
 
     public void formulasTestScales () {
 
@@ -573,6 +773,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         aDLScale_ShortFormTest_Long();
         painScaleTest();
         painScaleTest_Old();
+        dRsScaleTest();
     }
 
     // -----------------------------------Caps------------------------------------------------------
