@@ -2,6 +2,8 @@ package com.qa.pom.base;
 
 import com.qa.pom.pages.Login;
 import com.qa.pom.utils.YamlParser;
+
+import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -9,6 +11,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Rule;
@@ -35,9 +38,10 @@ public class BaseTest {
     @Rule public RunTestRules runTestRules = new RunTestRules(this);
 
     /** Constructor */
-    public BaseTest() {
+    public BaseTest()  {
         // If you want to disable infobars please use this code
         ChromeOptions options = new ChromeOptions();
+
         /** Collection with settings of browser*/
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("credentials_enable_service", false);
@@ -60,7 +64,6 @@ public class BaseTest {
         wait = new WebDriverWait(driver, 20);
 
         actions = new Actions(driver);
-
     }
 
     /**
@@ -70,6 +73,7 @@ public class BaseTest {
      */
     protected Login openSite() {
         try {
+            FileUtils.cleanDirectory(new File("src/main/resources/screenshots"));
             driver.get(YamlParser.getYamlData().getUrl());
         } catch (IOException e) {
             e.printStackTrace();

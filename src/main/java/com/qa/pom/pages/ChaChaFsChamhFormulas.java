@@ -529,8 +529,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         painScale_3_Out_Of_3_Old();
     }
 
-
-
+    
     public void painScale_0_Out_Of_3() {
 
         fillInDropdown("iJ5a", "0");
