@@ -4,8 +4,6 @@ import com.qa.pom.base.BaseTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.io.IOException;
-
 public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     @FindBy(xpath = "//div[@varname='FS']")
@@ -219,7 +217,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
     public void aDLScale_ShortForm_0_Out_Of_16() {
 
     goToNewSection("A. IDENTIFICATION");
-    clickOnRadioButton("FS","1");
+    fillInRadioButton("FS","1");
     goToNewSection("G. FUNCTIONAL");
     fillInDropdown("iG2b", "0");
     fillInDropdown("iG2f", "0");
@@ -234,7 +232,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_1_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "2");
         fillInDropdown("iG2f", "0");
@@ -249,7 +247,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_2_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "3");
         fillInDropdown("iG2f", "0");
@@ -264,7 +262,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_3_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "4");
         fillInDropdown("iG2f", "0");
@@ -279,7 +277,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_4_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "0");
@@ -293,7 +291,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
     }
     public void aDLScale_ShortForm_5_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "2");
@@ -308,7 +306,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_6_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "3");
@@ -323,7 +321,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_7_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "4");
@@ -338,7 +336,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_8_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -353,7 +351,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_9_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -370,7 +368,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_10_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -386,7 +384,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_11_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -402,7 +400,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_12_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -417,7 +415,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_13_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -432,7 +430,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_14_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -448,7 +446,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_15_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -464,7 +462,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_16_Out_Of_16() {
 
-        clickOnRadioButton("FS","1");
+        fillInRadioButton("FS","1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -597,7 +595,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
     }
 
     public void behaviorCap_0() {
-        clickOnRadioButton("FS", "1");
+        fillInRadioButton("FS", "1");
         goToSupplement("CHA-FS");
         goToNewSection("C. MOOD");
         fillInDropdown("iE3a", "0");
@@ -641,7 +639,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iC3a", "0");
         fillInDropdown("iC3b", "0");
         fillInDropdown("iC3c", "0");
-        clickOnRadioButton("iC4", "0");
+        fillInRadioButton("iC4", "0");
         checkCapTrigger("DELIRIUM CAP", "0", "Not triggered");
     }
 
@@ -649,7 +647,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iC3a", "0");
         fillInDropdown("iC3b", "2");
         fillInDropdown("iC3c", "0");
-        clickOnRadioButton("iC4", "0");
+        fillInRadioButton("iC4", "0");
         checkCapTrigger("DELIRIUM CAP", "1", "Triggered");
     }
 
@@ -694,8 +692,8 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iH2", "0");
         goToNewSection("I. SKIN");
         fillInDropdown("iL1", "0");
-        clickOnRadioButton("iL2", "0");
-        clickOnRadioButton("iL3", "0");
+        fillInRadioButton("iL2", "0");
+        fillInRadioButton("iL3", "0");
         goToNewSection("K. TREATMENTS");
         fillInDropdown("iN2k", "0");
         goToSupplement("CHA");
@@ -713,8 +711,8 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iH2", "0");
         goToNewSection("I. SKIN");
         fillInDropdown("iL1", "2");
-        clickOnRadioButton("iL2", "0");
-        clickOnRadioButton("iL3", "0");
+        fillInRadioButton("iL2", "0");
+        fillInRadioButton("iL3", "0");
         goToNewSection("K. TREATMENTS");
         fillInDropdown("iN2k", "0");
         goToSupplement("CHA");
@@ -732,8 +730,8 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iH2", "0");
         goToNewSection("I. SKIN");
         fillInDropdown("iL1", "1");
-        clickOnRadioButton("iL2", "0");
-        clickOnRadioButton("iL3", "0");
+        fillInRadioButton("iL2", "0");
+        fillInRadioButton("iL3", "0");
         goToNewSection("K. TREATMENTS");
         fillInDropdown("iN2k", "0");
         goToSupplement("CHA");
@@ -751,8 +749,8 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iH2", "2");
         goToNewSection("I. SKIN");
         fillInDropdown("iL1", "0");
-        clickOnRadioButton("iL2", "0");
-        clickOnRadioButton("iL3", "0");
+        fillInRadioButton("iL2", "0");
+        fillInRadioButton("iL3", "0");
         goToNewSection("K. TREATMENTS");
         fillInDropdown("iN2k", "0");
         goToSupplement("CHA");
@@ -781,7 +779,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iC3a", "0");
         fillInDropdown("iC3b", "0");
         fillInDropdown("iC3c", "0");
-        clickOnRadioButton("iC4", "0");
+        fillInRadioButton("iC4", "0");
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2i", "0");
@@ -791,7 +789,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("F. DIAGNOSES");
         fillInDropdown("iI1q", "0");
         goToNewSection("O. DISCHARGE");
-        clickOnRadioButton("iR2", "0");
+        fillInRadioButton("iR2", "0");
         goToSupplement("CHA");
         checkCapTrigger("Bowel Conditions CAP", "0", "Not Triggered");
     }

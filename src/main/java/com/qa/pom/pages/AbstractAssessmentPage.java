@@ -66,7 +66,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
     };
 
 
-    public void clickOnRadioButton(String varName, String value) {
+    public void fillInRadioButton(String varName, String value) {
         try {
             testClass.findElementAndClick(
                     "//div[@varname='" + varName + "']//label[@value='" + value + "']");
