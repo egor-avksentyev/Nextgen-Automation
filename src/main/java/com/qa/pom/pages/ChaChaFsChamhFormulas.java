@@ -476,11 +476,105 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToSupplement("CHA");
 
     }
+
+
+    public void painScaleTest(){
+
+        painScale_0_Out_Of_4();
+        painScale_1_Out_Of_4();
+        painScale_2_Out_Of_4();
+        painScale_3_Out_Of_4();
+        painScale_4_Out_Of_4();
+    }
+
+
+    public void painScale_0_Out_Of_4() {
+
+        goToNewSection("J. HEALTH");
+        fillInDropdown("iJ5a", "0");
+        fillInDropdown("iJ5b", "0");
+        checkScaleTrigger("Pain Scale (PS)","0 out of 4","No pain");
+    }
+
+    public void painScale_1_Out_Of_4() {
+        fillInDropdown("iJ5a", "1");
+        fillInDropdown("iJ5b", "0");
+        checkScaleTrigger("Pain Scale (PS)","1 out of 4","Less than daily pain");
+
+    }
+    public void painScale_2_Out_Of_4() {
+        fillInDropdown("iJ5a", "3");
+        fillInDropdown("iJ5b", "0");
+        checkScaleTrigger("Pain Scale (PS)","2 out of 4","Daily pain but not severe");
+
+    }
+
+    public void painScale_3_Out_Of_4() {
+        fillInDropdown("iJ5a", "3");
+        fillInDropdown("iJ5b", "3");
+        checkScaleTrigger("Pain Scale (PS)","3 out of 4","Daily severe pain");
+
+    }
+
+    public void painScale_4_Out_Of_4() {
+        fillInDropdown("iJ5a", "3");
+        fillInDropdown("iJ5b", "4");
+        checkScaleTrigger("Pain Scale (PS)","4 out of 4","Daily excruciating pain");
+
+    }
+
+    public void painScaleTest_Old(){
+        painScale_0_Out_Of_3();
+        painScale_1_Out_Of_3();
+        painScale_2_Out_Of_3();
+        painScale_3_Out_Of_3();
+        painScale_3_Out_Of_3_Old();
+    }
+
+
+
+    public void painScale_0_Out_Of_3() {
+
+        fillInDropdown("iJ5a", "0");
+        fillInDropdown("iJ5b", "0");
+        checkScaleTrigger("Pain Scale (PS) - Old Version","0 out of 3","No pain");
+    }
+
+    public void painScale_1_Out_Of_3() {
+        fillInDropdown("iJ5a", "1");
+        fillInDropdown("iJ5b", "0");
+        checkScaleTrigger("Pain Scale (PS) - Old Version","1 out of 3","Less than daily pain");
+
+    }
+    public void painScale_2_Out_Of_3() {
+        fillInDropdown("iJ5a", "3");
+        fillInDropdown("iJ5b", "0");
+        checkScaleTrigger("Pain Scale (PS) - Old Version","2 out of 3","Daily pain but not severe");
+
+    }
+
+    public void painScale_3_Out_Of_3() {
+        fillInDropdown("iJ5a", "3");
+        fillInDropdown("iJ5b", "3");
+        checkScaleTrigger("Pain Scale (PS) - Old Version","3 out of 3","Daily severe pain");
+
+    }
+
+    public void painScale_3_Out_Of_3_Old() {
+        fillInDropdown("iJ5a", "3");
+        fillInDropdown("iJ5b", "4");
+        checkScaleTrigger("Pain Scale (PS) - Old Version","3 out of 3","Daily severe pain");
+
+    }
+
+
     public void formulasTestScales () {
 
         communicationScaleTest();
         aDLScale_ShortFormTest_SmallSet();
         aDLScale_ShortFormTest_Long();
+        painScaleTest();
+        painScaleTest_Old();
     }
 
     // -----------------------------------Caps------------------------------------------------------

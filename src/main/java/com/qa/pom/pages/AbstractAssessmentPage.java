@@ -132,7 +132,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                     "Value of: " + nameOfFormula + " is not as expected",
                     expectedFormulaValue,
                     formulaValue);
-            testClass.log("Formula Value Correct");
+            testClass.log(""+nameOfFormula+"  Value Correct");
         } catch (AssertionError e) {
             testClass.logWarn("Please check value of triggered formula");
             testClass.logError(e.getMessage() + " " + e.getCause());
@@ -142,7 +142,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                     "Description of: " + nameOfFormula + " is not as expected",
                     expectedFormulaDescription,
                     formulaDescription);
-            testClass.log("Formula Description Correct");
+            testClass.log(""+nameOfFormula+"  Description Correct");
         } catch (AssertionError e) {
             testClass.logWarn("Please check Description of triggered formula");
             testClass.logError(e.getMessage() + " " + e.getCause());
@@ -174,7 +174,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                     "Value of: " + nameOfFormula + " is not as expected",
                     expectedFormulaValue,
                     formulaValue);
-            testClass.log("Formula Value Correct");
+            testClass.log(""+nameOfFormula+"  Value Correct");
         } catch (AssertionError e) {
             testClass.logWarn("Please check value of triggered formula");
             testClass.logError(e.getMessage() + " " + e.getCause());
@@ -184,7 +184,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                     "Description of: " + nameOfFormula + " is not as expected",
                     expectedFormulaDescription,
                     formulaDescription);
-            testClass.log("Formula Description Correct");
+            testClass.log(""+nameOfFormula+" Description Correct");
         } catch (AssertionError e) {
             testClass.logWarn("Please check Description of triggered formula");
             testClass.logError(e.getMessage() + " " + e.getCause());
