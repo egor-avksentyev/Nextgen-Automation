@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Rule;
@@ -35,10 +38,17 @@ public class BaseTest {
     public BaseTest() {
         // If you want to disable infobars please use this code
         ChromeOptions options = new ChromeOptions();
+        /** Collection with settings of browser*/
+        Map<String, Object> prefs = new HashMap<String, Object>();
+        prefs.put("credentials_enable_service", false);
+        prefs.put("profile.password_manager_enabled", false);
+
         options.setExperimentalOption(
                 "excludeSwitches", Collections.singletonList("enable-automation"));
         options.setExperimentalOption("useAutomationExtension", false);
 
+        /** Options which are disable forgot password pop-up*/
+        options.setExperimentalOption("prefs", prefs);
         // Initialize path to ChromeDriver
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 
@@ -50,6 +60,7 @@ public class BaseTest {
         wait = new WebDriverWait(driver, 20);
 
         actions = new Actions(driver);
+
     }
 
     /**
