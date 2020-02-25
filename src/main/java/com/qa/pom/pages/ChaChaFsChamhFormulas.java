@@ -490,6 +490,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         deliriumCapTest();
         cardioRespiratoryCapTest();
         pressureUlcerCapTest();
+        bowelConditionsCapTest();
     }
 
     public void behaviorCapTest() {
@@ -664,5 +665,40 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("H. CONTINENCE");
         fillInDropdown("iH1", "0");
         checkCapTrigger("Pressure Ulcer CAP", "3", "Triggered - At Risk, No Ulcer Now");
+    }
+
+    public void bowelConditionsCapTest() {
+        testClass.log("Start test of Pressure Ulcer Cap");
+        testClass.log("Full Set");
+        bowelConditionsCap_0();
+        //bowelConditionsCap_1();
+        //bowelConditionsCap_2();
+    }
+
+    public void bowelConditionsCap_0() {
+        goToNewSection("C. COGNITION");
+        fillInDropdown("iC1", "0");
+        goToNewSection("H. CONTINENCE");
+        fillInDropdown("iH1", "0");
+        goToNewSection("I. DIAGNOSES");
+        fillInDropdown("iI1a", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("B. COGNITION");
+        fillInDropdown("iC3a", "0");
+        fillInDropdown("iC3b", "0");
+        fillInDropdown("iC3c", "0");
+        clickOnRadioButton("iC4", "0");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2i", "0");
+        fillInDropdown("iG2j", "0");
+        goToNewSection("E. CONTINENCE");
+        fillInDropdown("iH3", "0");
+        goToNewSection("F. DIAGNOSES");
+        fillInDropdown("iI1q", "0");
+        goToNewSection("O. DISCHARGE");
+        clickOnRadioButton("iR2", "0");
+        goToSupplement("CHA");
+        checkCapTrigger("Bowel Conditions CAP", "0", "Not Triggered");
     }
 }
