@@ -29,17 +29,20 @@ public class BaseTest {
     public Actions actions;
     private WebDriver driver;
     private WebDriverWait wait;
-    
+    public Logger logger;
     // Logger
-
-    private Logger logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
 
     // Rule
     @Rule public RunTestRules runTestRules = new RunTestRules(this);
 
     /** Constructor */
     public BaseTest()  {
-        // If you want to disable infobars please use this code
+
+        // Clear Directories
+        clearDirectories ();
+        // Logger
+        logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
+
         ChromeOptions options = new ChromeOptions();
 
         /** Collection with settings of browser*/
@@ -71,6 +74,20 @@ public class BaseTest {
      *
      * @return the instance of HomePage
      */
+
+
+    protected void clearDirectories () {
+
+        try {
+            FileUtils.cleanDirectory(new File("src/main/resources/screenshots"));
+            FileUtils.cleanDirectory(new File("src/main/resources/logs"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
     protected Login openSite() {
         try {
             FileUtils.cleanDirectory(new File("src/main/resources/screenshots"));

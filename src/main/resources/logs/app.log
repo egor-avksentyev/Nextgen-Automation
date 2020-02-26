@@ -1,0 +1,54 @@
+2020-35-26 11:35:16.828 [main] INFO   - Click Submit and login 
+2020-35-26 11:35:21.544 [main] INFO   - On Dashboard
+2020-35-26 11:35:26.485 [main] INFO   - On Pathways
+2020-35-26 11:35:42.507 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-35-26 11:35:42.840 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-35-26 11:35:43.076 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-35-26 11:35:43.076 [main] INFO   - Communication Scale (CS) Description Correct
+2020-35-26 11:35:43.460 [main] INFO   - Dropdown: iD1 Value: 1 filled
+2020-35-26 11:35:43.588 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-35-26 11:35:43.738 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-35-26 11:35:43.738 [main] INFO   - Communication Scale (CS) Description Correct
+2020-35-26 11:35:44.088 [main] INFO   - Dropdown: iD1 Value: 2 filled
+2020-35-26 11:35:44.220 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-35-26 11:35:44.352 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-35-26 11:35:44.353 [main] INFO   - Communication Scale (CS) Description Correct
+2020-35-26 11:35:44.699 [main] INFO   - Dropdown: iD1 Value: 3 filled
+2020-35-26 11:35:44.842 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-35-26 11:35:44.995 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-35-26 11:35:44.995 [main] INFO   - Communication Scale (CS) Description Correct
+2020-35-26 11:35:45.331 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-35-26 11:35:45.459 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-35-26 11:35:45.618 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-35-26 11:35:45.619 [main] INFO   - Communication Scale (CS) Description Correct
+2020-35-26 11:35:45.809 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-35-26 11:35:46.083 [main] INFO   - Dropdown: iD2 Value: 1 filled
+2020-35-26 11:35:46.222 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-35-26 11:35:46.222 [main] INFO   - Communication Scale (CS) Description Correct
+2020-35-26 11:35:46.412 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-35-26 11:35:46.705 [main] INFO   - Dropdown: iD2 Value: 2 filled
+2020-35-26 11:35:46.865 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-35-26 11:35:46.865 [main] INFO   - Communication Scale (CS) Description Correct
+2020-35-26 11:35:47.047 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-35-26 11:35:47.327 [main] INFO   - Dropdown: iD2 Value: 3 filled
+2020-35-26 11:35:47.482 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-35-26 11:35:47.482 [main] INFO   - Communication Scale (CS) Description Correct
+2020-35-26 11:35:47.666 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-35-26 11:35:47.960 [main] INFO   - Dropdown: iD2 Value: 4 filled
+2020-35-26 11:35:48.105 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-35-26 11:35:48.105 [main] INFO   - Communication Scale (CS) Description Correct
+2020-35-26 11:35:48.160 [main] INFO   - Start test of aDLScale_ShortForm
+2020-35-26 11:35:48.160 [main] INFO   - Small Set
+2020-35-26 11:35:50.247 [main] INFO   - Dropdown: iG2b Value: 0 filled
+2020-35-26 11:35:50.623 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-35-26 11:35:50.798 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-35-26 11:35:50.798 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-35-26 11:35:51.229 [main] INFO   - Dropdown: iG2b Value: 2 filled
+2020-35-26 11:35:51.390 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-35-26 11:35:51.562 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-35-26 11:35:51.562 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-35-26 11:35:51.790 [main] INFO   - Dropdown: iG2b Value: 2 filled
+2020-35-26 11:35:52.182 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-35-26 11:35:52.391 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-35-26 11:35:52.392 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-35-26 11:35:52.817 [main] INFO   - Dropdown: iG2b Value: 3 filled

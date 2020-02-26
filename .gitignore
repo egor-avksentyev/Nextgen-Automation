@@ -2,7 +2,5 @@
 /.idea/
 /build/
 /gradle/
-/src/main/resources/logs/
-/src/main/resources/screenshots/
 /gradlew
 /gradlew.bat
