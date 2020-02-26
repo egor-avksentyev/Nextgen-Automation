@@ -784,6 +784,8 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         pressureUlcerCapTest();
         bowelConditionsCapTest();
         cognitiveLossCapTest();
+        communicationCapTest();
+        dehydrationCapTest();
     }
 
     public void behaviorCapTest() {
@@ -1070,8 +1072,8 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("E. MOOD");
         fillInDropdown("iE1e", "0");
         goToNewSection("I. DIAGNOSES");
-        fillInDropdown("iI1c ", "0");
-        fillInDropdown("iI1d ", "0");
+        fillInDropdown("iI1c", "0");
+        fillInDropdown("iI1d", "0");
         goToNewSection("J. HEALTH");
         fillInRadioButton("iJ6c", "0");
         goToSupplement("CHA-FS");
@@ -1084,8 +1086,8 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1h", "0");
         fillInDropdown("iE3a", "0");
         fillInDropdown("iE3c", "0");
-        fillInRadioButton("iG7b", "0");
         goToNewSection("D. FUNCTIONAL");
+        fillInRadioButton("iG7b", "0");
         fillInDropdown("iG2j", "0");
         goToNewSection("O. DISCHARGE");
         fillInRadioButton("iR2", "0");
@@ -1118,12 +1120,121 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1h", "0");
         fillInDropdown("iE3a", "0");
         fillInDropdown("iE3c", "0");
-        fillInRadioButton("iG7b", "0");
         goToNewSection("D. FUNCTIONAL");
+        fillInRadioButton("iG7b", "0");
         fillInDropdown("iG2j", "0");
         goToNewSection("O. DISCHARGE");
         fillInRadioButton("iR2", "0");
         goToSupplement("CHA");
         checkCapTrigger("Cognitive Loss CAP", "2", "Triggered - prevent decline");
+    }
+
+    public void communicationCapTest() {
+        testClass.log("Start test of Communication Cap");
+        testClass.log("Small Set");
+        communicationCap_0();
+        communicationCap_1();
+        communicationCap_2();
+    }
+
+    public void communicationCap_0() {
+        goToNewSection("C. COGNITION");
+        fillInDropdown("iC1", "0");
+        goToNewSection("D. COMMUNICATION");
+        fillInDropdown("iD1", "0");
+        fillInDropdown("iD2", "0");
+        checkCapTrigger("Communication CAP", "0", "Not triggered");
+    }
+
+    public void communicationCap_1() {
+        goToNewSection("C. COGNITION");
+        fillInDropdown("iC1", "1");
+        goToNewSection("D. COMMUNICATION");
+        fillInDropdown("iD1", "4");
+        fillInDropdown("iD2", "3");
+        checkCapTrigger("Communication CAP", "1", "Triggered - potential for improvement");
+    }
+
+    public void communicationCap_2() {
+        goToNewSection("C. COGNITION");
+        fillInDropdown("iC1", "2");
+        goToNewSection("D. COMMUNICATION");
+        fillInDropdown("iD1", "2");
+        fillInDropdown("iD2", "0");
+        checkCapTrigger("Communication CAP", "2", "Triggered - risk of decline");
+    }
+
+    public void dehydrationCapTest() {
+        testClass.log("Start test of Dehydration Cap");
+        testClass.log("Big Set");
+        dehydrationCap_0();
+        dehydrationCap_1();
+        dehydrationCap_2();
+    }
+
+    public void dehydrationCap_0() {
+        goToNewSection("J. HEALTH");
+        fillInDropdown("iJ2c", "0");
+        fillInDropdown("iJ2k", "0");
+        fillInDropdown("iJ2l", "0");
+        fillInDropdown("iJ2n", "0");
+        goToNewSection("K. NUTRITIONAL");
+        fillInRadioButton("iK2a", "0");
+        fillInRadioButton("iK2c", "0");
+        fillInRadioButton("iK2b", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("B. COGNITION");
+        fillInDropdown("iC3a", "0");
+        fillInDropdown("iC3b", "0");
+        fillInDropdown("iC3c", "0");
+        fillInRadioButton("iC4", "0");
+        goToNewSection("G. HEALTH");
+        fillInDropdown("iJ2q", "0");
+        goToSupplement("CHA");
+        checkCapTrigger("Dehydration CAP", "0", "Not triggered");
+    }
+
+    public void dehydrationCap_1() {
+        goToNewSection("J. HEALTH");
+        fillInDropdown("iJ2c", "0");
+        fillInDropdown("iJ2k", "0");
+        fillInDropdown("iJ2l", "0");
+        fillInDropdown("iJ2n", "0");
+        goToNewSection("K. NUTRITIONAL");
+        fillInRadioButton("iK2a", "0");
+        fillInRadioButton("iK2c", "0");
+        fillInRadioButton("iK2b", "1");
+        goToSupplement("CHA-FS");
+        goToNewSection("B. COGNITION");
+        fillInDropdown("iC3a", "0");
+        fillInDropdown("iC3b", "0");
+        fillInDropdown("iC3c", "0");
+        fillInRadioButton("iC4", "0");
+        goToNewSection("G. HEALTH");
+        fillInDropdown("iJ2q", "0");
+        goToSupplement("CHA");
+        checkCapTrigger("Dehydration CAP", "1", "Triggered - low level");
+    }
+
+    public void dehydrationCap_2() {
+        goToNewSection("J. HEALTH");
+        fillInDropdown("iJ2c", "1");
+        fillInDropdown("iJ2k", "0");
+        fillInDropdown("iJ2l", "0");
+        fillInDropdown("iJ2n", "0");
+        goToNewSection("K. NUTRITIONAL");
+        fillInRadioButton("iK2a", "0");
+        fillInRadioButton("iK2c", "0");
+        fillInRadioButton("iK2b", "1");
+        goToSupplement("CHA-FS");
+        goToNewSection("B. COGNITION");
+        fillInDropdown("iC3a", "0");
+        fillInDropdown("iC3b", "0");
+        fillInDropdown("iC3c", "0");
+        fillInRadioButton("iC4", "0");
+        goToNewSection("G. HEALTH");
+        fillInDropdown("iJ2q", "0");
+        goToSupplement("CHA");
+        checkCapTrigger("Dehydration CAP", "2", "Triggered - high level");
     }
 }
