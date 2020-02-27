@@ -69,6 +69,7 @@ public class AddnewClient extends AbstractPage {
         genderDropdown.click();
         testClass.waitTillElementIsVisible(dropdownGenderopenMarker);
         clickMale.click();
+        dateOfBirth.click();
         dateOfBirth.sendKeys("11/02/1992");
         hCN.sendKeys("1435263543");
         departmentDropdown.click();

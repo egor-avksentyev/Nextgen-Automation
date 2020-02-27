@@ -13,6 +13,8 @@ public class AcutenetTestChaChaFSFormulasCAPs extends BaseTest {
     @Test
     public void testOpenSiteAndTestCAPs() throws IOException, InterruptedException {
 
+        testName = "Acutenet (Nextgen) Test INTERRAI CHA-FS CHA-MH Formulas CAPs";
+
         Login login = openSite();
         log("Click Submit and login ");
         Dashboard dashboard = login.logIn();

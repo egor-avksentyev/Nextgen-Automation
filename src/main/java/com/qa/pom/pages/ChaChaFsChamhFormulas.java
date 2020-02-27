@@ -190,11 +190,9 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
                 "Activities of Daily Living (ADL) Scale - Short Form",
                 "8 out of 16",
                 "Higher values indicate greater difficulty in performing activities");
-
     }
 
-
-    public void aDLScale_ShortFormTest_Long(){
+    public void aDLScale_ShortFormTest_Long() {
         aDLScale_ShortForm_0_Out_Of_16();
         aDLScale_ShortForm_1_Out_Of_16();
         aDLScale_ShortForm_2_Out_Of_16();
@@ -216,23 +214,25 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
 
     public void aDLScale_ShortForm_0_Out_Of_16() {
 
-    goToNewSection("A. IDENTIFICATION");
-    fillInRadioButton("FS","1");
-    goToNewSection("G. FUNCTIONAL");
-    fillInDropdown("iG2b", "0");
-    fillInDropdown("iG2f", "0");
-    goToSupplement("CHA-FS");
-    goToNewSection("D. FUNCTIONAL");
-    fillInDropdown("iG2h", "0");
-    fillInDropdown("iG2j", "0");
-    checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","0 out of 16","No ADL Impairment");
-    goToSupplement("CHA");
-
+        goToNewSection("A. IDENTIFICATION");
+        fillInRadioButton("FS", "1");
+        goToNewSection("G. FUNCTIONAL");
+        fillInDropdown("iG2b", "0");
+        fillInDropdown("iG2f", "0");
+        goToSupplement("CHA-FS");
+        goToNewSection("D. FUNCTIONAL");
+        fillInDropdown("iG2h", "0");
+        fillInDropdown("iG2j", "0");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "0 out of 16",
+                "No ADL Impairment");
+        goToSupplement("CHA");
     }
 
     public void aDLScale_ShortForm_1_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "2");
         fillInDropdown("iG2f", "0");
@@ -240,14 +240,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","1 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "1 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
 
     public void aDLScale_ShortForm_2_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "3");
         fillInDropdown("iG2f", "0");
@@ -255,14 +257,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","2 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "2 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
 
     public void aDLScale_ShortForm_3_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "4");
         fillInDropdown("iG2f", "0");
@@ -270,14 +274,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","3 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "3 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
 
     public void aDLScale_ShortForm_4_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "0");
@@ -285,13 +291,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","4 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "4 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
+
     public void aDLScale_ShortForm_5_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "2");
@@ -299,14 +308,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","5 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "5 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
 
     public void aDLScale_ShortForm_6_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "3");
@@ -314,14 +325,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","6 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "6 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
 
     public void aDLScale_ShortForm_7_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "4");
@@ -329,14 +342,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","7 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "7 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
 
     public void aDLScale_ShortForm_8_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -344,14 +359,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "0");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","8 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "8 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
 
     public void aDLScale_ShortForm_9_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -359,16 +376,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "2");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","9 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "9 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
-
-
 
     public void aDLScale_ShortForm_10_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -376,15 +393,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "3");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","10 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "10 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
-
 
     public void aDLScale_ShortForm_11_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -392,15 +410,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "4");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","11 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "11 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
-
 
     public void aDLScale_ShortForm_12_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -408,14 +427,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "6");
         fillInDropdown("iG2j", "0");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","12 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "12 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
 
     public void aDLScale_ShortForm_13_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -423,14 +444,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "6");
         fillInDropdown("iG2j", "2");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","13 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "13 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
 
     public void aDLScale_ShortForm_14_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -438,15 +461,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "6");
         fillInDropdown("iG2j", "3");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","14 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "14 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
-
 
     public void aDLScale_ShortForm_15_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -454,15 +478,16 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "6");
         fillInDropdown("iG2j", "4");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","15 out of 16","Higher values indicate greater difficulty in performing activities");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "15 out of 16",
+                "Higher values indicate greater difficulty in performing activities");
         goToSupplement("CHA");
-
     }
-
 
     public void aDLScale_ShortForm_16_Out_Of_16() {
 
-        fillInRadioButton("FS","1");
+        fillInRadioButton("FS", "1");
         goToNewSection("G. FUNCTIONAL");
         fillInDropdown("iG2b", "6");
         fillInDropdown("iG2f", "6");
@@ -470,13 +495,14 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         goToNewSection("D. FUNCTIONAL");
         fillInDropdown("iG2h", "6");
         fillInDropdown("iG2j", "6");
-        checkScaleTrigger("Activities of Daily Living (ADL) Scale - Short Form","16 out of 16","High ADL Impairment");
+        checkScaleTrigger(
+                "Activities of Daily Living (ADL) Scale - Short Form",
+                "16 out of 16",
+                "High ADL Impairment");
         goToSupplement("CHA");
-
     }
 
-
-    public void painScaleTest(){
+    public void painScaleTest() {
 
         painScale_0_Out_Of_4();
         painScale_1_Out_Of_4();
@@ -485,43 +511,39 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         painScale_4_Out_Of_4();
     }
 
-
     public void painScale_0_Out_Of_4() {
 
         goToNewSection("J. HEALTH");
         fillInDropdown("iJ5a", "0");
         fillInDropdown("iJ5b", "0");
-        checkScaleTrigger("Pain Scale (PS)","0 out of 4","No pain");
+        checkScaleTrigger("Pain Scale (PS)", "0 out of 4", "No pain");
     }
 
     public void painScale_1_Out_Of_4() {
         fillInDropdown("iJ5a", "1");
         fillInDropdown("iJ5b", "0");
-        checkScaleTrigger("Pain Scale (PS)","1 out of 4","Less than daily pain");
-
+        checkScaleTrigger("Pain Scale (PS)", "1 out of 4", "Less than daily pain");
     }
+
     public void painScale_2_Out_Of_4() {
         fillInDropdown("iJ5a", "3");
         fillInDropdown("iJ5b", "0");
-        checkScaleTrigger("Pain Scale (PS)","2 out of 4","Daily pain but not severe");
-
+        checkScaleTrigger("Pain Scale (PS)", "2 out of 4", "Daily pain but not severe");
     }
 
     public void painScale_3_Out_Of_4() {
         fillInDropdown("iJ5a", "3");
         fillInDropdown("iJ5b", "3");
-        checkScaleTrigger("Pain Scale (PS)","3 out of 4","Daily severe pain");
-
+        checkScaleTrigger("Pain Scale (PS)", "3 out of 4", "Daily severe pain");
     }
 
     public void painScale_4_Out_Of_4() {
         fillInDropdown("iJ5a", "3");
         fillInDropdown("iJ5b", "4");
-        checkScaleTrigger("Pain Scale (PS)","4 out of 4","Daily excruciating pain");
-
+        checkScaleTrigger("Pain Scale (PS)", "4 out of 4", "Daily excruciating pain");
     }
 
-    public void painScaleTest_Old(){
+    public void painScaleTest_Old() {
         painScale_0_Out_Of_3();
         painScale_1_Out_Of_3();
         painScale_2_Out_Of_3();
@@ -529,42 +551,39 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         painScale_3_Out_Of_3_Old();
     }
 
-
     public void painScale_0_Out_Of_3() {
 
         fillInDropdown("iJ5a", "0");
         fillInDropdown("iJ5b", "0");
-        checkScaleTrigger("Pain Scale (PS) - Old Version","0 out of 3","No pain");
+        checkScaleTrigger("Pain Scale (PS) - Old Version", "0 out of 3", "No pain");
     }
 
     public void painScale_1_Out_Of_3() {
         fillInDropdown("iJ5a", "1");
         fillInDropdown("iJ5b", "0");
-        checkScaleTrigger("Pain Scale (PS) - Old Version","1 out of 3","Less than daily pain");
-
+        checkScaleTrigger("Pain Scale (PS) - Old Version", "1 out of 3", "Less than daily pain");
     }
+
     public void painScale_2_Out_Of_3() {
         fillInDropdown("iJ5a", "3");
         fillInDropdown("iJ5b", "0");
-        checkScaleTrigger("Pain Scale (PS) - Old Version","2 out of 3","Daily pain but not severe");
-
+        checkScaleTrigger(
+                "Pain Scale (PS) - Old Version", "2 out of 3", "Daily pain but not severe");
     }
 
     public void painScale_3_Out_Of_3() {
         fillInDropdown("iJ5a", "3");
         fillInDropdown("iJ5b", "3");
-        checkScaleTrigger("Pain Scale (PS) - Old Version","3 out of 3","Daily severe pain");
-
+        checkScaleTrigger("Pain Scale (PS) - Old Version", "3 out of 3", "Daily severe pain");
     }
 
     public void painScale_3_Out_Of_3_Old() {
         fillInDropdown("iJ5a", "3");
         fillInDropdown("iJ5b", "4");
-        checkScaleTrigger("Pain Scale (PS) - Old Version","3 out of 3","Daily severe pain");
-
+        checkScaleTrigger("Pain Scale (PS) - Old Version", "3 out of 3", "Daily severe pain");
     }
 
-    public void dRsScaleTest(){
+    public void dRsScaleTest() {
         dRsScaleTest0_Out_Of_14();
         dRsScaleTest1_Out_Of_14();
         dRsScaleTest2_Out_Of_14();
@@ -582,8 +601,7 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         dRsScaleTest14_Out_Of_14();
     }
 
-
-    public void dRsScaleTest0_Out_Of_14(){
+    public void dRsScaleTest0_Out_Of_14() {
         goToNewSection("E. MOOD");
         fillInDropdown("iE1a", "0");
         fillInDropdown("iE1b", "0");
@@ -592,10 +610,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "0");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","0 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "0 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void dRsScaleTest1_Out_Of_14(){
+    public void dRsScaleTest1_Out_Of_14() {
 
         fillInDropdown("iE1a", "1");
         fillInDropdown("iE1b", "0");
@@ -604,10 +625,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "0");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","1 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "1 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void dRsScaleTest2_Out_Of_14(){
+    public void dRsScaleTest2_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "0");
@@ -616,10 +640,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "0");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","2 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "2 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void dRsScaleTest3_Out_Of_14(){
+    public void dRsScaleTest3_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "1");
@@ -628,10 +655,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "0");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","3 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "3 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void dRsScaleTest4_Out_Of_14(){
+    public void dRsScaleTest4_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -640,12 +670,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "0");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","4 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "4 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-
-
-    public void dRsScaleTest5_Out_Of_14(){
+    public void dRsScaleTest5_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -654,11 +685,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "0");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","5 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "5 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-
-    public void dRsScaleTest6_Out_Of_14(){
+    public void dRsScaleTest6_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -667,11 +700,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "0");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","6 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "6 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-
-    public void dRsScaleTest7_Out_Of_14(){
+    public void dRsScaleTest7_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -680,10 +715,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "0");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","7 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "7 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void dRsScaleTest8_Out_Of_14(){
+    public void dRsScaleTest8_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -692,9 +730,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "0");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","8 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "8 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
-    public void dRsScaleTest9_Out_Of_14(){
+
+    public void dRsScaleTest9_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -703,9 +745,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "1");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","9 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "9 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
-    public void dRsScaleTest10_Out_Of_14(){
+
+    public void dRsScaleTest10_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -714,10 +760,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "3");
         fillInDropdown("iE1f", "0");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","10 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "10 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void dRsScaleTest11_Out_Of_14(){
+    public void dRsScaleTest11_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -726,10 +775,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "3");
         fillInDropdown("iE1f", "1");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","11 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "11 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void dRsScaleTest12_Out_Of_14(){
+    public void dRsScaleTest12_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -738,10 +790,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "3");
         fillInDropdown("iE1f", "3");
         fillInDropdown("iE1g", "0");
-        checkScaleTrigger("Depression Rating Scale (DRS)","12 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "12 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void dRsScaleTest13_Out_Of_14(){
+    public void dRsScaleTest13_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -750,10 +805,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "3");
         fillInDropdown("iE1f", "3");
         fillInDropdown("iE1g", "1");
-        checkScaleTrigger("Depression Rating Scale (DRS)","13 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "13 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void dRsScaleTest14_Out_Of_14(){
+    public void dRsScaleTest14_Out_Of_14() {
 
         fillInDropdown("iE1a", "3");
         fillInDropdown("iE1b", "3");
@@ -762,10 +820,13 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         fillInDropdown("iE1e", "3");
         fillInDropdown("iE1f", "3");
         fillInDropdown("iE1g", "3");
-        checkScaleTrigger("Depression Rating Scale (DRS)","14 out of 14","Scores of 3 or greater indicate major and minor depressive disorders");
+        checkScaleTrigger(
+                "Depression Rating Scale (DRS)",
+                "14 out of 14",
+                "Scores of 3 or greater indicate major and minor depressive disorders");
     }
 
-    public void formulasTestScales () {
+    public void formulasTestScales() {
 
         communicationScaleTest();
         aDLScale_ShortFormTest_SmallSet();
@@ -794,7 +855,6 @@ public class ChaChaFsChamhFormulas extends AbstractAssessmentPage {
         behaviorCap_0();
         behaviorCap_1();
         behaviorCap_2();
-
     }
 
     public void behaviorCap_0() {

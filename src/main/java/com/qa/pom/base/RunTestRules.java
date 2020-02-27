@@ -71,10 +71,7 @@ public class RunTestRules extends TestWatcher {
 
         // Create name of screenshot
 
-        String screenshotName =
-                baseDir.getAbsolutePath()
-                        + "/"
-                        + "Error.png";
+        String screenshotName = baseDir.getAbsolutePath() + "/" + "Error.png";
 
         File targetFile = new File(screenshotName);
 
@@ -98,6 +95,6 @@ public class RunTestRules extends TestWatcher {
         // Driver quits on fail
 
         testClass.getDriver().quit();
-        testClass.sendEmail ();
+        testClass.sendEmail(testClass.testName);
     }
 }

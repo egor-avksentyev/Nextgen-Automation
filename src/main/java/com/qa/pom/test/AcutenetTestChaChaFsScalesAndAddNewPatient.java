@@ -1,15 +1,12 @@
 package com.qa.pom.test;
 
 import com.qa.pom.base.BaseTest;
-import com.qa.pom.pages.ChaChaFsChamhFormulas;
-import com.qa.pom.pages.Dashboard;
-import com.qa.pom.pages.Login;
-import com.qa.pom.pages.Pathways;
-import java.io.IOException;
+import com.qa.pom.pages.*;
 import org.junit.Test;
 
-public class AcutenetTestChaChaFsScales extends BaseTest {
+import java.io.IOException;
 
+public class AcutenetTestChaChaFsScalesAndAddNewPatient extends BaseTest {
     @Test
     public void testOpenSiteAndTestScales() throws IOException, InterruptedException {
         testName = "Acutenet (Nextgen) Test INTERRAI CHA-FS CHA-MH Formulas Scales";
@@ -17,12 +14,16 @@ public class AcutenetTestChaChaFsScales extends BaseTest {
         log("Click Submit and login ");
         Dashboard dash = login.logIn();
         log("On Dashboard");
-        Pathways path = dash.existedPatient();
-        log("On Pathways");
+        AddnewClient newclient = dash.addnewClientclick();
+        log("On Add New Patient");
+        Pathways path = newclient.FillinNewpatientInformation();
         ChaChaFsChamhFormulas cha = path.chooseInterRaiChaChafsChamh();
         cha.formulasTestScales();
 
         Thread.sleep(20000);
         closeSite();
     }
+
+
+
 }

@@ -2,12 +2,18 @@ package com.qa.pom.base;
 
 import com.qa.pom.pages.Login;
 import com.qa.pom.utils.YamlParser;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.*;
-
+import javax.activation.DataHandler;
+import javax.activation.DataSource;
+import javax.activation.FileDataSource;
+import javax.mail.*;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,15 +27,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.activation.DataHandler;
-import javax.activation.FileDataSource;
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeBodyPart;
-import javax.mail.internet.MimeMessage;
-import javax.mail.internet.MimeMultipart;
-import javax.activation.DataSource;
-
 public class BaseTest {
 
     public Actions actions;
@@ -37,22 +34,23 @@ public class BaseTest {
     private WebDriverWait wait;
     public Logger logger;
     public Properties props;
+    public String testName;
     // Logger
 
     // Rule
     @Rule public RunTestRules runTestRules = new RunTestRules(this);
 
     /** Constructor */
-    public BaseTest()  {
+    public BaseTest() {
 
         // Clear Directories
-        clearDirectories ();
+        clearDirectories();
         // Logger
         logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
 
         ChromeOptions options = new ChromeOptions();
 
-        /** Collection with settings of browser*/
+        /** Collection with settings of browser */
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("credentials_enable_service", false);
         prefs.put("profile.password_manager_enabled", false);
@@ -61,7 +59,7 @@ public class BaseTest {
                 "excludeSwitches", Collections.singletonList("enable-automation"));
         options.setExperimentalOption("useAutomationExtension", false);
 
-        /** Options which are disable forgot password pop-up*/
+        /** Options which are disable forgot password pop-up */
         options.setExperimentalOption("prefs", prefs);
         // Initialize path to ChromeDriver
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
@@ -79,15 +77,12 @@ public class BaseTest {
 
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.socketFactory.port", "465");
-        props.put("mail.smtp.socketFactory.class","javax.net.ssl.SSLSocketFactory");
+        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.port", "465");
-       // sendEmail ();
-
     }
 
-
-    protected void clearDirectories () {
+    protected void clearDirectories() {
         try {
             FileUtils.cleanDirectory(new File("src/main/resources/screenshots"));
             FileUtils.cleanDirectory(new File("src/main/resources/logs"));
@@ -113,7 +108,7 @@ public class BaseTest {
     /** Close site and make driver quit */
     protected void closeSite() {
         driver.quit();
-        sendEmail ();
+        sendEmail(testName);
     }
 
     /**
@@ -134,24 +129,28 @@ public class BaseTest {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-
-    public void sendEmail () {
+    public void sendEmail(String NameOfTest) {
         // This will handle the complete authentication
-        Session session = Session.getDefaultInstance(props,
+        Session session =
+                Session.getDefaultInstance(
+                        props,
+                        new javax.mail.Authenticator() {
 
-                new javax.mail.Authenticator() {
-
-                    protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication("eavksentyev@gmail.com", "Omega1234");
-                    }
-                });
+                            protected PasswordAuthentication getPasswordAuthentication() {
+                                return new PasswordAuthentication(
+                                        "eavksentyev@gmail.com", "Omega1234");
+                            }
+                        });
         try {
             // Create object of MimeMessage class
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress("eavksentyev@gmail.com"));
-            message.setRecipients(Message.RecipientType.TO,InternetAddress.parse("eavksentyev@acutenet.com,bkoptev@acutenet.com" ));
-            message.setSubject("Testing Subject");
-            String messageText = "Test Success";
+            message.setRecipients(
+                    Message.RecipientType.TO,
+                    InternetAddress.parse("eavksentyev@acutenet.com,bkoptev@acutenet.com"));
+            message.setSubject("Webdriver Automation Testing");
+            String messageText =
+                    "" + NameOfTest + " Success on fork " + YamlParser.getYamlData().getUrl() + "";
 
             // Create another object to add another content
             MimeBodyPart messageBodyPart2 = new MimeBodyPart();
@@ -167,20 +166,25 @@ public class BaseTest {
             messageBodyPart2.setFileName(filename);
             MimeBodyPart messageBodyPart3 = new MimeBodyPart();
             Multipart multipart = new MimeMultipart();
-         if(new File("src/main/resources/screenshots/Error.png").exists()) {
-              messageText = "Test Failed";
-            String filename1 = "src/main/resources/screenshots/Error.png";
+            if (new File("src/main/resources/screenshots/Error.png").exists()) {
+                messageText =
+                        ""
+                                + NameOfTest
+                                + " Failed on fork "
+                                + YamlParser.getYamlData().getUrl()
+                                + "";
+                String filename1 = "src/main/resources/screenshots/Error.png";
 
-            // Create data source and pass the filename
-            DataSource source1 = new FileDataSource(filename1);
+                // Create data source and pass the filename
+                DataSource source1 = new FileDataSource(filename1);
 
-            // set the handler
-            messageBodyPart3.setDataHandler(new DataHandler(source1));
+                // set the handler
+                messageBodyPart3.setDataHandler(new DataHandler(source1));
 
-            // set the file
-            messageBodyPart3.setFileName(filename1);
-            multipart.addBodyPart(messageBodyPart3);
-             }
+                // set the file
+                messageBodyPart3.setFileName(filename1);
+                multipart.addBodyPart(messageBodyPart3);
+            }
             // Create object of MimeMultipart class
 
             // Create object to add multimedia type content
@@ -201,19 +205,10 @@ public class BaseTest {
 
             System.out.println("=====Email Sent=====");
 
-        } catch (MessagingException e) {
+        } catch (MessagingException | IOException e) {
 
             throw new RuntimeException(e);
-
         }
-
-
-
-
-
-
-
-
     }
 
     /**
@@ -240,7 +235,6 @@ public class BaseTest {
 
     public void findElementAndClick(String xpath) {
         driver.findElement(By.xpath(xpath)).click();
-
     }
 
     public String findElementAndGetText(String xpath) {

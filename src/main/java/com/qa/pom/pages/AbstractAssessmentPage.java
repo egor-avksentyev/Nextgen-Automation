@@ -2,7 +2,6 @@ package com.qa.pom.pages;
 
 import com.qa.pom.base.BaseTest;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -58,13 +57,16 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         testClass.waitTillElementNotVisible(wrapXpath);
     }
 
-   public void elementClear (String varName){
-       testClass.waitTillXpathElementIsVisible("//div[@varname='"+varName+"']//div[@class='element-options']");
-       testClass.findElementAndClick("//div[@varname='"+varName+"']//div[@class='element-options']");
-       testClass.waitTillXpathElementIsVisible("//div[@varname='"+varName+"']//a[@element-action='clear']");
-       testClass.findElementAndClick("//div[@varname='"+varName+"']//a[@element-action='clear']");
+    public void elementClear(String varName) {
+        testClass.waitTillXpathElementIsVisible(
+                "//div[@varname='" + varName + "']//div[@class='element-options']");
+        testClass.findElementAndClick(
+                "//div[@varname='" + varName + "']//div[@class='element-options']");
+        testClass.waitTillXpathElementIsVisible(
+                "//div[@varname='" + varName + "']//a[@element-action='clear']");
+        testClass.findElementAndClick(
+                "//div[@varname='" + varName + "']//a[@element-action='clear']");
     };
-
 
     public void fillInRadioButton(String varName, String value) {
         try {
@@ -90,10 +92,12 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
 
     public void fillInDropdown(String varName, String numberOfElement) {
         try {
-            testClass.findElementAndClick("//div[@varname='" + varName + "']//button[@type='button']");
+            testClass.findElementAndClick(
+                    "//div[@varname='" + varName + "']//button[@type='button']");
         } catch (Exception e) {
             scrollToTop();
-            testClass.findElementAndClick("//div[@varname='" + varName + "']//button[@type='button']");
+            testClass.findElementAndClick(
+                    "//div[@varname='" + varName + "']//button[@type='button']");
         }
 
         testClass.waitTillXpathElementIsVisible(
@@ -132,7 +136,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                     "Value of: " + nameOfFormula + " is not as expected",
                     expectedFormulaValue,
                     formulaValue);
-            testClass.log(""+nameOfFormula+"  Value Correct");
+            testClass.log("" + nameOfFormula + "  Value Correct");
         } catch (AssertionError e) {
             testClass.logWarn("Please check value of triggered formula");
             testClass.logError(e.getMessage() + " " + e.getCause());
@@ -142,14 +146,13 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                     "Description of: " + nameOfFormula + " is not as expected",
                     expectedFormulaDescription,
                     formulaDescription);
-            testClass.log(""+nameOfFormula+"  Description Correct");
+            testClass.log("" + nameOfFormula + "  Description Correct");
         } catch (AssertionError e) {
             testClass.logWarn("Please check Description of triggered formula");
             testClass.logError(e.getMessage() + " " + e.getCause());
         }
 
         closeFormulasPage.click();
-
     }
 
     public void checkScaleTrigger(
@@ -174,7 +177,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                     "Value of: " + nameOfFormula + " is not as expected",
                     expectedFormulaValue,
                     formulaValue);
-            testClass.log(""+nameOfFormula+"  Value Correct");
+            testClass.log("" + nameOfFormula + "  Value Correct");
         } catch (AssertionError e) {
             testClass.logWarn("Please check value of triggered formula");
             testClass.logError(e.getMessage() + " " + e.getCause());
@@ -184,7 +187,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                     "Description of: " + nameOfFormula + " is not as expected",
                     expectedFormulaDescription,
                     formulaDescription);
-            testClass.log(""+nameOfFormula+" Description Correct");
+            testClass.log("" + nameOfFormula + " Description Correct");
         } catch (AssertionError e) {
             testClass.logWarn("Please check Description of triggered formula");
             testClass.logError(e.getMessage() + " " + e.getCause());
