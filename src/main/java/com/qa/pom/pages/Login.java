@@ -40,10 +40,10 @@ public class Login extends AbstractPage {
      */
     public Dashboard logIn() throws IOException {
 
-        YamlFile yamlData = YamlParser.getYamlData();
 
-        username.sendKeys(yamlData.getLogin());
-        password.sendKeys(yamlData.getPassword());
+
+        username.sendKeys(testClass.yamlData.getLogin());
+        password.sendKeys(testClass.yamlData.getPassword());
         submitButton.click();
         testClass.waitTillElementIsVisible(spinnerPathAndTerminateAndLogin);
         testClass.sizeConditionLoginCheckAndClickOnElem(

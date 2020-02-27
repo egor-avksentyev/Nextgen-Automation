@@ -3,3 +3,7 @@ url: https://demo.acutenet.net/
 login: egor
 password: 123456789QQww
 hcn: 8054821856
+# Data for Email Notifications
+# Credentials for source mail box auth
+username: eavksentyev@gmail.com
+passwordemail: Omega1234

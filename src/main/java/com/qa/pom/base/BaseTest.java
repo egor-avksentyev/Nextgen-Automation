@@ -1,6 +1,7 @@
 package com.qa.pom.base;
 
 import com.qa.pom.pages.Login;
+import com.qa.pom.utils.YamlFile;
 import com.qa.pom.utils.YamlParser;
 import java.io.File;
 import java.io.IOException;
@@ -35,13 +36,14 @@ public class BaseTest {
     public Logger logger;
     public Properties props;
     public String testName;
+    public YamlFile yamlData;
     // Logger
 
     // Rule
     @Rule public RunTestRules runTestRules = new RunTestRules(this);
 
     /** Constructor */
-    public BaseTest() {
+    public BaseTest()  {
 
         // Clear Directories
         clearDirectories();
@@ -75,12 +77,20 @@ public class BaseTest {
 
         props = new Properties();
 
+
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.socketFactory.port", "465");
         props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.port", "465");
+
+        parseYamlData();
     }
+
+    /**
+     * Clear screenshot and logs directories.
+     *
+     */
 
     protected void clearDirectories() {
         try {
@@ -88,6 +98,20 @@ public class BaseTest {
             FileUtils.cleanDirectory(new File("src/main/resources/logs"));
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    /**
+     * Parse yaml Data
+     *
+     */
+
+    protected void parseYamlData() {
+        try {
+            yamlData = YamlParser.getYamlData();
+        } catch (IOException e) {
+            e.printStackTrace();
+
         }
     }
 
@@ -129,6 +153,12 @@ public class BaseTest {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
+    /**
+     * sendEmail test method .
+     *
+     * @param NameOfTest the name of current test
+     */
+
     public void sendEmail(String NameOfTest) {
         // This will handle the complete authentication
         Session session =
@@ -138,7 +168,7 @@ public class BaseTest {
 
                             protected PasswordAuthentication getPasswordAuthentication() {
                                 return new PasswordAuthentication(
-                                        "eavksentyev@gmail.com", "Omega1234");
+                                        yamlData.getUsername(), yamlData.getPasswordemail());
                             }
                         });
         try {
