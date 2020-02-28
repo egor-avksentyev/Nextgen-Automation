@@ -44,7 +44,8 @@ public class BaseTest {
 
     /** Constructor */
     public BaseTest()  {
-
+        // Parse Yaml file
+        parseYamlData();
         // Clear Directories
         clearDirectories();
         // Logger
@@ -64,7 +65,7 @@ public class BaseTest {
         /** Options which are disable forgot password pop-up */
         options.setExperimentalOption("prefs", prefs);
         // Initialize path to ChromeDriver
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", yamlData.getChromeDriverSrc());
 
         // Initialize instance of ChromeDriver and add options
         driver = new ChromeDriver(options);
@@ -77,41 +78,28 @@ public class BaseTest {
 
         props = new Properties();
 
+        setEmailProperties();
 
-        props.put("mail.smtp.host", "smtp.gmail.com");
-        props.put("mail.smtp.socketFactory.port", "465");
-        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
-        props.put("mail.smtp.auth", "true");
-        props.put("mail.smtp.port", "465");
-
-        parseYamlData();
     }
-
     /**
      * Clear screenshot and logs directories.
-     *
      */
-
     protected void clearDirectories() {
         try {
-            FileUtils.cleanDirectory(new File("src/main/resources/screenshots"));
-            FileUtils.cleanDirectory(new File("src/main/resources/logs"));
+            FileUtils.cleanDirectory(new File(yamlData.getScreenshotSrcClear()));
+            FileUtils.cleanDirectory(new File(yamlData.getLogSrcClear ()));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
     /**
      * Parse yaml Data
-     *
      */
-
     protected void parseYamlData() {
         try {
             yamlData = YamlParser.getYamlData();
         } catch (IOException e) {
             e.printStackTrace();
-
         }
     }
 
@@ -121,11 +109,7 @@ public class BaseTest {
      * @return the instance of HomePage
      */
     protected Login openSite() {
-        try {
-            driver.get(YamlParser.getYamlData().getUrl());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        driver.get(yamlData.getUrl());
         return new Login(this);
     }
 
@@ -153,9 +137,16 @@ public class BaseTest {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
+    public void setEmailProperties() {
+        props.put("mail.smtp.host", yamlData.getSmtpHost());
+        props.put("mail.smtp.socketFactory.port", yamlData.getSmtpSocketFactoryPort ());
+        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+        props.put("mail.smtp.auth", yamlData.getSmtpAuth ());
+        props.put("mail.smtp.port", yamlData.getSmtpPort ());
+    }
+
     /**
      * sendEmail test method .
-     *
      * @param NameOfTest the name of current test
      */
 
@@ -168,23 +159,23 @@ public class BaseTest {
 
                             protected PasswordAuthentication getPasswordAuthentication() {
                                 return new PasswordAuthentication(
-                                        yamlData.getUsername(), yamlData.getPasswordemail());
+                                        yamlData.getUserName(), yamlData.getPasswordEmail());
                             }
                         });
         try {
             // Create object of MimeMessage class
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("eavksentyev@gmail.com"));
+            message.setFrom(new InternetAddress(yamlData.getMessageFrom()));
             message.setRecipients(
                     Message.RecipientType.TO,
-                    InternetAddress.parse("eavksentyev@acutenet.com,bkoptev@acutenet.com"));
-            message.setSubject("Webdriver Automation Testing");
+                    InternetAddress.parse(yamlData.getMessageRecipients()));
+            message.setSubject(yamlData.getMessageSubject());
             String messageText =
-                    "" + NameOfTest + " Success on fork " + YamlParser.getYamlData().getUrl() + "";
+                    "" + NameOfTest + " Success on fork " + yamlData.getUrl() + "";
 
             // Create another object to add another content
             MimeBodyPart messageBodyPart2 = new MimeBodyPart();
-            String filename = "src/main/resources/logs/app.log";
+            String filename = yamlData.getLogSrc();
 
             // Create data source and pass the filename
             DataSource source = new FileDataSource(filename);
@@ -196,14 +187,14 @@ public class BaseTest {
             messageBodyPart2.setFileName(filename);
             MimeBodyPart messageBodyPart3 = new MimeBodyPart();
             Multipart multipart = new MimeMultipart();
-            if (new File("src/main/resources/screenshots/Error.png").exists()) {
+            if (new File(yamlData.getScreenshotSrc()).exists()) {
                 messageText =
                         ""
                                 + NameOfTest
                                 + " Failed on fork "
-                                + YamlParser.getYamlData().getUrl()
+                                + yamlData.getUrl()
                                 + "";
-                String filename1 = "src/main/resources/screenshots/Error.png";
+                String filename1 = yamlData.getScreenshotSrc();
 
                 // Create data source and pass the filename
                 DataSource source1 = new FileDataSource(filename1);
@@ -216,13 +207,12 @@ public class BaseTest {
                 multipart.addBodyPart(messageBodyPart3);
             }
             // Create object of MimeMultipart class
-
             // Create object to add multimedia type content
             BodyPart messageBodyPart1 = new MimeBodyPart();
             messageBodyPart1.setText(messageText);
+
             // add body part 2
             multipart.addBodyPart(messageBodyPart2);
-            // add body part 3
 
             // add body part 1
             multipart.addBodyPart(messageBodyPart1);
@@ -235,7 +225,7 @@ public class BaseTest {
 
             System.out.println("=====Email Sent=====");
 
-        } catch (MessagingException | IOException e) {
+        } catch (MessagingException e) {
 
             throw new RuntimeException(e);
         }
@@ -301,7 +291,6 @@ public class BaseTest {
             waitTillElementNotVisible(notvisible);
         }
     }
-
     /**
      * Write down info message
      *

@@ -1,9 +1,35 @@
-# Data for login
+# ChromeDriver Path
+chromeDriverSrc: src/main/resources/chromedriver.exe
+####################login########################
+# Data for login:
 url: https://demo.acutenet.net/
 login: egor
 password: 123456789QQww
 hcn: 8054821856
+###################Email Notifications############
 # Data for Email Notifications
-# Credentials for source mail box auth
-username: eavksentyev@gmail.com
-passwordemail: Omega1234
+# Credentials for source mail box authentication:
+userName: eavksentyev@gmail.com
+passwordEmail: Omega1234
+# Message from:
+messageFrom: eavksentyev@gmail.com
+# Message to:
+messageRecipients: eavksentyev@acutenet.com,bkoptev@acutenet.com
+# Message Subject:
+messageSubject: Webdriver Automation Testing
+# Path to log to send via email
+logSrc: src/main/resources/logs/app.log
+# Path to screenshot to send via email
+screenshotSrc: src/main/resources/screenshots/Error.png
+################# Email Settings #################
+# Mail.smtp.host
+smtpHost: smtp.gmail.com
+# mail.smtp.socketFactory.port
+smtpSocketFactoryPort: 465
+# mail.smtp.auth
+smtpAuth: true
+# mail.smtp.port
+smtpPort: 465
+##########FileUtils(Clears logs and screenshots forders before start of each test) ####################
+screenshotSrcClear: src/main/resources/screenshots
+logSrcClear: src/main/resources/logs
