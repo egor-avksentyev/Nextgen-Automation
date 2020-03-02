@@ -1,371 +1,371 @@
-2020-28-28 17:28:02.002 [main] INFO   - Click Submit and login 
-2020-28-28 17:28:06.458 [main] INFO   - On Dashboard
-2020-28-28 17:28:10.178 [main] INFO   - On Pathways
-2020-28-28 17:28:18.129 [main] INFO   - Dropdown: iD1 Value: 0 filled
-2020-28-28 17:28:18.467 [main] INFO   - Dropdown: iD2 Value: 0 filled
-2020-28-28 17:28:18.647 [main] INFO   - Communication Scale (CS)  Value Correct
-2020-28-28 17:28:18.647 [main] INFO   - Communication Scale (CS) Description Correct
-2020-28-28 17:28:19.010 [main] INFO   - Dropdown: iD1 Value: 1 filled
-2020-28-28 17:28:19.133 [main] INFO   - Dropdown: iD2 Value: 0 filled
-2020-28-28 17:28:19.291 [main] INFO   - Communication Scale (CS)  Value Correct
-2020-28-28 17:28:19.291 [main] INFO   - Communication Scale (CS) Description Correct
-2020-28-28 17:28:19.647 [main] INFO   - Dropdown: iD1 Value: 2 filled
-2020-28-28 17:28:19.765 [main] INFO   - Dropdown: iD2 Value: 0 filled
-2020-28-28 17:28:19.895 [main] INFO   - Communication Scale (CS)  Value Correct
-2020-28-28 17:28:19.896 [main] INFO   - Communication Scale (CS) Description Correct
-2020-28-28 17:28:20.236 [main] INFO   - Dropdown: iD1 Value: 3 filled
-2020-28-28 17:28:20.363 [main] INFO   - Dropdown: iD2 Value: 0 filled
-2020-28-28 17:28:20.496 [main] INFO   - Communication Scale (CS)  Value Correct
-2020-28-28 17:28:20.496 [main] INFO   - Communication Scale (CS) Description Correct
-2020-28-28 17:28:20.850 [main] INFO   - Dropdown: iD1 Value: 4 filled
-2020-28-28 17:28:20.965 [main] INFO   - Dropdown: iD2 Value: 0 filled
-2020-28-28 17:28:21.113 [main] INFO   - Communication Scale (CS)  Value Correct
-2020-28-28 17:28:21.114 [main] INFO   - Communication Scale (CS) Description Correct
-2020-28-28 17:28:21.297 [main] INFO   - Dropdown: iD1 Value: 4 filled
-2020-28-28 17:28:21.571 [main] INFO   - Dropdown: iD2 Value: 1 filled
-2020-28-28 17:28:21.709 [main] INFO   - Communication Scale (CS)  Value Correct
-2020-28-28 17:28:21.710 [main] INFO   - Communication Scale (CS) Description Correct
-2020-28-28 17:28:21.896 [main] INFO   - Dropdown: iD1 Value: 4 filled
-2020-28-28 17:28:22.175 [main] INFO   - Dropdown: iD2 Value: 2 filled
-2020-28-28 17:28:22.314 [main] INFO   - Communication Scale (CS)  Value Correct
-2020-28-28 17:28:22.314 [main] INFO   - Communication Scale (CS) Description Correct
-2020-28-28 17:28:22.496 [main] INFO   - Dropdown: iD1 Value: 4 filled
-2020-28-28 17:28:22.784 [main] INFO   - Dropdown: iD2 Value: 3 filled
-2020-28-28 17:28:22.912 [main] INFO   - Communication Scale (CS)  Value Correct
-2020-28-28 17:28:22.912 [main] INFO   - Communication Scale (CS) Description Correct
-2020-28-28 17:28:23.097 [main] INFO   - Dropdown: iD1 Value: 4 filled
-2020-28-28 17:28:23.389 [main] INFO   - Dropdown: iD2 Value: 4 filled
-2020-28-28 17:28:23.526 [main] INFO   - Communication Scale (CS)  Value Correct
-2020-28-28 17:28:23.526 [main] INFO   - Communication Scale (CS) Description Correct
-2020-28-28 17:28:23.588 [main] INFO   - Start test of aDLScale_ShortForm
-2020-28-28 17:28:23.588 [main] INFO   - Small Set
-2020-28-28 17:28:25.176 [main] INFO   - Dropdown: iG2b Value: 0 filled
-2020-28-28 17:28:25.524 [main] INFO   - Dropdown: iG2f Value: 0 filled
-2020-28-28 17:28:25.690 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:25.691 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:26.104 [main] INFO   - Dropdown: iG2b Value: 2 filled
-2020-28-28 17:28:26.235 [main] INFO   - Dropdown: iG2f Value: 0 filled
-2020-28-28 17:28:26.398 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:26.398 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:26.600 [main] INFO   - Dropdown: iG2b Value: 2 filled
-2020-28-28 17:28:26.914 [main] INFO   - Dropdown: iG2f Value: 2 filled
-2020-28-28 17:28:27.058 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:27.058 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:27.466 [main] INFO   - Dropdown: iG2b Value: 3 filled
-2020-28-28 17:28:27.601 [main] INFO   - Dropdown: iG2f Value: 2 filled
-2020-28-28 17:28:27.762 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:27.762 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:28.134 [main] INFO   - Dropdown: iG2b Value: 4 filled
-2020-28-28 17:28:28.264 [main] INFO   - Dropdown: iG2f Value: 2 filled
-2020-28-28 17:28:28.428 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:28.428 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:28.824 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-28-28 17:28:28.950 [main] INFO   - Dropdown: iG2f Value: 2 filled
-2020-28-28 17:28:29.107 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:29.108 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:29.316 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-28-28 17:28:29.630 [main] INFO   - Dropdown: iG2f Value: 3 filled
-2020-28-28 17:28:29.774 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:29.774 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:29.999 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-28-28 17:28:30.318 [main] INFO   - Dropdown: iG2f Value: 4 filled
-2020-28-28 17:28:30.471 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:30.471 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:30.681 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-28-28 17:28:30.981 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-28-28 17:28:31.158 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:31.158 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:32.815 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-28-28 17:28:34.079 [main] INFO   - Dropdown: iG2b Value: 0 filled
-2020-28-28 17:28:34.398 [main] INFO   - Dropdown: iG2f Value: 0 filled
-2020-28-28 17:28:36.050 [main] INFO   - Dropdown: iG2h Value: 0 filled
-2020-28-28 17:28:36.357 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-28-28 17:28:36.497 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:36.497 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:37.645 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-28-28 17:28:38.901 [main] INFO   - Dropdown: iG2b Value: 2 filled
-2020-28-28 17:28:39.079 [main] INFO   - Dropdown: iG2f Value: 0 filled
-2020-28-28 17:28:40.541 [main] INFO   - Dropdown: iG2h Value: 0 filled
-2020-28-28 17:28:40.691 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-28-28 17:28:40.830 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:40.830 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:41.844 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-28-28 17:28:42.931 [main] INFO   - Dropdown: iG2b Value: 3 filled
-2020-28-28 17:28:43.113 [main] INFO   - Dropdown: iG2f Value: 0 filled
-2020-28-28 17:28:45.057 [main] INFO   - Dropdown: iG2h Value: 0 filled
-2020-28-28 17:28:45.207 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-28-28 17:28:45.345 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:45.346 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:46.391 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-28-28 17:28:47.450 [main] INFO   - Dropdown: iG2b Value: 4 filled
-2020-28-28 17:28:47.644 [main] INFO   - Dropdown: iG2f Value: 0 filled
-2020-28-28 17:28:49.339 [main] INFO   - Dropdown: iG2h Value: 0 filled
-2020-28-28 17:28:49.523 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-28-28 17:28:49.693 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:49.693 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:50.739 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-28-28 17:28:51.862 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-28-28 17:28:52.060 [main] INFO   - Dropdown: iG2f Value: 0 filled
-2020-28-28 17:28:53.537 [main] INFO   - Dropdown: iG2h Value: 0 filled
-2020-28-28 17:28:53.707 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-28-28 17:28:53.860 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:53.860 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:55.008 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-28-28 17:28:56.042 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-28-28 17:28:56.377 [main] INFO   - Dropdown: iG2f Value: 2 filled
-2020-28-28 17:28:57.819 [main] INFO   - Dropdown: iG2h Value: 0 filled
-2020-28-28 17:28:57.985 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-28-28 17:28:58.125 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-28-28 17:28:58.125 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-28-28 17:28:59.171 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:00.276 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:00.599 [main] INFO   - Dropdown: iG2f Value: 3 filled
-2020-29-28 17:29:03.136 [main] INFO   - Dropdown: iG2h Value: 0 filled
-2020-29-28 17:29:03.314 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-29-28 17:29:03.465 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:03.465 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:04.822 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:06.156 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:06.507 [main] INFO   - Dropdown: iG2f Value: 4 filled
-2020-29-28 17:29:08.017 [main] INFO   - Dropdown: iG2h Value: 0 filled
-2020-29-28 17:29:08.182 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-29-28 17:29:08.322 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:08.322 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:09.317 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:10.220 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:10.614 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-29-28 17:29:12.563 [main] INFO   - Dropdown: iG2h Value: 0 filled
-2020-29-28 17:29:12.714 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-29-28 17:29:12.875 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:12.875 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:13.901 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:14.840 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:15.017 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-29-28 17:29:16.651 [main] INFO   - Dropdown: iG2h Value: 2 filled
-2020-29-28 17:29:16.812 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-29-28 17:29:16.950 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:16.950 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:18.630 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:19.551 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:19.736 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-29-28 17:29:21.370 [main] INFO   - Dropdown: iG2h Value: 3 filled
-2020-29-28 17:29:21.579 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-29-28 17:29:21.737 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:21.737 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:22.764 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:23.833 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:24.033 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-29-28 17:29:25.650 [main] INFO   - Dropdown: iG2h Value: 4 filled
-2020-29-28 17:29:25.808 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-29-28 17:29:25.951 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:25.951 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:27.210 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:28.265 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:28.447 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-29-28 17:29:30.733 [main] INFO   - Dropdown: iG2h Value: 6 filled
-2020-29-28 17:29:30.910 [main] INFO   - Dropdown: iG2j Value: 0 filled
-2020-29-28 17:29:31.069 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:31.069 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:32.078 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:32.996 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:33.180 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-29-28 17:29:34.880 [main] INFO   - Dropdown: iG2h Value: 6 filled
-2020-29-28 17:29:35.193 [main] INFO   - Dropdown: iG2j Value: 2 filled
-2020-29-28 17:29:35.327 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:35.327 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:36.376 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:37.379 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:37.559 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-29-28 17:29:39.021 [main] INFO   - Dropdown: iG2h Value: 6 filled
-2020-29-28 17:29:39.326 [main] INFO   - Dropdown: iG2j Value: 3 filled
-2020-29-28 17:29:39.460 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:39.460 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:40.774 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:41.728 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:41.911 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-29-28 17:29:43.405 [main] INFO   - Dropdown: iG2h Value: 6 filled
-2020-29-28 17:29:43.721 [main] INFO   - Dropdown: iG2j Value: 4 filled
-2020-29-28 17:29:43.855 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:43.856 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:44.972 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-29-28 17:29:46.359 [main] INFO   - Dropdown: iG2b Value: 6 filled
-2020-29-28 17:29:46.542 [main] INFO   - Dropdown: iG2f Value: 6 filled
-2020-29-28 17:29:47.986 [main] INFO   - Dropdown: iG2h Value: 6 filled
-2020-29-28 17:29:48.313 [main] INFO   - Dropdown: iG2j Value: 6 filled
-2020-29-28 17:29:48.458 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
-2020-29-28 17:29:48.458 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
-2020-29-28 17:29:50.529 [main] INFO   - Dropdown: iJ5a Value: 0 filled
-2020-29-28 17:29:50.852 [main] INFO   - Dropdown: iJ5b Value: 0 filled
-2020-29-28 17:29:51.019 [main] INFO   - Pain Scale (PS)  Value Correct
-2020-29-28 17:29:51.020 [main] INFO   - Pain Scale (PS) Description Correct
-2020-29-28 17:29:51.411 [main] INFO   - Dropdown: iJ5a Value: 1 filled
-2020-29-28 17:29:51.570 [main] INFO   - Dropdown: iJ5b Value: 0 filled
-2020-29-28 17:29:51.738 [main] INFO   - Pain Scale (PS)  Value Correct
-2020-29-28 17:29:51.738 [main] INFO   - Pain Scale (PS) Description Correct
-2020-29-28 17:29:52.129 [main] INFO   - Dropdown: iJ5a Value: 3 filled
-2020-29-28 17:29:52.273 [main] INFO   - Dropdown: iJ5b Value: 0 filled
-2020-29-28 17:29:52.437 [main] INFO   - Pain Scale (PS)  Value Correct
-2020-29-28 17:29:52.437 [main] INFO   - Pain Scale (PS) Description Correct
-2020-29-28 17:29:52.686 [main] INFO   - Dropdown: iJ5a Value: 3 filled
-2020-29-28 17:29:52.992 [main] INFO   - Dropdown: iJ5b Value: 3 filled
-2020-29-28 17:29:53.153 [main] INFO   - Pain Scale (PS)  Value Correct
-2020-29-28 17:29:53.153 [main] INFO   - Pain Scale (PS) Description Correct
-2020-29-28 17:29:53.389 [main] INFO   - Dropdown: iJ5a Value: 3 filled
-2020-29-28 17:29:53.700 [main] INFO   - Dropdown: iJ5b Value: 4 filled
-2020-29-28 17:29:53.852 [main] INFO   - Pain Scale (PS)  Value Correct
-2020-29-28 17:29:53.852 [main] INFO   - Pain Scale (PS) Description Correct
-2020-29-28 17:29:54.265 [main] INFO   - Dropdown: iJ5a Value: 0 filled
-2020-29-28 17:29:54.562 [main] INFO   - Dropdown: iJ5b Value: 0 filled
-2020-29-28 17:29:54.735 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
-2020-29-28 17:29:54.735 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
-2020-29-28 17:29:55.112 [main] INFO   - Dropdown: iJ5a Value: 1 filled
-2020-29-28 17:29:55.256 [main] INFO   - Dropdown: iJ5b Value: 0 filled
-2020-29-28 17:29:55.416 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
-2020-29-28 17:29:55.416 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
-2020-29-28 17:29:55.793 [main] INFO   - Dropdown: iJ5a Value: 3 filled
-2020-29-28 17:29:55.955 [main] INFO   - Dropdown: iJ5b Value: 0 filled
-2020-29-28 17:29:56.124 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
-2020-29-28 17:29:56.124 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
-2020-29-28 17:29:56.354 [main] INFO   - Dropdown: iJ5a Value: 3 filled
-2020-29-28 17:29:56.642 [main] INFO   - Dropdown: iJ5b Value: 3 filled
-2020-29-28 17:29:56.811 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
-2020-29-28 17:29:56.812 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
-2020-29-28 17:29:57.035 [main] INFO   - Dropdown: iJ5a Value: 3 filled
-2020-29-28 17:29:57.347 [main] INFO   - Dropdown: iJ5b Value: 4 filled
-2020-29-28 17:29:57.520 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
-2020-29-28 17:29:57.520 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
-2020-29-28 17:29:59.097 [main] INFO   - Dropdown: iE1a Value: 0 filled
-2020-29-28 17:29:59.433 [main] INFO   - Dropdown: iE1b Value: 0 filled
-2020-29-28 17:29:59.763 [main] INFO   - Dropdown: iE1c Value: 0 filled
-2020-30-28 17:30:00.069 [main] INFO   - Dropdown: iE1d Value: 0 filled
-2020-30-28 17:30:00.387 [main] INFO   - Dropdown: iE1e Value: 0 filled
-2020-30-28 17:30:00.696 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:01.047 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:01.206 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:01.206 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:01.644 [main] INFO   - Dropdown: iE1a Value: 1 filled
-2020-30-28 17:30:01.765 [main] INFO   - Dropdown: iE1b Value: 0 filled
-2020-30-28 17:30:01.881 [main] INFO   - Dropdown: iE1c Value: 0 filled
-2020-30-28 17:30:01.998 [main] INFO   - Dropdown: iE1d Value: 0 filled
-2020-30-28 17:30:02.132 [main] INFO   - Dropdown: iE1e Value: 0 filled
-2020-30-28 17:30:02.266 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:02.400 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:02.563 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:02.563 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:02.904 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:03.030 [main] INFO   - Dropdown: iE1b Value: 0 filled
-2020-30-28 17:30:03.148 [main] INFO   - Dropdown: iE1c Value: 0 filled
-2020-30-28 17:30:03.280 [main] INFO   - Dropdown: iE1d Value: 0 filled
-2020-30-28 17:30:03.414 [main] INFO   - Dropdown: iE1e Value: 0 filled
-2020-30-28 17:30:03.530 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:03.680 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:03.821 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:03.821 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:04.033 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:04.385 [main] INFO   - Dropdown: iE1b Value: 1 filled
-2020-30-28 17:30:04.531 [main] INFO   - Dropdown: iE1c Value: 0 filled
-2020-30-28 17:30:04.681 [main] INFO   - Dropdown: iE1d Value: 0 filled
-2020-30-28 17:30:04.815 [main] INFO   - Dropdown: iE1e Value: 0 filled
-2020-30-28 17:30:04.946 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:05.059 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:05.206 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:05.206 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:05.397 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:05.693 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:05.812 [main] INFO   - Dropdown: iE1c Value: 0 filled
-2020-30-28 17:30:05.932 [main] INFO   - Dropdown: iE1d Value: 0 filled
-2020-30-28 17:30:06.064 [main] INFO   - Dropdown: iE1e Value: 0 filled
-2020-30-28 17:30:06.179 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:06.314 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:06.463 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:06.464 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:06.666 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:06.796 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:07.104 [main] INFO   - Dropdown: iE1c Value: 1 filled
-2020-30-28 17:30:07.231 [main] INFO   - Dropdown: iE1d Value: 0 filled
-2020-30-28 17:30:07.365 [main] INFO   - Dropdown: iE1e Value: 0 filled
-2020-30-28 17:30:07.498 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:07.629 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:07.769 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:07.769 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:07.963 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:08.097 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:08.410 [main] INFO   - Dropdown: iE1c Value: 3 filled
-2020-30-28 17:30:08.545 [main] INFO   - Dropdown: iE1d Value: 0 filled
-2020-30-28 17:30:08.678 [main] INFO   - Dropdown: iE1e Value: 0 filled
-2020-30-28 17:30:08.828 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:08.951 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:09.119 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:09.120 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:09.313 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:09.446 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:09.579 [main] INFO   - Dropdown: iE1c Value: 3 filled
-2020-30-28 17:30:09.894 [main] INFO   - Dropdown: iE1d Value: 1 filled
-2020-30-28 17:30:10.008 [main] INFO   - Dropdown: iE1e Value: 0 filled
-2020-30-28 17:30:10.129 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:10.262 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:10.407 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:10.407 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:10.595 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:10.746 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:10.879 [main] INFO   - Dropdown: iE1c Value: 3 filled
-2020-30-28 17:30:11.205 [main] INFO   - Dropdown: iE1d Value: 3 filled
-2020-30-28 17:30:11.345 [main] INFO   - Dropdown: iE1e Value: 0 filled
-2020-30-28 17:30:11.479 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:11.663 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:11.805 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:11.805 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:11.997 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:12.129 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:12.282 [main] INFO   - Dropdown: iE1c Value: 3 filled
-2020-30-28 17:30:12.412 [main] INFO   - Dropdown: iE1d Value: 3 filled
-2020-30-28 17:30:12.713 [main] INFO   - Dropdown: iE1e Value: 1 filled
-2020-30-28 17:30:12.845 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:12.978 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:13.120 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:13.120 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:13.311 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:13.444 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:13.587 [main] INFO   - Dropdown: iE1c Value: 3 filled
-2020-30-28 17:30:13.711 [main] INFO   - Dropdown: iE1d Value: 3 filled
-2020-30-28 17:30:14.031 [main] INFO   - Dropdown: iE1e Value: 3 filled
-2020-30-28 17:30:14.161 [main] INFO   - Dropdown: iE1f Value: 0 filled
-2020-30-28 17:30:14.293 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:14.431 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:14.432 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:14.649 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:14.776 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:14.896 [main] INFO   - Dropdown: iE1c Value: 3 filled
-2020-30-28 17:30:15.044 [main] INFO   - Dropdown: iE1d Value: 3 filled
-2020-30-28 17:30:15.177 [main] INFO   - Dropdown: iE1e Value: 3 filled
-2020-30-28 17:30:15.506 [main] INFO   - Dropdown: iE1f Value: 1 filled
-2020-30-28 17:30:15.629 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:15.789 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:15.789 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:15.976 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:16.111 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:16.243 [main] INFO   - Dropdown: iE1c Value: 3 filled
-2020-30-28 17:30:16.477 [main] INFO   - Dropdown: iE1d Value: 3 filled
-2020-30-28 17:30:16.612 [main] INFO   - Dropdown: iE1e Value: 3 filled
-2020-30-28 17:30:16.905 [main] INFO   - Dropdown: iE1f Value: 3 filled
-2020-30-28 17:30:17.026 [main] INFO   - Dropdown: iE1g Value: 0 filled
-2020-30-28 17:30:17.167 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:17.167 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:17.392 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:17.509 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:17.627 [main] INFO   - Dropdown: iE1c Value: 3 filled
-2020-30-28 17:30:17.761 [main] INFO   - Dropdown: iE1d Value: 3 filled
-2020-30-28 17:30:17.892 [main] INFO   - Dropdown: iE1e Value: 3 filled
-2020-30-28 17:30:18.026 [main] INFO   - Dropdown: iE1f Value: 3 filled
-2020-30-28 17:30:18.312 [main] INFO   - Dropdown: iE1g Value: 1 filled
-2020-30-28 17:30:18.449 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:18.450 [main] INFO   - Depression Rating Scale (DRS) Description Correct
-2020-30-28 17:30:18.643 [main] INFO   - Dropdown: iE1a Value: 3 filled
-2020-30-28 17:30:18.777 [main] INFO   - Dropdown: iE1b Value: 3 filled
-2020-30-28 17:30:18.925 [main] INFO   - Dropdown: iE1c Value: 3 filled
-2020-30-28 17:30:19.060 [main] INFO   - Dropdown: iE1d Value: 3 filled
-2020-30-28 17:30:19.192 [main] INFO   - Dropdown: iE1e Value: 3 filled
-2020-30-28 17:30:19.326 [main] INFO   - Dropdown: iE1f Value: 3 filled
-2020-30-28 17:30:19.615 [main] INFO   - Dropdown: iE1g Value: 3 filled
-2020-30-28 17:30:19.748 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
-2020-30-28 17:30:19.748 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-57-02 14:57:16.777 [main] INFO   - Click Submit and login 
+2020-57-02 14:57:21.428 [main] INFO   - On Dashboard
+2020-57-02 14:57:25.462 [main] INFO   - On Pathways
+2020-57-02 14:57:35.094 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-57-02 14:57:35.430 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-57-02 14:57:35.620 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-57-02 14:57:35.620 [main] INFO   - Communication Scale (CS) Description Correct
+2020-57-02 14:57:36.040 [main] INFO   - Dropdown: iD1 Value: 1 filled
+2020-57-02 14:57:36.157 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-57-02 14:57:36.300 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-57-02 14:57:36.300 [main] INFO   - Communication Scale (CS) Description Correct
+2020-57-02 14:57:36.662 [main] INFO   - Dropdown: iD1 Value: 2 filled
+2020-57-02 14:57:36.807 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-57-02 14:57:36.962 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-57-02 14:57:36.962 [main] INFO   - Communication Scale (CS) Description Correct
+2020-57-02 14:57:37.302 [main] INFO   - Dropdown: iD1 Value: 3 filled
+2020-57-02 14:57:37.440 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-57-02 14:57:37.572 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-57-02 14:57:37.572 [main] INFO   - Communication Scale (CS) Description Correct
+2020-57-02 14:57:37.920 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-57-02 14:57:38.040 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-57-02 14:57:38.177 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-57-02 14:57:38.177 [main] INFO   - Communication Scale (CS) Description Correct
+2020-57-02 14:57:38.355 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-57-02 14:57:38.648 [main] INFO   - Dropdown: iD2 Value: 1 filled
+2020-57-02 14:57:38.789 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-57-02 14:57:38.789 [main] INFO   - Communication Scale (CS) Description Correct
+2020-57-02 14:57:38.973 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-57-02 14:57:39.249 [main] INFO   - Dropdown: iD2 Value: 2 filled
+2020-57-02 14:57:39.400 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-57-02 14:57:39.401 [main] INFO   - Communication Scale (CS) Description Correct
+2020-57-02 14:57:39.588 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-57-02 14:57:39.876 [main] INFO   - Dropdown: iD2 Value: 3 filled
+2020-57-02 14:57:40.031 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-57-02 14:57:40.031 [main] INFO   - Communication Scale (CS) Description Correct
+2020-57-02 14:57:40.221 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-57-02 14:57:40.491 [main] INFO   - Dropdown: iD2 Value: 4 filled
+2020-57-02 14:57:40.618 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-57-02 14:57:40.618 [main] INFO   - Communication Scale (CS) Description Correct
+2020-57-02 14:57:40.681 [main] INFO   - Start test of aDLScale_ShortForm
+2020-57-02 14:57:40.681 [main] INFO   - Small Set
+2020-57-02 14:57:42.768 [main] INFO   - Dropdown: iG2b Value: 0 filled
+2020-57-02 14:57:43.133 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-57-02 14:57:43.298 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:43.299 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:43.695 [main] INFO   - Dropdown: iG2b Value: 2 filled
+2020-57-02 14:57:43.840 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-57-02 14:57:44.006 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:44.006 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:44.210 [main] INFO   - Dropdown: iG2b Value: 2 filled
+2020-57-02 14:57:44.534 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-57-02 14:57:44.686 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:44.686 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:45.071 [main] INFO   - Dropdown: iG2b Value: 3 filled
+2020-57-02 14:57:45.209 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-57-02 14:57:45.369 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:45.369 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:45.767 [main] INFO   - Dropdown: iG2b Value: 4 filled
+2020-57-02 14:57:45.907 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-57-02 14:57:46.069 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:46.069 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:46.456 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-57-02 14:57:46.575 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-57-02 14:57:46.750 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:46.750 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:46.975 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-57-02 14:57:47.292 [main] INFO   - Dropdown: iG2f Value: 3 filled
+2020-57-02 14:57:47.443 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:47.443 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:47.675 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-57-02 14:57:47.972 [main] INFO   - Dropdown: iG2f Value: 4 filled
+2020-57-02 14:57:48.135 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:48.135 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:48.342 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-57-02 14:57:48.622 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-57-02 14:57:48.780 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:48.780 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:50.707 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-57-02 14:57:52.433 [main] INFO   - Dropdown: iG2b Value: 0 filled
+2020-57-02 14:57:52.753 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-57-02 14:57:55.622 [main] INFO   - Dropdown: iG2h Value: 0 filled
+2020-57-02 14:57:55.956 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-57-02 14:57:56.102 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-57-02 14:57:56.102 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-57-02 14:57:57.535 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-57-02 14:57:59.316 [main] INFO   - Dropdown: iG2b Value: 2 filled
+2020-57-02 14:57:59.504 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-58-02 14:58:02.263 [main] INFO   - Dropdown: iG2h Value: 0 filled
+2020-58-02 14:58:02.416 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:02.556 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:02.556 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:04.566 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:06.128 [main] INFO   - Dropdown: iG2b Value: 3 filled
+2020-58-02 14:58:06.302 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-58-02 14:58:09.029 [main] INFO   - Dropdown: iG2h Value: 0 filled
+2020-58-02 14:58:09.181 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:09.327 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:09.327 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:10.747 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:11.970 [main] INFO   - Dropdown: iG2b Value: 4 filled
+2020-58-02 14:58:12.165 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-58-02 14:58:14.862 [main] INFO   - Dropdown: iG2h Value: 0 filled
+2020-58-02 14:58:15.010 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:15.149 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:15.149 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:16.628 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:18.440 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-58-02 14:58:18.614 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-58-02 14:58:20.308 [main] INFO   - Dropdown: iG2h Value: 0 filled
+2020-58-02 14:58:20.454 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:20.612 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:20.612 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:22.078 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:23.161 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-58-02 14:58:23.480 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-58-02 14:58:25.656 [main] INFO   - Dropdown: iG2h Value: 0 filled
+2020-58-02 14:58:25.802 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:25.960 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:25.960 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:27.309 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:28.393 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-58-02 14:58:28.720 [main] INFO   - Dropdown: iG2f Value: 3 filled
+2020-58-02 14:58:30.906 [main] INFO   - Dropdown: iG2h Value: 0 filled
+2020-58-02 14:58:31.057 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:31.206 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:31.206 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:32.657 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:34.075 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-58-02 14:58:34.407 [main] INFO   - Dropdown: iG2f Value: 4 filled
+2020-58-02 14:58:36.571 [main] INFO   - Dropdown: iG2h Value: 0 filled
+2020-58-02 14:58:36.719 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:36.860 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:36.861 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:38.272 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:39.356 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-58-02 14:58:39.720 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-58-02 14:58:42.451 [main] INFO   - Dropdown: iG2h Value: 0 filled
+2020-58-02 14:58:42.601 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:42.763 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:42.763 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:44.186 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:45.256 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-58-02 14:58:45.439 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-58-02 14:58:47.705 [main] INFO   - Dropdown: iG2h Value: 2 filled
+2020-58-02 14:58:47.868 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:48.000 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:48.000 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:49.401 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:50.419 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-58-02 14:58:50.604 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-58-02 14:58:52.884 [main] INFO   - Dropdown: iG2h Value: 3 filled
+2020-58-02 14:58:53.031 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:53.169 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:53.169 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-58-02 14:58:54.471 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-58-02 14:58:55.870 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-58-02 14:58:56.053 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-58-02 14:58:58.348 [main] INFO   - Dropdown: iG2h Value: 4 filled
+2020-58-02 14:58:58.496 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-58-02 14:58:58.654 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-58-02 14:58:58.654 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-59-02 14:59:00.003 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-59-02 14:59:01.401 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-59-02 14:59:01.584 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-59-02 14:59:05.461 [main] INFO   - Dropdown: iG2h Value: 6 filled
+2020-59-02 14:59:05.610 [main] INFO   - Dropdown: iG2j Value: 0 filled
+2020-59-02 14:59:05.749 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-59-02 14:59:05.749 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-59-02 14:59:07.180 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-59-02 14:59:08.264 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-59-02 14:59:08.447 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-59-02 14:59:11.093 [main] INFO   - Dropdown: iG2h Value: 6 filled
+2020-59-02 14:59:11.415 [main] INFO   - Dropdown: iG2j Value: 2 filled
+2020-59-02 14:59:11.558 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-59-02 14:59:11.559 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-59-02 14:59:12.945 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-59-02 14:59:14.028 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-59-02 14:59:14.196 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-59-02 14:59:16.355 [main] INFO   - Dropdown: iG2h Value: 6 filled
+2020-59-02 14:59:16.660 [main] INFO   - Dropdown: iG2j Value: 3 filled
+2020-59-02 14:59:16.794 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-59-02 14:59:16.794 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-59-02 14:59:18.193 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-59-02 14:59:19.595 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-59-02 14:59:19.778 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-59-02 14:59:22.001 [main] INFO   - Dropdown: iG2h Value: 6 filled
+2020-59-02 14:59:22.340 [main] INFO   - Dropdown: iG2j Value: 4 filled
+2020-59-02 14:59:22.527 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-59-02 14:59:22.527 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-59-02 14:59:23.923 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-59-02 14:59:25.329 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-59-02 14:59:25.510 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-59-02 14:59:27.237 [main] INFO   - Dropdown: iG2h Value: 6 filled
+2020-59-02 14:59:27.546 [main] INFO   - Dropdown: iG2j Value: 6 filled
+2020-59-02 14:59:27.697 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-59-02 14:59:27.697 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-59-02 14:59:30.849 [main] INFO   - Dropdown: iJ5a Value: 0 filled
+2020-59-02 14:59:31.180 [main] INFO   - Dropdown: iJ5b Value: 0 filled
+2020-59-02 14:59:31.343 [main] INFO   - Pain Scale (PS)  Value Correct
+2020-59-02 14:59:31.343 [main] INFO   - Pain Scale (PS) Description Correct
+2020-59-02 14:59:31.709 [main] INFO   - Dropdown: iJ5a Value: 1 filled
+2020-59-02 14:59:31.836 [main] INFO   - Dropdown: iJ5b Value: 0 filled
+2020-59-02 14:59:31.995 [main] INFO   - Pain Scale (PS)  Value Correct
+2020-59-02 14:59:31.995 [main] INFO   - Pain Scale (PS) Description Correct
+2020-59-02 14:59:32.361 [main] INFO   - Dropdown: iJ5a Value: 3 filled
+2020-59-02 14:59:32.506 [main] INFO   - Dropdown: iJ5b Value: 0 filled
+2020-59-02 14:59:32.664 [main] INFO   - Pain Scale (PS)  Value Correct
+2020-59-02 14:59:32.664 [main] INFO   - Pain Scale (PS) Description Correct
+2020-59-02 14:59:32.904 [main] INFO   - Dropdown: iJ5a Value: 3 filled
+2020-59-02 14:59:33.217 [main] INFO   - Dropdown: iJ5b Value: 3 filled
+2020-59-02 14:59:33.387 [main] INFO   - Pain Scale (PS)  Value Correct
+2020-59-02 14:59:33.388 [main] INFO   - Pain Scale (PS) Description Correct
+2020-59-02 14:59:33.607 [main] INFO   - Dropdown: iJ5a Value: 3 filled
+2020-59-02 14:59:33.894 [main] INFO   - Dropdown: iJ5b Value: 4 filled
+2020-59-02 14:59:34.046 [main] INFO   - Pain Scale (PS)  Value Correct
+2020-59-02 14:59:34.047 [main] INFO   - Pain Scale (PS) Description Correct
+2020-59-02 14:59:34.388 [main] INFO   - Dropdown: iJ5a Value: 0 filled
+2020-59-02 14:59:34.685 [main] INFO   - Dropdown: iJ5b Value: 0 filled
+2020-59-02 14:59:34.861 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
+2020-59-02 14:59:34.861 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
+2020-59-02 14:59:35.200 [main] INFO   - Dropdown: iJ5a Value: 1 filled
+2020-59-02 14:59:35.320 [main] INFO   - Dropdown: iJ5b Value: 0 filled
+2020-59-02 14:59:35.479 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
+2020-59-02 14:59:35.479 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
+2020-59-02 14:59:35.824 [main] INFO   - Dropdown: iJ5a Value: 3 filled
+2020-59-02 14:59:35.956 [main] INFO   - Dropdown: iJ5b Value: 0 filled
+2020-59-02 14:59:36.119 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
+2020-59-02 14:59:36.120 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
+2020-59-02 14:59:36.320 [main] INFO   - Dropdown: iJ5a Value: 3 filled
+2020-59-02 14:59:36.616 [main] INFO   - Dropdown: iJ5b Value: 3 filled
+2020-59-02 14:59:36.783 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
+2020-59-02 14:59:36.783 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
+2020-59-02 14:59:36.986 [main] INFO   - Dropdown: iJ5a Value: 3 filled
+2020-59-02 14:59:37.248 [main] INFO   - Dropdown: iJ5b Value: 4 filled
+2020-59-02 14:59:37.396 [main] INFO   - Pain Scale (PS) - Old Version  Value Correct
+2020-59-02 14:59:37.397 [main] INFO   - Pain Scale (PS) - Old Version Description Correct
+2020-59-02 14:59:39.019 [main] INFO   - Dropdown: iE1a Value: 0 filled
+2020-59-02 14:59:39.329 [main] INFO   - Dropdown: iE1b Value: 0 filled
+2020-59-02 14:59:39.629 [main] INFO   - Dropdown: iE1c Value: 0 filled
+2020-59-02 14:59:39.928 [main] INFO   - Dropdown: iE1d Value: 0 filled
+2020-59-02 14:59:40.227 [main] INFO   - Dropdown: iE1e Value: 0 filled
+2020-59-02 14:59:40.532 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:40.873 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:41.080 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:41.080 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:41.420 [main] INFO   - Dropdown: iE1a Value: 1 filled
+2020-59-02 14:59:41.549 [main] INFO   - Dropdown: iE1b Value: 0 filled
+2020-59-02 14:59:41.683 [main] INFO   - Dropdown: iE1c Value: 0 filled
+2020-59-02 14:59:41.820 [main] INFO   - Dropdown: iE1d Value: 0 filled
+2020-59-02 14:59:41.948 [main] INFO   - Dropdown: iE1e Value: 0 filled
+2020-59-02 14:59:42.066 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:42.203 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:42.355 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:42.355 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:42.698 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:42.832 [main] INFO   - Dropdown: iE1b Value: 0 filled
+2020-59-02 14:59:42.965 [main] INFO   - Dropdown: iE1c Value: 0 filled
+2020-59-02 14:59:43.083 [main] INFO   - Dropdown: iE1d Value: 0 filled
+2020-59-02 14:59:43.214 [main] INFO   - Dropdown: iE1e Value: 0 filled
+2020-59-02 14:59:43.333 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:43.465 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:43.622 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:43.622 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:43.814 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:44.083 [main] INFO   - Dropdown: iE1b Value: 1 filled
+2020-59-02 14:59:44.201 [main] INFO   - Dropdown: iE1c Value: 0 filled
+2020-59-02 14:59:44.348 [main] INFO   - Dropdown: iE1d Value: 0 filled
+2020-59-02 14:59:44.464 [main] INFO   - Dropdown: iE1e Value: 0 filled
+2020-59-02 14:59:44.581 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:44.697 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:44.838 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:44.839 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:45.015 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:45.319 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:45.464 [main] INFO   - Dropdown: iE1c Value: 0 filled
+2020-59-02 14:59:45.581 [main] INFO   - Dropdown: iE1d Value: 0 filled
+2020-59-02 14:59:45.713 [main] INFO   - Dropdown: iE1e Value: 0 filled
+2020-59-02 14:59:45.831 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:45.947 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:46.092 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:46.092 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:46.281 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:46.448 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:46.755 [main] INFO   - Dropdown: iE1c Value: 1 filled
+2020-59-02 14:59:46.915 [main] INFO   - Dropdown: iE1d Value: 0 filled
+2020-59-02 14:59:47.049 [main] INFO   - Dropdown: iE1e Value: 0 filled
+2020-59-02 14:59:47.163 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:47.281 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:47.434 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:47.434 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:47.631 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:47.746 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:48.038 [main] INFO   - Dropdown: iE1c Value: 3 filled
+2020-59-02 14:59:48.179 [main] INFO   - Dropdown: iE1d Value: 0 filled
+2020-59-02 14:59:48.295 [main] INFO   - Dropdown: iE1e Value: 0 filled
+2020-59-02 14:59:48.412 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:48.537 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:48.693 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:48.693 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:48.880 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:48.997 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:49.133 [main] INFO   - Dropdown: iE1c Value: 3 filled
+2020-59-02 14:59:49.443 [main] INFO   - Dropdown: iE1d Value: 1 filled
+2020-59-02 14:59:49.564 [main] INFO   - Dropdown: iE1e Value: 0 filled
+2020-59-02 14:59:49.696 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:49.813 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:49.951 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:49.951 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:50.130 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:50.245 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:50.363 [main] INFO   - Dropdown: iE1c Value: 3 filled
+2020-59-02 14:59:50.649 [main] INFO   - Dropdown: iE1d Value: 3 filled
+2020-59-02 14:59:50.797 [main] INFO   - Dropdown: iE1e Value: 0 filled
+2020-59-02 14:59:50.929 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:51.046 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:51.195 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:51.195 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:51.378 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:51.512 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:51.629 [main] INFO   - Dropdown: iE1c Value: 3 filled
+2020-59-02 14:59:51.746 [main] INFO   - Dropdown: iE1d Value: 3 filled
+2020-59-02 14:59:52.014 [main] INFO   - Dropdown: iE1e Value: 1 filled
+2020-59-02 14:59:52.128 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:52.247 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:52.448 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:52.449 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:52.629 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:52.745 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:52.867 [main] INFO   - Dropdown: iE1c Value: 3 filled
+2020-59-02 14:59:53.011 [main] INFO   - Dropdown: iE1d Value: 3 filled
+2020-59-02 14:59:53.293 [main] INFO   - Dropdown: iE1e Value: 3 filled
+2020-59-02 14:59:53.428 [main] INFO   - Dropdown: iE1f Value: 0 filled
+2020-59-02 14:59:53.547 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:53.685 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:53.686 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:53.879 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:54.011 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:54.143 [main] INFO   - Dropdown: iE1c Value: 3 filled
+2020-59-02 14:59:54.262 [main] INFO   - Dropdown: iE1d Value: 3 filled
+2020-59-02 14:59:54.380 [main] INFO   - Dropdown: iE1e Value: 3 filled
+2020-59-02 14:59:54.682 [main] INFO   - Dropdown: iE1f Value: 1 filled
+2020-59-02 14:59:54.811 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:54.951 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:54.951 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:55.163 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:55.278 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:55.394 [main] INFO   - Dropdown: iE1c Value: 3 filled
+2020-59-02 14:59:55.511 [main] INFO   - Dropdown: iE1d Value: 3 filled
+2020-59-02 14:59:55.627 [main] INFO   - Dropdown: iE1e Value: 3 filled
+2020-59-02 14:59:55.906 [main] INFO   - Dropdown: iE1f Value: 3 filled
+2020-59-02 14:59:56.044 [main] INFO   - Dropdown: iE1g Value: 0 filled
+2020-59-02 14:59:56.188 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:56.189 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:56.377 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:56.494 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:56.611 [main] INFO   - Dropdown: iE1c Value: 3 filled
+2020-59-02 14:59:56.745 [main] INFO   - Dropdown: iE1d Value: 3 filled
+2020-59-02 14:59:56.860 [main] INFO   - Dropdown: iE1e Value: 3 filled
+2020-59-02 14:59:56.978 [main] INFO   - Dropdown: iE1f Value: 3 filled
+2020-59-02 14:59:57.289 [main] INFO   - Dropdown: iE1g Value: 1 filled
+2020-59-02 14:59:57.477 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:57.477 [main] INFO   - Depression Rating Scale (DRS) Description Correct
+2020-59-02 14:59:57.677 [main] INFO   - Dropdown: iE1a Value: 3 filled
+2020-59-02 14:59:57.810 [main] INFO   - Dropdown: iE1b Value: 3 filled
+2020-59-02 14:59:57.943 [main] INFO   - Dropdown: iE1c Value: 3 filled
+2020-59-02 14:59:58.094 [main] INFO   - Dropdown: iE1d Value: 3 filled
+2020-59-02 14:59:58.226 [main] INFO   - Dropdown: iE1e Value: 3 filled
+2020-59-02 14:59:58.360 [main] INFO   - Dropdown: iE1f Value: 3 filled
+2020-59-02 14:59:58.649 [main] INFO   - Dropdown: iE1g Value: 3 filled
+2020-59-02 14:59:58.802 [main] INFO   - Depression Rating Scale (DRS)  Value Correct
+2020-59-02 14:59:58.803 [main] INFO   - Depression Rating Scale (DRS) Description Correct

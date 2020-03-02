@@ -58,50 +58,62 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
     }
 
     public void elementClear(String varName) {
+
+        String gearIconXpath = "//div[@varname='" + varName + "']//div[@class='element-options']";
+        String clearButtonXpath = "//div[@varname='" + varName + "']//a[@element-action='clear']";
         testClass.waitTillXpathElementIsVisible(
-                "//div[@varname='" + varName + "']//div[@class='element-options']");
+                gearIconXpath);
         testClass.findElementAndClick(
-                "//div[@varname='" + varName + "']//div[@class='element-options']");
+                gearIconXpath);
         testClass.waitTillXpathElementIsVisible(
-                "//div[@varname='" + varName + "']//a[@element-action='clear']");
+                clearButtonXpath);
         testClass.findElementAndClick(
-                "//div[@varname='" + varName + "']//a[@element-action='clear']");
+                clearButtonXpath);
     };
 
     public void fillInRadioButton(String varName, String value) {
+
+        String radioButtonXpath = "//div[@varname='" + varName + "']//label[@value='" + value + "']";
+
         try {
             testClass.findElementAndClick(
-                    "//div[@varname='" + varName + "']//label[@value='" + value + "']");
+                    radioButtonXpath);
         } catch (Exception e) {
             scrollToTop();
             testClass.findElementAndClick(
-                    "//div[@varname='" + varName + "']//label[@value='" + value + "']");
+                    radioButtonXpath);
         }
         testClass.log("Radiobutton: " + varName + " Value: " + value + " filled");
     }
 
     public void fillInTextField(String varName, String text) {
-        try {
-            testClass.findElementAndSendKeys("//div[@varname='" + varName + "']//input", text);
+
+       String textFieldElemXpath = "//div[@varname='" + varName + "']//input";
+
+       try {
+            testClass.findElementAndSendKeys(textFieldElemXpath, text);
         } catch (Exception e) {
             scrollToTop();
-            testClass.findElementAndSendKeys("//div[@varname='" + varName + "']//input", text);
+            testClass.findElementAndSendKeys(textFieldElemXpath, text);
         }
         testClass.log("TextField: " + varName + " Text: " + text + " filled");
     }
 
     public void fillInDropdown(String varName, String numberOfElement) {
+       String dropdownElementXpath = "//div[@varname='" + varName + "']//button[@type='button']";
         try {
             testClass.findElementAndClick(
-                    "//div[@varname='" + varName + "']//button[@type='button']");
+                    dropdownElementXpath);
         } catch (Exception e) {
             scrollToTop();
             testClass.findElementAndClick(
-                    "//div[@varname='" + varName + "']//button[@type='button']");
+                    dropdownElementXpath);
         }
 
-        testClass.waitTillXpathElementIsVisible(
-                "//div[@varname='" + varName + "']//button[@aria-expanded='true']");
+        String expandDropdownXpath = "//div[@varname='" + varName + "']//button[@aria-expanded='true']";
+
+        testClass.waitTillXpathElementIsVisible(expandDropdownXpath
+                );
         testClass.findElementAndClick(
                 "//div[@varname='"
                         + varName
@@ -109,7 +121,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                         + numberOfElement
                         + "']");
         testClass.waitTillElementNotVisible(
-                "//div[@varname='" + varName + "']//button[@aria-expanded='true']");
+                expandDropdownXpath);
 
         testClass.log("Dropdown: " + varName + " Value: " + numberOfElement + " filled");
     }
