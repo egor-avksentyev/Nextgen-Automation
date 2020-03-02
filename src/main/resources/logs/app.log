@@ -1,92 +1,42 @@
-2020-30-02 17:30:14.758 [main] INFO   - Click Submit and login 
-2020-30-02 17:30:28.497 [main] INFO   - On Dashboard
-2020-30-02 17:30:32.314 [main] INFO   - On Pathways
-2020-30-02 17:30:39.514 [main] INFO   - Start test of Behavior Cap
-2020-30-02 17:30:39.514 [main] INFO   - Small Set
-2020-30-02 17:30:39.649 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-30-02 17:30:42.199 [main] INFO   - Dropdown: iE3a Value: 0 filled
-2020-30-02 17:30:42.548 [main] INFO   - Dropdown: iE3b Value: 1 filled
-2020-30-02 17:30:42.884 [main] INFO   - Dropdown: iE3c Value: 0 filled
-2020-30-02 17:30:43.226 [main] INFO   - Dropdown: iE3d Value: 1 filled
-2020-30-02 17:30:43.564 [main] INFO   - Dropdown: iE3e Value: 0 filled
-2020-30-02 17:30:43.910 [main] INFO   - Dropdown: iE3f Value: 1 filled
-2020-30-02 17:30:44.108 [main] INFO   - Behavior CAP  Value Correct
-2020-30-02 17:30:44.109 [main] INFO   - Behavior CAP  Description Correct
-2020-30-02 17:30:44.477 [main] INFO   - Dropdown: iE3a Value: 2 filled
-2020-30-02 17:30:44.626 [main] INFO   - Dropdown: iE3b Value: 1 filled
-2020-30-02 17:30:44.758 [main] INFO   - Dropdown: iE3c Value: 0 filled
-2020-30-02 17:30:44.892 [main] INFO   - Dropdown: iE3d Value: 1 filled
-2020-30-02 17:30:45.023 [main] INFO   - Dropdown: iE3e Value: 0 filled
-2020-30-02 17:30:45.166 [main] INFO   - Dropdown: iE3f Value: 1 filled
-2020-30-02 17:30:45.311 [main] INFO   - Behavior CAP  Value Correct
-2020-30-02 17:30:45.311 [main] INFO   - Behavior CAP  Description Correct
-2020-30-02 17:30:45.506 [main] INFO   - Dropdown: iE3a Value: 2 filled
-2020-30-02 17:30:45.803 [main] INFO   - Dropdown: iE3b Value: 3 filled
-2020-30-02 17:30:45.923 [main] INFO   - Dropdown: iE3c Value: 0 filled
-2020-30-02 17:30:46.039 [main] INFO   - Dropdown: iE3d Value: 1 filled
-2020-30-02 17:30:46.156 [main] INFO   - Dropdown: iE3e Value: 0 filled
-2020-30-02 17:30:46.294 [main] INFO   - Dropdown: iE3f Value: 1 filled
-2020-30-02 17:30:46.444 [main] INFO   - Behavior CAP  Value Correct
-2020-30-02 17:30:46.444 [main] INFO   - Behavior CAP  Description Correct
-2020-30-02 17:30:46.528 [main] INFO   - Start test of Delirium Cap
-2020-30-02 17:30:46.528 [main] INFO   - Small Set
-2020-30-02 17:30:48.516 [main] INFO   - Dropdown: iC3a Value: 0 filled
-2020-30-02 17:30:48.839 [main] INFO   - Dropdown: iC3b Value: 0 filled
-2020-30-02 17:30:49.171 [main] INFO   - Dropdown: iC3c Value: 0 filled
-2020-30-02 17:30:49.324 [main] INFO   - Radiobutton: iC4 Value: 0 filled
-2020-30-02 17:30:49.538 [main] INFO   - DELIRIUM CAP  Value Correct
-2020-30-02 17:30:49.538 [main] INFO   - DELIRIUM CAP  Description Correct
-2020-30-02 17:30:49.721 [main] INFO   - Dropdown: iC3a Value: 0 filled
-2020-30-02 17:30:50.040 [main] INFO   - Dropdown: iC3b Value: 2 filled
-2020-30-02 17:30:50.170 [main] INFO   - Dropdown: iC3c Value: 0 filled
-2020-30-02 17:30:50.212 [main] INFO   - Radiobutton: iC4 Value: 0 filled
-2020-30-02 17:30:50.355 [main] INFO   - DELIRIUM CAP  Value Correct
-2020-30-02 17:30:50.356 [main] INFO   - DELIRIUM CAP  Description Correct
-2020-30-02 17:30:50.410 [main] INFO   - Start test of Cardio Respiratory Cap
-2020-30-02 17:30:50.410 [main] INFO   - Small Set
-2020-30-02 17:30:52.614 [main] INFO   - Dropdown: iJ2c Value: 0 filled
-2020-30-02 17:30:52.951 [main] INFO   - Dropdown: iJ2e Value: 0 filled
-2020-30-02 17:30:53.306 [main] INFO   - Dropdown: iJ3 Value: 0 filled
-2020-30-02 17:30:53.476 [main] INFO   - Cardiorespiratory Conditions CAP  Value Correct
-2020-30-02 17:30:53.476 [main] INFO   - Cardiorespiratory Conditions CAP  Description Correct
-2020-30-02 17:30:53.637 [main] INFO   - Scroll to top
-2020-30-02 17:30:53.656 [main] INFO   - Scroll to top
-2020-30-02 17:30:53.680 [main] INFO   - Scroll to top
-2020-30-02 17:30:53.705 [main] INFO   - Scroll to top
-2020-30-02 17:30:53.727 [main] INFO   - Scroll to top
-2020-30-02 17:30:53.748 [main] INFO   - Scroll to top
-2020-30-02 17:30:53.773 [main] INFO   - Scroll to top
-2020-30-02 17:30:53.906 [main] INFO   - Dropdown: iJ2c Value: 0 filled
-2020-30-02 17:30:54.260 [main] INFO   - Dropdown: iJ2e Value: 2 filled
-2020-30-02 17:30:54.407 [main] INFO   - Dropdown: iJ3 Value: 0 filled
-2020-30-02 17:30:54.568 [main] INFO   - Cardiorespiratory Conditions CAP  Value Correct
-2020-30-02 17:30:54.568 [main] INFO   - Cardiorespiratory Conditions CAP  Description Correct
-2020-30-02 17:30:54.645 [main] INFO   - Start test of Pressure Ulcer Cap
-2020-30-02 17:30:54.645 [main] INFO   - Full Set
-2020-30-02 17:30:56.768 [main] INFO   - Dropdown: iG2g Value: 0 filled
-2020-30-02 17:30:57.095 [main] INFO   - Dropdown: iG2i Value: 0 filled
-2020-30-02 17:30:58.045 [main] INFO   - Dropdown: iH2 Value: 0 filled
-2020-30-02 17:30:58.977 [main] INFO   - Dropdown: iL1 Value: 0 filled
-2020-30-02 17:30:59.128 [main] INFO   - Radiobutton: iL2 Value: 0 filled
-2020-30-02 17:30:59.332 [main] INFO   - Radiobutton: iL3 Value: 0 filled
-2020-31-02 17:31:00.393 [main] INFO   - Dropdown: iN2k Value: 0 filled
-2020-31-02 17:31:03.573 [main] INFO   - Dropdown: iH1 Value: 0 filled
-2020-31-02 17:31:03.710 [main] INFO   - Pressure Ulcer CAP  Value Correct
-2020-31-02 17:31:03.710 [main] INFO   - Pressure Ulcer CAP  Description Correct
-2020-31-02 17:31:05.168 [main] INFO   - Dropdown: iG2g Value: 0 filled
-2020-31-02 17:31:05.316 [main] INFO   - Dropdown: iG2i Value: 0 filled
-2020-31-02 17:31:06.098 [main] INFO   - Dropdown: iH2 Value: 0 filled
-2020-31-02 17:31:07.122 [main] INFO   - Dropdown: iL1 Value: 2 filled
-2020-31-02 17:31:07.173 [main] INFO   - Radiobutton: iL2 Value: 0 filled
-2020-31-02 17:31:07.240 [main] INFO   - Radiobutton: iL3 Value: 0 filled
-2020-31-02 17:31:08.070 [main] INFO   - Dropdown: iN2k Value: 0 filled
-2020-31-02 17:31:09.947 [main] INFO   - Dropdown: iH1 Value: 0 filled
-2020-31-02 17:31:10.087 [main] INFO   - Pressure Ulcer CAP  Value Correct
-2020-31-02 17:31:10.087 [main] INFO   - Pressure Ulcer CAP  Description Correct
-2020-31-02 17:31:11.566 [main] INFO   - Dropdown: iG2g Value: 0 filled
-2020-31-02 17:31:11.731 [main] INFO   - Dropdown: iG2i Value: 0 filled
-2020-31-02 17:31:13.013 [main] INFO   - Dropdown: iH2 Value: 0 filled
-2020-31-02 17:31:13.941 [main] INFO   - Dropdown: iL1 Value: 1 filled
-2020-31-02 17:31:14.005 [main] INFO   - Radiobutton: iL2 Value: 0 filled
-2020-31-02 17:31:14.074 [main] INFO   - Radiobutton: iL3 Value: 0 filled
-2020-31-02 17:31:14.918 [main] INFO   - Dropdown: iN2k Value: 0 filled
+2020-44-02 18:44:55.931 [main] INFO   - Click Submit and login 
+2020-44-02 18:44:59.518 [main] INFO   - On Dashboard
+2020-45-02 18:45:04.190 [main] INFO   - On Pathways
+2020-45-02 18:45:15.699 [main] INFO   - Start test of Behavior Cap
+2020-45-02 18:45:15.700 [main] INFO   - Small Set
+2020-45-02 18:45:16.050 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-45-02 18:45:18.569 [main] INFO   - Dropdown: iE3a Value: 0 filled
+2020-45-02 18:45:19.283 [main] INFO   - Dropdown: iE3b Value: 1 filled
+2020-45-02 18:45:19.991 [main] INFO   - Dropdown: iE3c Value: 0 filled
+2020-45-02 18:45:20.705 [main] INFO   - Dropdown: iE3d Value: 1 filled
+2020-45-02 18:45:21.409 [main] INFO   - Dropdown: iE3e Value: 0 filled
+2020-45-02 18:45:22.094 [main] INFO   - Dropdown: iE3f Value: 1 filled
+2020-45-02 18:45:22.442 [main] INFO   - Behavior CAP  Value Correct
+2020-45-02 18:45:22.442 [main] INFO   - Behavior CAP  Description Correct
+2020-45-02 18:45:23.369 [main] INFO   - Dropdown: iE3a Value: 2 filled
+2020-45-02 18:45:23.850 [main] INFO   - Dropdown: iE3b Value: 1 filled
+2020-45-02 18:45:24.332 [main] INFO   - Dropdown: iE3c Value: 0 filled
+2020-45-02 18:45:24.819 [main] INFO   - Dropdown: iE3d Value: 1 filled
+2020-45-02 18:45:25.311 [main] INFO   - Dropdown: iE3e Value: 0 filled
+2020-45-02 18:45:25.802 [main] INFO   - Dropdown: iE3f Value: 1 filled
+2020-45-02 18:45:26.131 [main] INFO   - Behavior CAP  Value Correct
+2020-45-02 18:45:26.132 [main] INFO   - Behavior CAP  Description Correct
+2020-45-02 18:45:26.839 [main] INFO   - Dropdown: iE3a Value: 2 filled
+2020-45-02 18:45:27.532 [main] INFO   - Dropdown: iE3b Value: 3 filled
+2020-45-02 18:45:28.023 [main] INFO   - Dropdown: iE3c Value: 0 filled
+2020-45-02 18:45:28.508 [main] INFO   - Dropdown: iE3d Value: 1 filled
+2020-45-02 18:45:28.997 [main] INFO   - Dropdown: iE3e Value: 0 filled
+2020-45-02 18:45:29.482 [main] INFO   - Dropdown: iE3f Value: 1 filled
+2020-45-02 18:45:29.819 [main] INFO   - Behavior CAP  Value Correct
+2020-45-02 18:45:29.819 [main] INFO   - Behavior CAP  Description Correct
+2020-45-02 18:45:30.038 [main] INFO   - Start test of Delirium Cap
+2020-45-02 18:45:30.038 [main] INFO   - Small Set
+2020-45-02 18:45:32.079 [main] INFO   - Dropdown: iC3a Value: 0 filled
+2020-45-02 18:45:32.812 [main] INFO   - Dropdown: iC3b Value: 0 filled
+2020-45-02 18:45:33.515 [main] INFO   - Dropdown: iC3c Value: 0 filled
+2020-45-02 18:45:33.914 [main] INFO   - Radiobutton: iC4 Value: 0 filled
+2020-45-02 18:45:34.266 [main] INFO   - DELIRIUM CAP  Value Correct
+2020-45-02 18:45:34.266 [main] INFO   - DELIRIUM CAP  Description Correct
+2020-45-02 18:45:35.045 [main] INFO   - Dropdown: iC3a Value: 0 filled
+2020-45-02 18:45:35.775 [main] INFO   - Dropdown: iC3b Value: 2 filled
+2020-45-02 18:45:36.256 [main] INFO   - Dropdown: iC3c Value: 0 filled
+2020-45-02 18:45:36.515 [main] INFO   - Radiobutton: iC4 Value: 0 filled

@@ -20,6 +20,8 @@ public class YamlFile {
     private String chromeDriverSrc;
     private String screenshotSrcClear;
     private String smtpSocketFactoryPort;
+    private String geckodriverSrc;
+    private String browser;
     private String screenshotSrc;
     private String logSrc;
     private Map<String, String> test;
@@ -104,6 +106,9 @@ public class YamlFile {
     public String getLogSrcClear () {return logSrcClear;}
 
     public String getChromeDriverSrc () {return chromeDriverSrc;}
+
+    public String getBrowser () {return browser;}
+    public String getGeckodriverSrc () {return geckodriverSrc;}
 
     /**
      * Get password from yaml file

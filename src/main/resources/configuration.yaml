@@ -1,7 +1,10 @@
 # ChromeDriver Path
 chromeDriverSrc: src/main/resources/chromedriver.exe
+# Geckodriver Path
+geckodriverSrc: src/main/resources/geckodriver.exe
 ####################login########################
 # Data for login:
+browser: Firefox
 url: https://demo.acutenet.net/
 login: egor
 password: 123456789QQww

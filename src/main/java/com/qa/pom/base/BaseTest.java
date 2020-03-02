@@ -52,7 +52,7 @@ public class BaseTest {
         // Logger
         logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
 
-        crossBrowserSetup("Chrome");
+        crossBrowserSetup(yamlData.getBrowser());
 
         driver.manage().window().maximize();
 
@@ -69,7 +69,7 @@ public class BaseTest {
 
         switch (browser) {
             case "Firefox":
-                System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", yamlData.getGeckodriverSrc());
                 driver = new FirefoxDriver();
                 break;
             case "Chrome":
