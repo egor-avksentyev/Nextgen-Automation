@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class Dashboard extends AbstractPage {
 
-    @FindBy(xpath = "//tr[@class='odd cursor-pointer']")
+    @FindBy(xpath = "//tr[@class='odd cursor-pointer']//td")
     private WebElement clickSearchResult;
 
     @FindBy(xpath = "//div[@id='hcn']//input")
@@ -38,9 +38,8 @@ public class Dashboard extends AbstractPage {
 
     public Pathways existedPatient() throws IOException {
 
-        YamlFile yamlData = YamlParser.getYamlData();
         clickHcn.click();
-        inputHcn.sendKeys(yamlData.getHcn());
+        inputHcn.sendKeys(testClass.yamlData.getHcn());
         clickSearch.click();
         testClass.waitTillElementIsVisible(clickSearchResult);
         clickSearchResult.click();

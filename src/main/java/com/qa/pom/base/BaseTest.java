@@ -24,6 +24,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -51,24 +52,7 @@ public class BaseTest {
         // Logger
         logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
 
-        ChromeOptions options = new ChromeOptions();
-
-        /** Collection with settings of browser */
-        Map<String, Object> prefs = new HashMap<String, Object>();
-        prefs.put("credentials_enable_service", false);
-        prefs.put("profile.password_manager_enabled", false);
-
-        options.setExperimentalOption(
-                "excludeSwitches", Collections.singletonList("enable-automation"));
-        options.setExperimentalOption("useAutomationExtension", false);
-
-        /** Options which are disable forgot password pop-up */
-        options.setExperimentalOption("prefs", prefs);
-        // Initialize path to ChromeDriver
-        System.setProperty("webdriver.chrome.driver", yamlData.getChromeDriverSrc());
-
-        // Initialize instance of ChromeDriver and add options
-        driver = new ChromeDriver(options);
+        crossBrowserSetup("Chrome");
 
         driver.manage().window().maximize();
 
@@ -79,7 +63,36 @@ public class BaseTest {
         props = new Properties();
 
         setEmailProperties();
+    }
 
+    public void crossBrowserSetup(String browser) {
+
+        switch (browser) {
+            case "Firefox":
+                System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+                driver = new FirefoxDriver();
+                break;
+            case "Chrome":
+                ChromeOptions options = new ChromeOptions();
+
+                /** Collection with settings of browser */
+                Map<String, Object> prefs = new HashMap<String, Object>();
+                prefs.put("credentials_enable_service", false);
+                prefs.put("profile.password_manager_enabled", false);
+
+                options.setExperimentalOption(
+                        "excludeSwitches", Collections.singletonList("enable-automation"));
+                options.setExperimentalOption("useAutomationExtension", false);
+
+                /** Options which are disable forgot password pop-up */
+                options.setExperimentalOption("prefs", prefs);
+                // Initialize path to ChromeDriver
+                System.setProperty("webdriver.chrome.driver", yamlData.getChromeDriverSrc());
+
+                // Initialize instance of ChromeDriver and add options
+                driver = new ChromeDriver(options);
+                break;
+        }
     }
     /**
      * Clear screenshot and logs directories.
