@@ -1,42 +1,81 @@
-2020-44-02 18:44:55.931 [main] INFO   - Click Submit and login 
-2020-44-02 18:44:59.518 [main] INFO   - On Dashboard
-2020-45-02 18:45:04.190 [main] INFO   - On Pathways
-2020-45-02 18:45:15.699 [main] INFO   - Start test of Behavior Cap
-2020-45-02 18:45:15.700 [main] INFO   - Small Set
-2020-45-02 18:45:16.050 [main] INFO   - Radiobutton: FS Value: 1 filled
-2020-45-02 18:45:18.569 [main] INFO   - Dropdown: iE3a Value: 0 filled
-2020-45-02 18:45:19.283 [main] INFO   - Dropdown: iE3b Value: 1 filled
-2020-45-02 18:45:19.991 [main] INFO   - Dropdown: iE3c Value: 0 filled
-2020-45-02 18:45:20.705 [main] INFO   - Dropdown: iE3d Value: 1 filled
-2020-45-02 18:45:21.409 [main] INFO   - Dropdown: iE3e Value: 0 filled
-2020-45-02 18:45:22.094 [main] INFO   - Dropdown: iE3f Value: 1 filled
-2020-45-02 18:45:22.442 [main] INFO   - Behavior CAP  Value Correct
-2020-45-02 18:45:22.442 [main] INFO   - Behavior CAP  Description Correct
-2020-45-02 18:45:23.369 [main] INFO   - Dropdown: iE3a Value: 2 filled
-2020-45-02 18:45:23.850 [main] INFO   - Dropdown: iE3b Value: 1 filled
-2020-45-02 18:45:24.332 [main] INFO   - Dropdown: iE3c Value: 0 filled
-2020-45-02 18:45:24.819 [main] INFO   - Dropdown: iE3d Value: 1 filled
-2020-45-02 18:45:25.311 [main] INFO   - Dropdown: iE3e Value: 0 filled
-2020-45-02 18:45:25.802 [main] INFO   - Dropdown: iE3f Value: 1 filled
-2020-45-02 18:45:26.131 [main] INFO   - Behavior CAP  Value Correct
-2020-45-02 18:45:26.132 [main] INFO   - Behavior CAP  Description Correct
-2020-45-02 18:45:26.839 [main] INFO   - Dropdown: iE3a Value: 2 filled
-2020-45-02 18:45:27.532 [main] INFO   - Dropdown: iE3b Value: 3 filled
-2020-45-02 18:45:28.023 [main] INFO   - Dropdown: iE3c Value: 0 filled
-2020-45-02 18:45:28.508 [main] INFO   - Dropdown: iE3d Value: 1 filled
-2020-45-02 18:45:28.997 [main] INFO   - Dropdown: iE3e Value: 0 filled
-2020-45-02 18:45:29.482 [main] INFO   - Dropdown: iE3f Value: 1 filled
-2020-45-02 18:45:29.819 [main] INFO   - Behavior CAP  Value Correct
-2020-45-02 18:45:29.819 [main] INFO   - Behavior CAP  Description Correct
-2020-45-02 18:45:30.038 [main] INFO   - Start test of Delirium Cap
-2020-45-02 18:45:30.038 [main] INFO   - Small Set
-2020-45-02 18:45:32.079 [main] INFO   - Dropdown: iC3a Value: 0 filled
-2020-45-02 18:45:32.812 [main] INFO   - Dropdown: iC3b Value: 0 filled
-2020-45-02 18:45:33.515 [main] INFO   - Dropdown: iC3c Value: 0 filled
-2020-45-02 18:45:33.914 [main] INFO   - Radiobutton: iC4 Value: 0 filled
-2020-45-02 18:45:34.266 [main] INFO   - DELIRIUM CAP  Value Correct
-2020-45-02 18:45:34.266 [main] INFO   - DELIRIUM CAP  Description Correct
-2020-45-02 18:45:35.045 [main] INFO   - Dropdown: iC3a Value: 0 filled
-2020-45-02 18:45:35.775 [main] INFO   - Dropdown: iC3b Value: 2 filled
-2020-45-02 18:45:36.256 [main] INFO   - Dropdown: iC3c Value: 0 filled
-2020-45-02 18:45:36.515 [main] INFO   - Radiobutton: iC4 Value: 0 filled
+2020-28-03 12:28:47.889 [main] INFO   - Click Submit and login 
+2020-28-03 12:28:51.764 [main] INFO   - On Dashboard
+2020-28-03 12:28:55.843 [main] INFO   - On Pathways
+2020-29-03 12:29:04.819 [main] INFO   - Dropdown: iD1 Value: 0 filled
+2020-29-03 12:29:05.164 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-29-03 12:29:05.370 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-29-03 12:29:05.370 [main] INFO   - Communication Scale (CS) Description Correct
+2020-29-03 12:29:05.736 [main] INFO   - Dropdown: iD1 Value: 1 filled
+2020-29-03 12:29:05.864 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-29-03 12:29:06.017 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-29-03 12:29:06.018 [main] INFO   - Communication Scale (CS) Description Correct
+2020-29-03 12:29:06.398 [main] INFO   - Dropdown: iD1 Value: 2 filled
+2020-29-03 12:29:06.548 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-29-03 12:29:06.695 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-29-03 12:29:06.695 [main] INFO   - Communication Scale (CS) Description Correct
+2020-29-03 12:29:07.040 [main] INFO   - Dropdown: iD1 Value: 3 filled
+2020-29-03 12:29:07.178 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-29-03 12:29:07.315 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-29-03 12:29:07.316 [main] INFO   - Communication Scale (CS) Description Correct
+2020-29-03 12:29:07.668 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-29-03 12:29:07.795 [main] INFO   - Dropdown: iD2 Value: 0 filled
+2020-29-03 12:29:07.930 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-29-03 12:29:07.930 [main] INFO   - Communication Scale (CS) Description Correct
+2020-29-03 12:29:08.110 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-29-03 12:29:08.435 [main] INFO   - Dropdown: iD2 Value: 1 filled
+2020-29-03 12:29:08.582 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-29-03 12:29:08.582 [main] INFO   - Communication Scale (CS) Description Correct
+2020-29-03 12:29:08.760 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-29-03 12:29:09.054 [main] INFO   - Dropdown: iD2 Value: 2 filled
+2020-29-03 12:29:09.210 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-29-03 12:29:09.210 [main] INFO   - Communication Scale (CS) Description Correct
+2020-29-03 12:29:09.393 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-29-03 12:29:09.678 [main] INFO   - Dropdown: iD2 Value: 3 filled
+2020-29-03 12:29:09.821 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-29-03 12:29:09.821 [main] INFO   - Communication Scale (CS) Description Correct
+2020-29-03 12:29:10.011 [main] INFO   - Dropdown: iD1 Value: 4 filled
+2020-29-03 12:29:10.290 [main] INFO   - Dropdown: iD2 Value: 4 filled
+2020-29-03 12:29:10.424 [main] INFO   - Communication Scale (CS)  Value Correct
+2020-29-03 12:29:10.425 [main] INFO   - Communication Scale (CS) Description Correct
+2020-29-03 12:29:10.486 [main] INFO   - Start test of aDLScale_ShortForm
+2020-29-03 12:29:10.486 [main] INFO   - Small Set
+2020-29-03 12:29:12.077 [main] INFO   - Dropdown: iG2b Value: 0 filled
+2020-29-03 12:29:12.459 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-29-03 12:29:12.620 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-29-03 12:29:12.620 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-29-03 12:29:13.033 [main] INFO   - Dropdown: iG2b Value: 2 filled
+2020-29-03 12:29:13.180 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-29-03 12:29:13.346 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-29-03 12:29:13.346 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-29-03 12:29:13.565 [main] INFO   - Dropdown: iG2b Value: 2 filled
+2020-29-03 12:29:13.911 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-29-03 12:29:14.077 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-29-03 12:29:14.078 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-29-03 12:29:14.467 [main] INFO   - Dropdown: iG2b Value: 3 filled
+2020-29-03 12:29:14.596 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-29-03 12:29:14.762 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-29-03 12:29:14.762 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-29-03 12:29:15.133 [main] INFO   - Dropdown: iG2b Value: 4 filled
+2020-29-03 12:29:15.282 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-29-03 12:29:15.439 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-29-03 12:29:15.439 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-29-03 12:29:15.850 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-29-03 12:29:15.997 [main] INFO   - Dropdown: iG2f Value: 2 filled
+2020-29-03 12:29:16.158 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-29-03 12:29:16.158 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-29-03 12:29:16.381 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-29-03 12:29:16.713 [main] INFO   - Dropdown: iG2f Value: 3 filled
+2020-29-03 12:29:16.872 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-29-03 12:29:16.872 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-29-03 12:29:17.131 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-29-03 12:29:17.429 [main] INFO   - Dropdown: iG2f Value: 4 filled
+2020-29-03 12:29:17.622 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-29-03 12:29:17.622 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-29-03 12:29:17.862 [main] INFO   - Dropdown: iG2b Value: 6 filled
+2020-29-03 12:29:18.216 [main] INFO   - Dropdown: iG2f Value: 6 filled
+2020-29-03 12:29:18.398 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form  Value Correct
+2020-29-03 12:29:18.398 [main] INFO   - Activities of Daily Living (ADL) Scale - Short Form Description Correct
+2020-29-03 12:29:20.028 [main] INFO   - Radiobutton: FS Value: 1 filled
+2020-29-03 12:29:21.324 [main] INFO   - Dropdown: iG2b Value: 0 filled
+2020-29-03 12:29:21.645 [main] INFO   - Dropdown: iG2f Value: 0 filled
+2020-29-03 12:29:23.270 [main] INFO   - Dropdown: iG2h Value: 0 filled
