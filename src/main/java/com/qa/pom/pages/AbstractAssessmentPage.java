@@ -129,6 +129,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
 
     public void fillInput(String varName, String text) {
 
+       elementClear(varName);
        String textFieldElemXpath = "//div[@varname='" + varName + "']//input";
 
        try {
