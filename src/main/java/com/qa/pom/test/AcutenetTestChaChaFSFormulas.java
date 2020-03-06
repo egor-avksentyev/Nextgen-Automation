@@ -22,7 +22,7 @@ public class AcutenetTestChaChaFSFormulas extends BaseTest {
         Pathways pathways = dashboard.existedPatient();
         log("On Pathways");
         InterRAIChaFsMh interRAIChaFsMh = pathways.chooseInterraiChaFsMh();
-        interRAIChaFsMh.formulaCalculation("CAP_Behavior", "All");
+      /*  interRAIChaFsMh.formulaCalculation("CAP_Behavior", "All");
         interRAIChaFsMh.formulaCalculation("CAP_BowelConditions_BigSet", "All");
         interRAIChaFsMh.formulaCalculation("CAP_CardioRespiratory", "All");
         interRAIChaFsMh.formulaCalculation("CAP_CodnitiveLoss_BigSet", "All");
@@ -37,7 +37,8 @@ public class AcutenetTestChaChaFSFormulas extends BaseTest {
         interRAIChaFsMh.formulaCalculation("SCALE_Communication", "All");
         interRAIChaFsMh.formulaCalculation("SCALE_DRS", "All");
         interRAIChaFsMh.formulaCalculation("SCALE_Pain", "All");
-        interRAIChaFsMh.formulaCalculation("SCALE_Pain_Old", "All");
+        interRAIChaFsMh.formulaCalculation("SCALE_Pain_Old", "All");*/
+        interRAIChaFsMh.formulaCalculation("SCALE_ADLH", "All");
         closeSite();
     }
 }

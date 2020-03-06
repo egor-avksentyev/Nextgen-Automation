@@ -1,0 +1,125 @@
+{
+   "preconditions": ["fsTriggered"],
+   "testCases": {
+      "0": {
+         "expected": {
+            "nameOfFormula": "Activities of Daily Living (ADL) Hierarchy Scale",
+            "value": "0 out of 6",
+            "description": "Independent"
+         },
+         "data": {
+            "iG2b": 0,
+            "iG2f": 0,
+            "iG2h": 0,
+            "iG2j": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "1": {
+         "expected": {
+            "nameOfFormula": "Activities of Daily Living (ADL) Hierarchy Scale",
+            "value": "1 out of 6",
+            "description": "Supervision required"
+         },
+         "data": {
+           "iG2b": 2,
+           "iG2f": 0,
+           "iG2h": 0,
+           "iG2j": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "2": {
+         "expected": {
+            "nameOfFormula": "Activities of Daily Living (ADL) Hierarchy Scale",
+            "value": "2 out of 6",
+            "description": "Limited impairment"
+         },
+         "data": {
+           "iG2b": 3,
+           "iG2f": 0,
+           "iG2h": 0,
+           "iG2j": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "3": {
+         "expected": {
+            "nameOfFormula": "Activities of Daily Living (ADL) Hierarchy Scale",
+            "value": "3 out of 6",
+            "description": "Extensive assistance required - 1"
+         },
+         "data": {
+           "iG2b": 4,
+           "iG2f": 0,
+           "iG2h": 0,
+           "iG2j": 0 
+         },
+         "dependencies": {
+         }
+      },
+       "4": {
+         "expected": {
+            "nameOfFormula": "Activities of Daily Living (ADL) Hierarchy Scale",
+            "value": "4 out of 6",
+            "description": "Extensive assistance required - 2"
+         },
+         "data": {
+           "iG2b": 4,
+           "iG2f": 4,
+           "iG2h": 0,
+           "iG2j": 0 
+         },
+         "dependencies": {
+         }
+      },
+       "5": {
+         "expected": {
+            "nameOfFormula": "Activities of Daily Living (ADL) Hierarchy Scale",
+            "value": "5 out of 6",
+            "description": "Dependent"
+         },
+         "data": {
+           "iG2b": 4,
+           "iG2f": 7,
+           "iG2h": 0,
+           "iG2j": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "5": {
+         "expected": {
+            "nameOfFormula": "Activities of Daily Living (ADL) Hierarchy Scale",
+            "value": "5 out of 6",
+            "description": "Dependent"
+         },
+         "data": {
+           "iG2b": 4,
+           "iG2f": 7,
+           "iG2h": 0,
+           "iG2j": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "6": {
+         "expected": {
+            "nameOfFormula": "Activities of Daily Living (ADL) Hierarchy Scale",
+            "value": "6 out of 6",
+            "description": "Total dependence"
+         },
+         "data": {
+           "iG2b": 7,
+           "iG2f": 7,
+           "iG2h": 7,
+           "iG2j": 7
+         },
+         "dependencies": {
+         }     
+       }
+   }
+}

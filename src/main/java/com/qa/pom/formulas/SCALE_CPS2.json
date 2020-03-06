@@ -1,0 +1,159 @@
+{
+   "preconditions": [
+   ],
+   "testCases": {
+      "0": {
+         "expected": {
+            "nameOfFormula": "Cognitive Performance Scale 2",
+            "value": "0 out of 8",
+            "description": "Both senses intact"
+         },
+         "data": {
+            "iC1": 0,
+            "iC2a": 0,
+            "iD1": 0,
+            "iG1cb": 0,
+            "iG1db": 0,
+            "iG2e": 0
+         },
+         "dependencies": {
+         }
+      },
+      "1": {
+         "expected": {
+            "nameOfFormula": "Cognitive Performance Scale 2",
+            "value": "1 out of 8",
+            "description": "Intact 2"
+         },
+         "data": {
+            "iC1": 0,
+            "iC2a": 0,
+            "iD1": 0,
+            "iG1cb": 1,
+            "iG1db": 0,
+            "iG2e": 0
+         },
+         "dependencies": {
+         }
+      },
+      "2": {
+         "expected": {
+            "nameOfFormula": "Cognitive Performance Scale 2",
+            "value": "2 out of 8",
+            "description": "Borderline intact 1"
+         },
+         "data": {
+            "iC1": 1,
+            "iC2a": 0,
+            "iD1": 0,
+            "iG1cb": 1,
+            "iG1db": 0,
+            "iG2e": 0
+         },
+         "dependencies": {
+         }
+      },
+       "3": {
+         "expected": {
+            "nameOfFormula": "Cognitive Performance Scale 2",
+            "value": "3 out of 8",
+            "description": "Borderline intact 2"
+         },
+         "data": {
+            "iC1": 1,
+            "iC2a": 1,
+            "iD1": 0,
+            "iG1cb": 1,
+            "iG1db": 0,
+            "iG2e": 0
+         },
+         "dependencies": {
+         }
+      },
+      "4": {
+         "expected": {
+            "nameOfFormula": "Cognitive Performance Scale 2",
+            "value": "4 out of 8",
+            "description": "Moderately impaired 1"
+         },
+         "data": {
+            "iC1": 1,
+            "iC2a": 1,
+            "iD1": 1,
+            "iG1cb": 1,
+            "iG1db": 0,
+            "iG2e": 0
+         },
+         "dependencies": {
+         }
+      },
+       "5": {
+         "expected": {
+            "nameOfFormula": "Cognitive Performance Scale 2",
+            "value": "5 out of 8",
+            "description": "Moderately impaired 2"
+         },
+         "data": {
+            "iC1": 3,
+            "iC2a": 1,
+            "iD1": 1,
+            "iG1cb": 1,
+            "iG1db": 0,
+            "iG2e": 0
+         },
+         "dependencies": {
+         }
+      },
+       "6": {
+         "expected": {
+            "nameOfFormula": "Cognitive Performance Scale 2",
+            "value": "6 out of 8",
+            "description": "Severe 1"
+         },
+         "data": {
+            "iC1": 4,
+            "iC2a": 1,
+            "iD1": 1,
+            "iG1cb": 1,
+            "iG1db": 0,
+            "iG2e": 0
+         },
+         "dependencies": {
+         }
+      },
+      "7": {
+         "expected": {
+            "nameOfFormula": "Cognitive Performance Scale 2",
+            "value": "7 out of 8",
+            "description": "Severe 2"
+         },
+         "data": {
+            "iC1": 4,
+            "iC2a": 1,
+            "iD1": 3,
+            "iG1cb": 1,
+            "iG1db": 0,
+            "iG2e": 0
+         },
+         "dependencies": {
+         }
+      },
+       "8": {
+         "expected": {
+            "nameOfFormula": "Cognitive Performance Scale 2",
+            "value": "8 out of 8",
+            "description": "Very severe impaired"
+         },
+         "data": {
+            "iC1": 4,
+            "iC2a": 1,
+            "iD1": 3,
+            "iG1cb": 1,
+            "iG1db": 0,
+            "iG2e": 3
+         },
+         "dependencies": {
+         }
+       }
+   }
+}
