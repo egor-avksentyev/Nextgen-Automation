@@ -134,7 +134,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
      * fill target radio button with value
      *
      * @param varName target varname of radio button
-     * @param value value whicj vill be populated in target radio button
+     * @param value value which will be populated in target radio button
      */
     public void fillRadioButton(String varName, String value) {
 
@@ -151,6 +151,12 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         testClass.log("Radiobutton: " + varName + " Value: " + value + " filled");
     }
 
+    /**
+     * Fill target varname of text field
+     *
+     * @param varName target varname of text field
+     * @param text value which will be populated in target text field
+     */
     public void fillInput(String varName, String text) {
 
        elementClear(varName);
@@ -165,6 +171,12 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         testClass.log("TextField: " + varName + " Text: " + text + " filled");
     }
 
+    /**
+     * Fill target varname of drop down
+     *
+     * @param varName target varname of drop down
+     * @param numberOfElement value which will be populated in target drop down
+     */
     public void fillDropdown(String varName, String numberOfElement) {
        String dropdownElementXpath = "//div[@varname='" + varName + "']//button[@type='button']";
         try {
@@ -192,6 +204,12 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         testClass.log("Dropdown: " + varName + " Value: " + numberOfElement + " filled");
     }
 
+    /**
+     * Choose proper method for filling element using markers in html
+     *
+     * @param varName varname of target element
+     * @param value value which will be populated in target element
+     */
     public void fillElement(String varName, String value) {
         WebElement element =
                 testClass.getDriver().findElement(By.xpath("//div[@varname='" + varName + "']"));
@@ -244,6 +262,10 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         fillElement(varname, value);
     }
 
+
+    /**
+     * Used in formulas in precondition for trigering FS = 1
+     */
     public void fsTriggered() {
         if (!isFSEnabled) {
             goToSupplement("CHA");
@@ -253,6 +275,11 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         }
     }
 
+    /**
+     * Return method by its' name
+     *
+     * @param method name of method
+     */
     public void callPreconditions (String method) {
         try {
             AbstractAssessmentPage.this.getClass().getMethod(method).invoke(AbstractAssessmentPage.this);
