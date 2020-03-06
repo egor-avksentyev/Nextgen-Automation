@@ -33,7 +33,7 @@
         "2":{
             "expected":{
                 "nameOfFormula":"Activities of Daily Living (ADL) Scale - Short Form",
-                "value":"3 out of 16",
+                "value":"2 out of 16",
                 "description":"Higher values indicate greater difficulty in performing activities"
             },
             "data":{
@@ -118,7 +118,7 @@
             "expected":{
                 "nameOfFormula":"Activities of Daily Living (ADL) Scale - Short Form",
                 "value":"8 out of 16",
-                "description":"Higher values indicate greater difficulty in performing activities"
+                "description":"High ADL Impairment"
             },
             "data":{
                 "iG2b":"6",

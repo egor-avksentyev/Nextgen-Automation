@@ -7,7 +7,7 @@
          "expected": {
             "nameOfFormula": "Pressure Ulcer CAP",
             "value": "0",
-            "description": "Not triggered"
+            "description": "Not Triggered"
          },
          "data": {
             "iG2g": 0,

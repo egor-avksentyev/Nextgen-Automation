@@ -51,6 +51,9 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         return this.assessmentMap;
     }
 
+    /**
+     * click UP as many times as necessary to scroll to element
+     */
     public void scrollToTop() {
         while (zIndex.getCssValue("position").equals("fixed")) {
             testClass.actions.sendKeys(Keys.PAGE_UP).perform();
@@ -58,6 +61,11 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         }
     }
 
+    /**
+     * Go to target section if current location is not on target section
+     *
+     * @param nameOfSection target section
+     */
     public void goToSection(String nameOfSection) {
         WebElement element =
                 testClass
@@ -78,6 +86,11 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         }
     }
 
+    /**
+     * Go to target supplement (or core ) if current location is not on target supplement
+     *
+     * @param nameOfSupp
+     */
     public void goToSupplement(String nameOfSupp) {
         WebElement element =
                 testClass
@@ -98,6 +111,11 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         }
     }
 
+    /**
+     * clear target element
+     *
+     * @param varName target element
+     */
     public void elementClear(String varName) {
 
         String gearIconXpath = "//div[@varname='" + varName + "']//div[@class='element-options']";
@@ -112,6 +130,12 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                 clearButtonXpath);
     };
 
+    /**
+     * fill target radio button with value
+     *
+     * @param varName target varname of radio button
+     * @param value value whicj vill be populated in target radio button
+     */
     public void fillRadioButton(String varName, String value) {
 
         String radioButtonXpath = "//div[@varname='" + varName + "']//label[@value='" + value + "']";
