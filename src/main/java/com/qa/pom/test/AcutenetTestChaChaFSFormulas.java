@@ -22,6 +22,7 @@ public class AcutenetTestChaChaFSFormulas extends BaseTest {
         Pathways pathways = dashboard.existedPatient();
         log("On Pathways");
         InterRAIChaFsMh interRAIChaFsMh = pathways.chooseInterraiChaFsMh();
+
 //        interRAIChaFsMh.formulaCalculation("CAP_Behavior", "All");
 //        interRAIChaFsMh.formulaCalculation("CAP_BowelConditions_BigSet", "All");
 //        interRAIChaFsMh.formulaCalculation("CAP_CardioRespiratory", "All");
@@ -41,6 +42,23 @@ public class AcutenetTestChaChaFSFormulas extends BaseTest {
 //        interRAIChaFsMh.formulaCalculation("CAP_Smoking", "All");
 //        interRAIChaFsMh.formulaCalculation("CAP_UrinaryIncontinence_BigSet", "All");
         interRAIChaFsMh.formulaCalculation("CAP_Medication", "All");
+      /*  interRAIChaFsMh.formulaCalculation("CAP_Behavior", "All");
+        interRAIChaFsMh.formulaCalculation("CAP_BowelConditions_BigSet", "All");
+        interRAIChaFsMh.formulaCalculation("CAP_CardioRespiratory", "All");
+        interRAIChaFsMh.formulaCalculation("CAP_CodnitiveLoss_BigSet", "All");
+        interRAIChaFsMh.formulaCalculation("CAP_Communication", "All");
+        interRAIChaFsMh.formulaCalculation("CAP_Dehydration_BigSet", "All");
+        interRAIChaFsMh.formulaCalculation("CAP_Delirium", "All");
+        interRAIChaFsMh.formulaCalculation("CAP_PressureUlcer_BigSet", "All");
+        interRAIChaFsMh.formulaCalculation("CAP_Undernutrition", "All");
+        interRAIChaFsMh.formulaCalculation("SCALE_ADL_Short", "All");
+        interRAIChaFsMh.formulaCalculation("SCALE_ADL_Short_BigSet", "All");
+        interRAIChaFsMh.formulaCalculation("SCALE_BMI", "All");
+        interRAIChaFsMh.formulaCalculation("SCALE_Communication", "All");
+        interRAIChaFsMh.formulaCalculation("SCALE_DRS", "All");
+        interRAIChaFsMh.formulaCalculation("SCALE_Pain", "All");
+        interRAIChaFsMh.formulaCalculation("SCALE_Pain_Old", "All");*/
+        interRAIChaFsMh.formulaCalculation("SCALE_ADLH", "All");
         closeSite();
     }
 }

@@ -17,8 +17,8 @@ public class AcutenetTestChaChaFsScalesAndAddNewPatient extends BaseTest {
         AddnewClient newclient = dash.addnewClientclick();
         log("On Add New Patient");
         Pathways pathway = newclient.FillinNewpatientInformation();
-//        InterRAIChaFsMh cha = path.InterRAIChaFsMh();
-//        cha.formulasTestScales();
+        InterRAIChaFsMh cha = pathway.chooseInterraiChaFsMh();
+
 
         Thread.sleep(20000);
         closeSite();

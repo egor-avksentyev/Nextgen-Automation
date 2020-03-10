@@ -1,0 +1,200 @@
+{
+   "preconditions": ["fsTriggered"],
+   "testCases": {
+      "0": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "0 out of 12",
+            "description": "No signs of aggression"
+         },
+         "data": {
+            "iE3b": 0,
+            "iE3c": 0,
+            "iE3d": 0,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "1": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "1 out of 12",
+            "description": "Mild to moderate aggression"
+         },
+         "data": {
+            "iE3b": 1,
+            "iE3c": 0,
+            "iE3d": 0,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "2": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "2 out of 12",
+            "description": "Mild to moderate aggression"
+         },
+         "data": {
+            "iE3b": 2,
+            "iE3c": 0,
+            "iE3d": 0,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+       "3": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "3 out of 12",
+            "description": "Mild to moderate aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 0,
+            "iE3d": 0,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "4": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "4 out of 12",
+            "description": "Mild to moderate aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 1,
+            "iE3d": 0,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "5": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "5 out of 12",
+            "description": "More severe aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 2,
+            "iE3d": 0,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "6": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "6 out of 12",
+            "description": "More severe aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 3,
+            "iE3d": 0,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+       "7": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "7 out of 12",
+            "description": "More severe aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 3,
+            "iE3d": 1,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "8": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "8 out of 12",
+            "description": "More severe aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 3,
+            "iE3d": 2,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+       "9": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "9 out of 12",
+            "description": "More severe aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 3,
+            "iE3d": 3,
+            "iE3e": 0 
+         },
+         "dependencies": {
+         }
+      },
+       "10": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "10 out of 12",
+            "description": "More severe aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 3,
+            "iE3d": 3,
+            "iE3e": 1 
+         },
+         "dependencies": {
+         }
+      },
+       "11": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "11 out of 12",
+            "description": "More severe aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 3,
+            "iE3d": 3,
+            "iE3e": 2 
+         },
+         "dependencies": {
+         }
+      },
+      "12": {
+         "expected": {
+            "nameOfFormula": "Aggressive Behaviour Scale (ABS)",
+            "value": "12 out of 12",
+            "description": "More severe aggression"
+         },
+         "data": {
+            "iE3b": 3,
+            "iE3c": 3,
+            "iE3d": 3,
+            "iE3e": 3 
+         },
+         "dependencies": {
+         }
+       }
+   }
+}

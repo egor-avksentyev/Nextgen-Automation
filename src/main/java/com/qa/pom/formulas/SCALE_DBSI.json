@@ -1,0 +1,84 @@
+{
+   "preconditions": [
+   ],
+   "testCases": {
+      "0": {
+         "expected": {
+            "nameOfFormula": "Deafblind Severity Index (DbSI)",
+            "value": "0 out of 5",
+            "description": "Both senses intact"
+         },
+         "data": {
+            "iD3a": 0,
+            "iD4a": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "1": {
+         "expected": {
+            "nameOfFormula": "Deafblind Severity Index (DbSI)",
+            "value": "1 out of 5",
+            "description": "One sense intact, the other mild/moderately impaired"
+         },
+         "data": {
+            "iD3a": 1,
+            "iD4a": 0 
+         },
+         "dependencies": {
+         }
+      },
+       "2": {
+         "expected": {
+            "nameOfFormula": "Deafblind Severity Index (DbSI)",
+            "value": "2 out of 5",
+            "description": "One sense intact, the other severely impaired"
+         },
+         "data": {
+            "iD3a": 3,
+            "iD4a": 0 
+         },
+         "dependencies": {
+         }
+      },
+      "3": {
+         "expected": {
+            "nameOfFormula": "Deafblind Severity Index (DbSI)",
+            "value": "3 out of 5",
+            "description": "Both senses mild/moderately impaired"
+         },
+         "data": {
+            "iD3a": 2,
+            "iD4a": 1 
+         },
+         "dependencies": {
+         }
+      },
+      "4": {
+         "expected": {
+            "nameOfFormula": "Deafblind Severity Index (DbSI)",
+            "value": "4 out of 5",
+            "description": "One sense mild/moderately, the other severely impaired"
+         },
+         "data": {
+            "iD3a": 2,
+            "iD4a": 3 
+         },
+         "dependencies": {
+         }
+      },
+      "5": {
+         "expected": {
+            "nameOfFormula": "Deafblind Severity Index (DbSI)",
+            "value": "5 out of 5",
+            "description": "Both senses severely impaired"
+         },
+         "data": {
+            "iD3a": 3,
+            "iD4a": 3 
+         },
+         "dependencies": {
+         }
+       }
+   }
+}
