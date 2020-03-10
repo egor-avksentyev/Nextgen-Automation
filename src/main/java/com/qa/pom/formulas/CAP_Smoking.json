@@ -1,0 +1,32 @@
+{
+    "preconditions": [
+    ],
+    "testCases": {
+        "0": {
+            "expected": {
+                "nameOfFormula": "Tobacco and Alcohol Use CAP",
+                "value": "0",
+                "description": "Not triggered"
+            },
+            "data": {
+                "iJ8a": 0,
+                "iJ8b": 0
+            },
+            "dependencies": {
+            }
+        },
+        "1": {
+            "expected": {
+                "nameOfFormula": "Tobacco and Alcohol Use CAP",
+                "value": "1",
+                "description": "Triggered"
+            },
+            "data": {
+                "iJ8a": 0,
+                "iJ8b": 3
+            },
+            "dependencies": {
+            }
+        }
+    }
+}

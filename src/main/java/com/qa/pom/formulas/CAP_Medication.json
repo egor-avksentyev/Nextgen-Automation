@@ -1,0 +1,42 @@
+{
+   "preconditions": [
+      "fsTriggered",
+      "fillMedicationsDataGrid9Times"
+   ],
+   "testCases": {
+      "0": {
+         "expected": {
+            "nameOfFormula": "Appropriate Medications CAP",
+            "value": "0",
+            "description": "Not triggered"
+         },
+         "data": {
+            "iJ2c": 4,
+            "iJ2e": 0,
+            "iJ2s": 0,
+            "iJ3": 0,
+            "iJ7": 0,
+            "iR2": 0
+         },
+         "dependencies": {
+         }
+      },
+      "1": {
+         "expected": {
+            "nameOfFormula": "Appropriate Medications CAP",
+            "value": "1",
+            "description": "Triggered"
+         },
+         "data": {
+            "iJ2c": 4,
+            "iJ2e": 3,
+            "iJ2s": 2,
+            "iJ3": 0,
+            "iJ7": 0,
+            "iR2": 0
+         },
+         "dependencies": {
+         }
+      }
+   }
+}

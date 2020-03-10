@@ -16,6 +16,12 @@ import java.lang.reflect.InvocationTargetException;
 
 public abstract class AbstractAssessmentPage extends AbstractPage {
 
+    @FindBy(xpath="//div[@varname='data-table-l1']//button")
+    WebElement addRow;
+
+    @FindBy(xpath="//button[@type='button' and text() = 'Save']")
+    WebElement save;
+
     @FindBy(xpath = "//div[@class='assessment-supplement-box']//..")
     WebElement zIndex;
 
@@ -238,7 +244,12 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         }
     }
 
-    public void findAndGoToElement(String varname, String value) {
+    /**
+     * Find element with varname on assessment map JSON and proceed to it
+     *
+     * @param varname varname of target element
+     */
+    public void findAndGoToElement(String varname) {
         String assessmentName = "";
         String sectionName = "";
 
@@ -256,11 +267,22 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                 }
             }
         }
-
         goToSupplement(assessmentName);
         goToSection(sectionName);
+    }
+
+
+    /**
+     * Find element with varname on assessment map JSON, proceed to it and fill it
+     *
+     * @param varname varname of target element
+     * @param value value which should be populated in target element
+     */
+    public void findGoFillElement (String varname, String value) {
+        findAndGoToElement(varname);
         fillElement(varname, value);
     }
+
 
 
     /**
@@ -282,11 +304,38 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
      */
     public void callPreconditions (String method) {
         try {
+            System.out.println(method);
+            testClass.log("Necessary precondition/s " + method);
             AbstractAssessmentPage.this.getClass().getMethod(method).invoke(AbstractAssessmentPage.this);
         } catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }
     }
+
+    public void fillMedicationsDataGrid() {
+        findAndGoToElement("data-table-l1");
+        addRow.click();
+        System.out.println("test of datagrid");
+        testClass.waitTillElementIsVisible(save);
+        fillElement("iM1a1-iM1a12","Cold");
+        fillElement("iM1b1-iM1b12","2");
+        fillElement("iM1c1-iM1c12", "2");
+        fillElement("iM1d1-iM1d12", "2");
+        fillElement("iM1e1-iM1e12", "2");
+        fillElement("iM1f1-iM1f12", "1");
+        fillElement("iM1gc1-iM1gc12", "12345678");
+        testClass.getDriver().findElement(By.xpath("//div[@varname='iM1a1-iM1a12']//input[@type='text']")).click();
+        save.click();
+    }
+
+    public void fillMedicationsDataGrid9Times(){
+        int i = 0;
+        while (i < 9) {
+            fillMedicationsDataGrid();
+            i++;
+        }
+    }
+
     /**
      * @param formulaName name of formula which is currently calculating
      * @param formulaValue value of formula which is currently calculating
@@ -303,7 +352,6 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
         JSONObject formulaJson = (JSONObject) object;
         JSONArray methodObj = (JSONArray) formulaJson.get("preconditions");
         if (!methodObj.isEmpty()) {
-            testClass.log("Necessary precondition/s " + methodObj.toString());
             methodObj.forEach(methodName -> callPreconditions(methodName.toString()));
         }
         JSONObject testCases = (JSONObject) formulaJson.get("testCases");
@@ -323,7 +371,7 @@ public abstract class AbstractAssessmentPage extends AbstractPage {
                                     .keySet()
                                     .forEach(
                                             varname -> {
-                                                findAndGoToElement(
+                                                findGoFillElement(
                                                         varname.toString(),
                                                         teststeps.get(varname).toString());
                                             });

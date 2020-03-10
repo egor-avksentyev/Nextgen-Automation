@@ -1,0 +1,87 @@
+{
+   "preconditions": [
+      "fsTriggered"
+   ],
+   "testCases": {
+      "0": {
+         "expected": {
+            "nameOfFormula": "Urinary Incontinence CAP",
+            "value": "0",
+            "description": "Not triggered - poor decision making at baseline"
+         },
+         "data": {
+            "iC1": 4,
+            "iG2e": 0,
+            "iG8a2": 0,
+            "iH1": 0,
+            "iH2": 0,
+            "iI1a": 0,
+            "iI1q": 0,
+            "iJ2l": 0,
+            "iN2l": 0
+         },
+         "dependencies": {
+         }
+      },
+      "1": {
+         "expected": {
+            "nameOfFormula": "Urinary Incontinence CAP",
+            "value": "1",
+            "description": "Not triggered - continent at baseline"
+         },
+         "data": {
+            "iC1": 3,
+            "iG2e": 0,
+            "iG8a2": 0,
+            "iH1": 1,
+            "iH2": 0,
+            "iI1a": 0,
+            "iI1q": 0,
+            "iJ2l": 0,
+            "iN2l": 0
+         },
+         "dependencies": {
+         }
+      },
+      "2": {
+         "expected": {
+            "nameOfFormula": "Urinary Incontinence CAP",
+            "value": "2",
+            "description": "Triggered - prevent decline"
+         },
+         "data": {
+            "iC1": 3,
+            "iG2e": 0,
+            "iG8a2": 0,
+            "iH1": 6,
+            "iH2": 0,
+            "iI1a": 0,
+            "iI1q": 0,
+            "iJ2l": 0,
+            "iN2l": 0
+         },
+         "dependencies": {
+         }
+      },
+      "3": {
+         "expected": {
+            "nameOfFormula": "Urinary Incontinence CAP",
+            "value": "3",
+            "description": "Triggered - facilitate improvement"
+         },
+         "data": {
+            "iC1": 1,
+            "iG2e": 3,
+            "iG8a2": 0,
+            "iH1": 0,
+            "iH2": 0,
+            "iI1a": 0,
+            "iI1q": 0,
+            "iJ2l": 0,
+            "iN2l": 1
+         },
+         "dependencies": {
+         }
+      }
+   }
+}

@@ -1,0 +1,69 @@
+{
+    "preconditions": [
+    ],
+    "testCases": {
+        "0": {
+            "expected": {
+                "nameOfFormula": "Prevention CAP",
+                "value": "0",
+                "description": "Not triggered"
+            },
+            "data": {
+                "iA2": "M",
+                "iN1a": 0,
+                "iN1b": 0,
+                "iN1c": 1,
+                "iN1d": 1,
+                "iN1e": 1,
+                "iN1f": 1,
+                "iN1g": 1,
+                "iN1h": 1,
+                "iN5c": 0
+            },
+            "dependencies": {
+            }
+        },
+        "1": {
+            "expected": {
+                "nameOfFormula": "Prevention CAP",
+                "value": "1",
+                "description": "Triggered - physician visit"
+            },
+            "data": {
+                "iA2": "F",
+                "iN1a": 0,
+                "iN1b": 0,
+                "iN1c": 1,
+                "iN1d": 1,
+                "iN1e": 1,
+                "iN1f": 1,
+                "iN1g": 1,
+                "iN1h": 1,
+                "iN5c": 0
+            },
+            "dependencies": {
+            }
+        },
+        "2": {
+            "expected": {
+                "nameOfFormula": "Prevention CAP",
+                "value": "2",
+                "description": "Triggered - no physician visit"
+            },
+            "data": {
+                "iA2": "M",
+                "iN1a": 0,
+                "iN1b": 0,
+                "iN1c": 1,
+                "iN1d": 1,
+                "iN1e": 1,
+                "iN1f": 1,
+                "iN1g": 1,
+                "iN1h": 1,
+                "iN5c": 0
+            },
+            "dependencies": {
+            }
+        }
+    }
+}
